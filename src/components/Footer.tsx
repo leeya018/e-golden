@@ -1,7 +1,21 @@
+import { useState } from "react";
+import Modal from "./Modal";
+import Calender from "./Calender";
+
 // components/Footer.js
 export default function Footer() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => setIsOpen(true);
+  const closeModal = () => setIsOpen(false);
+
   return (
     <footer className="bg-black text-white mt-10 ">
+      <div className="">
+        <Modal isOpen={isOpen} closeModal={closeModal}>
+          <Calender />
+        </Modal>
+      </div>
       <div className="container mx-auto px-6 py-10">
         <div className="flex justify-between">
           <div>
@@ -9,6 +23,12 @@ export default function Footer() {
             <p className="mt-2">Learn more about our mission and services.</p>
             <p className="mt-2">Email: info@example.com</p>
             <p className="mt-2">Phone: +123 456 7890</p>
+            <p
+              className="mt-2 cursor-pointer hover:underline"
+              onClick={() => openModal()}
+            >
+              scedule meeting
+            </p>
           </div>
           <div>
             <h3 className="text-lg font-bold">Quick Links</h3>

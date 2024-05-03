@@ -8,6 +8,7 @@ import ServicesSection from "@/components/ServicesSection";
 import AboutPortugal from "@/components/AboutPortugal";
 import UserPosts from "@/components/UserPosts";
 import News from "@/components/News";
+import Calender from "@/components/Calender";
 
 export default function Main() {
   // Example data, replace with your actual data fetching logic
@@ -19,6 +20,7 @@ export default function Main() {
         <h1 className="text-3xl font-bold text-center mb-6">
           Welcome to Our Service Portal
         </h1>
+
         <Home />
         <ImagesSection />
         <ServicesSection />
