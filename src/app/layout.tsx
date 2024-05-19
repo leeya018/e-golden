@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+// import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
 const inter = Inter({ subsets: ["latin"] });
 

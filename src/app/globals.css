@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* font-family: "roboto"; */
+  font-family: "Noto Serif Georgian", serif;
+}
 
 div,
 button,
