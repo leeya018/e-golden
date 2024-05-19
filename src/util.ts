@@ -38,21 +38,25 @@ export const services = [
     id: 1,
     title: "Relocation and Residency",
     description: "Help with moving and establishing residency.",
+    location: "relocation",
   },
   {
     id: 2,
     title: "Tax Planning and Advice",
     description: "Expert tax advice to optimize your financial planning.",
+    location: "tax",
   },
   {
     id: 2,
     title: "Business Solutions",
     description: "Expert tax advice to optimize your financial planning.",
+    location: "business",
   },
   {
     id: 2,
     title: "Real Estate Investments",
     description: "Expert tax advice to optimize your financial planning.",
+    location: "realestate",
   },
   // Add other services similarly
 ];
