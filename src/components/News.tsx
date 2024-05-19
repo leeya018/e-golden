@@ -30,7 +30,7 @@ const newsItems = [
 
 export default function News() {
   return (
-    <div className="w-[80%] mx-auto flex flex-col gap-2 mt-10">
+    <div className="flex flex-col gap-2 mt-10">
       {newsItems.map((item, index) => (
         <NewsCard key={index} {...item} />
       ))}
@@ -44,7 +44,7 @@ type NewsCard = {
 };
 const NewsCard = ({ name, description }: NewsCard) => {
   return (
-    <div className="flex flex-col p-4 max-w-md mx-auto border border-gray-200 rounded-lg">
+    <div className="flex flex-col p-4 max-w-md  border border-gray-200 rounded-lg">
       <h3 className="text-lg font-bold mb-2">{name}</h3>
       <p className="text-sm text-gray-600">{description}</p>
     </div>

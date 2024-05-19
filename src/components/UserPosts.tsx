@@ -26,7 +26,7 @@ const testimonials = [
 
 export default function UserPosts() {
   return (
-    <div className="w-[80%] mx-auto flex flex-col gap-2 mt-10">
+    <div className=" flex flex-col gap-2 mt-10">
       {testimonials.map((testimonial, index) => (
         <TestimonialCard key={index} {...testimonial} />
       ))}

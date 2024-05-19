@@ -16,10 +16,15 @@ export default function Main() {
   return (
     <div>
       <Header />
-      <main className="p-8">
+
+      <main className="flex w-[80%] mx-auto flex-col ">
         <h1 className="text-5xl mt-20 font-semibold text-center mb-6">
           Welcome to Our Service Portal
         </h1>
+        <div className="flex justify-center mb-20 text-lg mt-10">
+          From Relocation to Investments Your One Stop Shop Services With
+          E-golden
+        </div>
 
         {/* <ImagesSection /> */}
         <ServicesSection />

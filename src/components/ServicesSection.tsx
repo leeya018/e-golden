@@ -4,7 +4,7 @@ import { services } from "@/util";
 
 export default function ServicesSection() {
   return (
-    <div className="grid grid-cols-2 gap-4 w-4/5 mx-auto">
+    <div className="flex justify-between gap-2 ">
       {services.map((service) => (
         <ServiceCard
           key={service.id}
