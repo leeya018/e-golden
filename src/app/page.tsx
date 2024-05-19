@@ -2,8 +2,8 @@
 // pages/index.js
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Home from "@/components/Home";
-import ImagesSection from "@/components/ImagesSection";
+
+// import ImagesSection from "@/components/ImagesSection";
 import ServicesSection from "@/components/ServicesSection";
 import AboutPortugal from "@/components/AboutPortugal";
 import UserPosts from "@/components/UserPosts";
@@ -17,12 +17,11 @@ export default function Main() {
     <div>
       <Header />
       <main className="p-8">
-        <h1 className="text-3xl font-bold text-center mb-6">
+        <h1 className="text-5xl mt-20 font-semibold text-center mb-6">
           Welcome to Our Service Portal
         </h1>
 
-        <Home />
-        <ImagesSection />
+        {/* <ImagesSection /> */}
         <ServicesSection />
         <AboutPortugal />
         <div className="flex justify-between ">
