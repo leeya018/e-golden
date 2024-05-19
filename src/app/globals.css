@@ -5,7 +5,7 @@
 
 body {
   /* font-family: "roboto"; */
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Noto Serif Georgian", Verdana;
 }
 
 div,
@@ -18,4 +18,7 @@ button {
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Remove scrollbar space */
+}
+.nav-button {
+  @apply font-bold border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
 }

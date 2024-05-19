@@ -11,33 +11,31 @@ export default function Header() {
           <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
         </div>
         <div className="navigation flex items-center">
-          <Link href="/" className="p-2 hover:scale-105 duration-100 ">
+          <Link href="/" className="nav-button">
             Home
           </Link>
 
-          <Link
-            href="/residency_relocation"
-            className="p-2 hover:scale-105 duration-100 "
-          >
+          <Link href="/residency_relocation" className="nav-button">
             Residency & Relocation
           </Link>
-          <Link href="/services" className="p-2 hover:scale-105 duration-100 ">
+          <Link href="/services" className="nav-button">
             Tax planning
           </Link>
-          <Link href="/bussiness" className="p-2 hover:scale-105 duration-100 ">
+          <Link href="/bussiness" className="nav-button">
             Bussiness
           </Link>
-          <Link
-            href="/realestate"
-            className="p-2 hover:scale-105 duration-100 "
-          >
+          <Link href="/realestate" className="nav-button">
             Real Estate
           </Link>
-          <Link href="/about" className="p-2 hover:scale-105 duration-100 ">
+          <Link href="/about" className="nav-button">
             About
           </Link>
-          <Link href="/contact" className="p-2 hover:scale-105 duration-100 ">
-            Contact
+          <Link href="/contact" passHref>
+            <p className="text-xl border-2 rounded-md font-bold py-2 px-4 ml-4 relative overflow-hidden">
+              <span className="inline-block transform transition-transform duration-100 ease-in-out hover:scale-105">
+                Contact
+              </span>
+            </p>
           </Link>
         </div>
       </nav>
