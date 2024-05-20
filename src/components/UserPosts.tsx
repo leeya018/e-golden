@@ -47,7 +47,7 @@ const testimonials = [
 
 export default function UserPosts() {
   const scrollContainer = useRef(null);
-  let scrollInterval = null;
+  let scrollInterval: any = null;
 
   const startScrolling = () => {
     if (scrollContainer.current) {
@@ -55,6 +55,8 @@ export default function UserPosts() {
       const maxScrollLeft = scrollWidth - clientWidth;
 
       scrollInterval = setInterval(() => {
+        if (!scrollContainer?.current || !scrollContainer.current?.scrollLeft)
+          return;
         if (scrollContainer.current.scrollLeft < maxScrollLeft) {
           scrollContainer.current.scrollLeft += 2; // Adjust the speed here
         } else {

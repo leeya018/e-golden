@@ -9,14 +9,22 @@ import AboutPortugalSection from "@/components/AboutPortugalSection";
 import UserPosts from "@/components/UserPosts";
 import News from "@/components/News";
 import Calender from "@/components/Calender";
+import CalenderPopup from "@/components/CalenderPopup";
+import Modal from "@/components/Modal";
+import { ModalStore } from "@/mobx/modalStore";
+import { modals } from "@/util";
+import { observer } from "mobx-react-lite";
 
-export default function Main() {
-  // Example data, replace with your actual data fetching logic
-
+const Main = observer(() => {
   return (
     <div>
+      <Modal
+        isOpen={ModalStore.modalName === modals.scedule}
+        closeModal={ModalStore.closeModal}
+      >
+        <Calender />
+      </Modal>
       <Header />
-
       <main className="flex w-[80%] mx-auto flex-col ">
         <ServicesSection />
         <AboutPortugalSection />
@@ -25,6 +33,9 @@ export default function Main() {
         <News />
       </main>
       <Footer />
+      <CalenderPopup />
     </div>
   );
-}
+});
+
+export default Main;

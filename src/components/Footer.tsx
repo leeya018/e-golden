@@ -1,21 +1,13 @@
 import { useState } from "react";
 import Modal from "./Modal";
 import Calender from "./Calender";
+import { ModalStore } from "@/mobx/modalStore";
+import { modals } from "@/util";
 
 // components/Footer.js
 export default function Footer() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => setIsOpen(false);
-
   return (
     <footer className="bg-black text-white mt-10 ">
-      <div className="">
-        <Modal isOpen={isOpen} closeModal={closeModal}>
-          <Calender />
-        </Modal>
-      </div>
       <div className="container mx-auto px-6 py-10">
         <div className="flex justify-between">
           <div>
@@ -25,7 +17,7 @@ export default function Footer() {
             <p className="mt-2">Phone: +123 456 7890</p>
             <p
               className="mt-2 cursor-pointer hover:underline"
-              onClick={() => openModal()}
+              onClick={() => ModalStore.openModal(modals.scedule)}
             >
               scedule meeting
             </p>

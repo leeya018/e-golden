@@ -69,3 +69,7 @@ export const services = [
   },
   // Add other services similarly
 ];
+
+export const modals = {
+  scedule: "scedulesuccess_message",
+};
