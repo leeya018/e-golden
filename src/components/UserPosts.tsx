@@ -46,7 +46,7 @@ const testimonials = [
 ];
 
 export default function UserPosts() {
-  const scrollContainer = useRef(null);
+  const scrollContainer = useRef<any>(null);
   let scrollInterval: any = null;
 
   const startScrolling = () => {
