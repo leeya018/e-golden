@@ -18,8 +18,8 @@ export default function Main() {
       <Header />
 
       <main className="flex w-[80%] mx-auto flex-col ">
-        {/* <ServicesSection />
-        <AboutPortugalSection /> */}
+        <ServicesSection />
+        <AboutPortugalSection />
 
         <UserPosts />
         <News />
