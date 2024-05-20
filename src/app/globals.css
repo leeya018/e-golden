@@ -22,3 +22,22 @@ button {
 .nav-button {
   @apply font-bold border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
 }
+
+/* Smooth scrolling on hover */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Scroll animation */
+.scroll-auto:hover {
+  animation: scrollLeft 10s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
