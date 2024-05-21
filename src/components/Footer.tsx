@@ -6,6 +6,17 @@ import { modals } from "@/util";
 
 // components/Footer.js
 export default function Footer() {
+  const handleWhatsAppClick = () => {
+    // const phoneNumber = "+972 54-222-6958"; // Replace with your phone number
+    const phoneNumber = process.env.NEXT_PUBLIC_PHONE; // Replace with your phone number
+    const message = "Hello, I would like to contact you."; // Optional: default message
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+
+    window.open(url, "_blank");
+  };
+
   return (
     <footer className="bg-black text-white mt-10 ">
       <div className="container mx-auto px-6 py-10">
@@ -65,6 +76,14 @@ export default function Footer() {
                 >
                   LinkedIn
                 </a>
+              </li>
+              <li>
+                <span
+                  onClick={handleWhatsAppClick}
+                  className="ml-6 bg-[#14957B] p-2 rounded-md  cursor-pointer"
+                >
+                  Whatsapp
+                </span>
               </li>
             </ul>
           </div>
