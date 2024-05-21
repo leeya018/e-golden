@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ModalStore } from "@/mobx/modalStore";
+import { modals } from "@/util";
 
 // components/Header.js
 export default function Header() {
@@ -30,13 +32,13 @@ export default function Header() {
           <Link href="/about" className="nav-button">
             About
           </Link>
-          <Link href="/contact" passHref>
+          <button onClick={() => ModalStore.openModal(modals.contact)}>
             <p className="text-xl border-2 rounded-md font-bold py-2 px-4 ml-4 relative overflow-hidden">
               <span className="inline-block transform transition-transform duration-100 ease-in-out hover:scale-105">
                 Contact
               </span>
             </p>
-          </Link>
+          </button>
         </div>
       </nav>
     </header>
