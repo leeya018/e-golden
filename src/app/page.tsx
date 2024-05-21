@@ -14,6 +14,7 @@ import Modal from "@/components/Modal";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
+import ContactForm from "@/components/ContactForm";
 
 const Main = observer(() => {
   return (
@@ -23,6 +24,12 @@ const Main = observer(() => {
         closeModal={ModalStore.closeModal}
       >
         <Calender />
+      </Modal>
+      <Modal
+        isOpen={ModalStore.modalName === modals.contact}
+        closeModal={ModalStore.closeModal}
+      >
+        <ContactForm />
       </Modal>
       <Header />
       <main className="flex w-[80%] mx-auto flex-col ">

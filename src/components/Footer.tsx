@@ -47,9 +47,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/contact" className="hover:text-gray-300">
+                <span
+                  onClick={() => ModalStore.openModal(modals.contact)}
+                  className="hover:text-gray-300 cursor-pointer"
+                >
                   Contact
-                </a>
+                </span>
               </li>
             </ul>
           </div>

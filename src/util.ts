@@ -71,5 +71,6 @@ export const services = [
 ];
 
 export const modals = {
-  scedule: "scedulesuccess_message",
+  scedule: "scedule",
+  contact: "contact",
 };
