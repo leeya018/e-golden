@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React, { FormEvent, useState } from "react";
 import { ModalStore } from "@/mobx/modalStore";
+import axios from "axios";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    topic: "",
-    message: "",
-    email: "",
+    firstName: "Dana",
+    lastName: "Golde",
+    topic: "Tax",
+    message: "hello lee , I want to pay ",
+    email: "leeyahav018@gmial.com",
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -18,13 +19,25 @@ function ContactForm() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic here
 
-    ModalStore.closeModal();
+    try {
+      const response = await axios.post("/api/contact", formData);
+
+      if (response.status === 200) {
+        // Handle successful submission
+        console.log("Form submitted successfully");
+        ModalStore.closeModal();
+      } else {
+        // Handle submission error
+        console.error("Form submission failed");
+      }
+      ModalStore.closeModal();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
-
   return (
     <div className="w-full max-w-lg mx-auto mt-10 h-[80vh] bg-white p-6 rounded-lg shadow-lg">
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -68,10 +81,10 @@ function ContactForm() {
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
             >
               <option value="">Select a topic</option>
-              <option value="general">Relocation Inquiry</option>
-              <option value="support">Tax</option>
-              <option value="feedback">Business Solutions</option>
-              <option value="other">Realestate</option>
+              <option value="Relocation Inquiry">Relocation Inquiry</option>
+              <option value="Tax">Tax</option>
+              <option value="Business Solutions">Business Solutions</option>
+              <option value="Realestate">Realestate</option>
             </select>
           </label>
         </div>
