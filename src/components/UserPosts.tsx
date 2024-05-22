@@ -95,7 +95,7 @@ export default function UserPosts() {
   };
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden mt-10">
       <div
         ref={scrollContainer}
         className="flex overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"

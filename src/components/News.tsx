@@ -72,7 +72,7 @@ export default function News() {
     <div className="overflow-hidden mt-10">
       <div
         ref={scrollContainer}
-        className="flex  overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"
+        className="flex overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"
         onMouseEnter={startScrolling}
         onMouseLeave={stopScrolling}
       >

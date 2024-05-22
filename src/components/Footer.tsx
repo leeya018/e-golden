@@ -58,12 +58,9 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-bold">Follow Us</h3>
-            <ul className="flex mt-2">
+            <ul className=" flex md:flex-row flex-col  mt-2 gap-3 ">
               <li>
-                <a
-                  href="https://facebook.com"
-                  className="mr-6 hover:text-gray-300"
-                >
+                <a href="https://facebook.com" className="hover:text-gray-300">
                   Facebook
                 </a>
               </li>
@@ -73,17 +70,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://linkedin.com"
-                  className="ml-6 hover:text-gray-300"
-                >
+                <a href="https://linkedin.com" className="hover:text-gray-300">
                   LinkedIn
                 </a>
               </li>
               <li>
                 <span
                   onClick={handleWhatsAppClick}
-                  className="ml-6 bg-[#14957B] p-2 rounded-md  cursor-pointer"
+                  className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
                 >
                   Whatsapp
                 </span>

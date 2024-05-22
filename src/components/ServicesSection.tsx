@@ -7,7 +7,7 @@ export default function ServicesSection() {
   const router = useRouter();
 
   return (
-    <section className="h-screen flex flex-col  ">
+    <section className="min-h-screen flex flex-col">
       <h1 className="text-5xl mt-20 font-semibold text-center mb-6">
         Welcome to Our Service Portal
       </h1>

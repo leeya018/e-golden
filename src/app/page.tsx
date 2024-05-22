@@ -32,7 +32,7 @@ const Main = observer(() => {
         <ContactForm />
       </Modal>
       <Header />
-      <main className="flex w-[80%] mx-auto flex-col ">
+      <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
         <ServicesSection />
         <AboutPortugalSection />
 
