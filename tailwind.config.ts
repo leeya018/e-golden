@@ -8,8 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        "1000": "1000ms",
+      },
       colors: {
         blue: "#0069FF",
+        gray: "#9E9E9E",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
