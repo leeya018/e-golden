@@ -19,7 +19,7 @@ export default function ServicesSection() {
         Services
       </div>
 
-      <div className="flex justify-between gap-4 ">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {services.map((service) => (
           <ServiceCard
             key={service.id}
