@@ -44,8 +44,8 @@ const newsItems = [
 ];
 
 export default function News() {
-  const scrollContainer = useRef(null);
-  let scrollInterval = null;
+  const scrollContainer = useRef<any>(null);
+  let scrollInterval: any = null;
 
   const startScrolling = () => {
     if (scrollContainer.current) {
@@ -70,8 +70,6 @@ export default function News() {
 
   return (
     <div className="overflow-hidden mt-10">
-      {/* <TestimonialCard key={1} {...testimonials[0]} /> */}
-
       <div
         ref={scrollContainer}
         className="flex  overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"
@@ -94,7 +92,7 @@ const NewsCard = ({ name, description }: NewsCard) => {
   return (
     <div
       className="flex flex-col rounded-md items-center px-4 py-10    
-      w-1/4  border-2"
+      sm:w-1/2 md:w-1/3 lg:w-1/4  border-2"
     >
       <h3 className="text-lg font-bold mb-2">{name}</h3>
       <p className="text-sm text-gray-600">{description}</p>

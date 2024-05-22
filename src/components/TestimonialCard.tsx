@@ -8,7 +8,10 @@ type TestimonialCardProps = {
 };
 const TestimonialCard = ({ image, name, quote }: TestimonialCardProps) => {
   return (
-    <div className="flex flex-col items-center rounded-md p-4 max-w-sm mx-auto   w-1/4  border-2 ">
+    <div
+      className="flex flex-col items-center rounded-md 
+    p-4 sm:w-1/2 md:w-1/3 lg:w-1/4  border-2 "
+    >
       <Image
         className="rounded-full mb-4 h-20 w-20"
         alt={name}
