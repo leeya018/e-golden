@@ -31,7 +31,7 @@ const Main = observer(() => {
       >
         <ContactForm />
       </Modal>
-      <Header />
+
       <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
         <ServicesSection />
         <AboutPortugalSection />
@@ -39,7 +39,7 @@ const Main = observer(() => {
         <UserPosts />
         <News />
       </main>
-      <Footer />
+
       <CalenderPopup />
     </div>
   );

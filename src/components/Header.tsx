@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-black text-white p-4">
+    <header className="bg-black text-white p-4 fixed top-0 left-0 right-0">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="logo flex items-center justify-center w-full md:w-auto">
           <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
