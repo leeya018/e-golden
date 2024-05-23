@@ -40,16 +40,16 @@ export default function Header() {
           <Link href="/" className="nav-button">
             Home
           </Link>
-          <Link href="/residency_relocation" className="nav-button">
+          <Link href="/service/1" className="nav-button">
             Residency & Relocation
           </Link>
-          <Link href="/services" className="nav-button">
+          <Link href="/service/2" className="nav-button">
             Tax Planning
           </Link>
-          <Link href="/bussiness" className="nav-button">
+          <Link href="/service/3" className="nav-button">
             Business
           </Link>
-          <Link href="/realestate" className="nav-button">
+          <Link href="/service/4" className="nav-button">
             Real Estate
           </Link>
           <Link href="/about" className="nav-button">
