@@ -19,19 +19,6 @@ import ContactForm from "@/components/ContactForm";
 const Main = observer(() => {
   return (
     <div>
-      <Modal
-        isOpen={ModalStore.modalName === modals.scedule}
-        closeModal={ModalStore.closeModal}
-      >
-        <Calender />
-      </Modal>
-      <Modal
-        isOpen={ModalStore.modalName === modals.contact}
-        closeModal={ModalStore.closeModal}
-      >
-        <ContactForm />
-      </Modal>
-
       <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
         <ServicesSection />
         <AboutPortugalSection />
@@ -39,8 +26,6 @@ const Main = observer(() => {
         <UserPosts />
         <News />
       </main>
-
-      <CalenderPopup />
     </div>
   );
 });

@@ -25,7 +25,7 @@ export default function ServicesSection() {
             key={service.id}
             title={service.title}
             description={service.description}
-            onClick={() => router.push(service.location)}
+            onClick={() => router.push(`/service/{${service.id}`)}
           />
         ))}
       </div>

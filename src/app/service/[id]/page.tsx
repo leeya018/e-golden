@@ -1,4 +1,5 @@
 "use client";
+
 import { services } from "@/util";
 import Image from "next/image";
 import { useParams, useSearchParams } from "next/navigation";
@@ -18,8 +19,6 @@ export default function ServicePage() {
   }
   return (
     <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
-      {/* <p>The ID is: {id}</p> */}
-
       <h1 className="text-5xl  font-semibold text-center mb-6">
         {chosenService.title}
       </h1>
