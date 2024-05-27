@@ -1,10 +1,12 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import ServiceCard from "./ServiceCard";
-import { services } from "@/util";
+import { languageStore } from "@/mobx/languageStore";
+import { observer } from "mobx-react-lite";
 
-export default function ServicesSection() {
+const ServicesSection = () => {
   const router = useRouter();
+  const { translations } = languageStore;
 
   return (
     <section className="min-h-screen flex flex-col">
@@ -20,15 +22,19 @@ export default function ServicesSection() {
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {services.map((service) => (
+        {translations.services.map((service: any) => (
           <ServiceCard
             key={service.id}
             title={service.title}
             description={service.description}
-            onClick={() => router.push(`/service/{${service.id}`)}
+            onClick={() => {
+              router.push(`/service/${service.id}`);
+            }}
           />
         ))}
       </div>
     </section>
   );
-}
+};
+
+export default observer(ServicesSection);

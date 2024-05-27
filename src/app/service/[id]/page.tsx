@@ -1,19 +1,25 @@
 "use client";
 
-import { services } from "@/util";
+import { languageStore } from "@/mobx/languageStore";
+import { toJS } from "mobx";
+import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import { useParams, useSearchParams } from "next/navigation";
 
 import React from "react";
 
-export default function ServicePage() {
+const ServicePage = () => {
+  const { translations } = languageStore;
   const params = useParams();
-  const { id } = params;
+  const { id } = params as { id: string };
   if (!id) {
     throw new Error("id is not defiened");
   }
   console.log(id);
-  const chosenService = services.find((service) => service.id == id);
+  console.log({ ser: toJS(translations.services) });
+  const chosenService = translations.services.find(
+    (service: any) => service.id == id
+  );
   if (!chosenService) {
     throw new Error("id is not exsists");
   }
@@ -23,7 +29,7 @@ export default function ServicePage() {
         {chosenService.title}
       </h1>
       <ul className="flex flex-col gap-2">
-        {chosenService.description.map((item, key) => (
+        {chosenService.description.map((item: any, key: number) => (
           <li key={key} className="list-disc list-inside ">
             {" "}
             {item}
@@ -40,4 +46,6 @@ export default function ServicePage() {
       />
     </main>
   );
-}
+};
+
+export default observer(ServicePage);

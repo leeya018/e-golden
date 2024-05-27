@@ -12,6 +12,7 @@ import ContactForm from "@/components/ContactForm";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import CalenderPopup from "@/components/CalenderPopup";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 // import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
+
         <Modal
           isOpen={ModalStore.modalName === modals.scedule}
           closeModal={ModalStore.closeModal}

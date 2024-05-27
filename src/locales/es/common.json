@@ -1,0 +1,49 @@
+{
+  "about": {
+    "h1": "Sobre Nosotros",
+    "p1": "¡Bienvenido a E-Golden! Estamos dedicados a ayudarte a mudarte con facilidad y conveniencia. Nuestro equipo de expertos está comprometido a proporcionar servicios de primera clase para asegurar una transición sin problemas a tu nueva ubicación.",
+    "p2": "Nuestra misión es hacer que el proceso de mudanza sea libre de estrés y agradable. Con años de experiencia en la industria, hemos desarrollado un enfoque integral para la reubicación que cubre todos los aspectos, desde el embalaje y el transporte hasta la instalación en tu nuevo hogar.",
+    "p3": "En E-Golden, valoramos tu satisfacción por encima de todo. Nuestros servicios personalizados están diseñados para satisfacer tus necesidades y preferencias únicas, asegurando que tu mudanza se adapte a tus requisitos. Confía en nosotros para manejar tu reubicación con el máximo cuidado y profesionalismo.",
+    "p4": "Thank you for choosing E-Golden. We look forward to assisting you with your move!"
+  },
+
+  "services": [
+    {
+      "id": 1,
+      "title": "Reubicación y Residencia",
+      "description": [
+        "¿Estás pensando en mudarte a otro país? Portugal será el lugar adecuado para cumplir tus sueños y necesidades.",
+        "Podemos adaptar un paquete de servicios perfectamente adecuado a tus necesidades exactas, incluyendo permisos de residencia, asesoramiento fiscal, búsqueda de hogar, apertura de cuenta bancaria, seguro de salud, licencia de conducir y otros."
+      ],
+      "location": "relocation",
+      "imageUrl": "/images/relocation.png"
+    },
+    {
+      "id": 2,
+      "title": "Planificación y Asesoramiento Fiscal",
+      "description": [
+        "Comprender tus obligaciones fiscales y su impacto en tu vida personal y empresarial es esencial cuando decides mudarte o invertir en un nuevo país."
+      ],
+      "location": "tax",
+      "imageUrl": "/images/tax.png"
+    },
+    {
+      "id": 3,
+      "title": "Soluciones Empresariales",
+      "description": [
+        "Puedes contar con E-golden para proporcionarte todos los servicios de la empresa en Portugal, incluyendo registro, domiciliación, apertura de cuenta bancaria, contabilidad, planificación fiscal, etc."
+      ],
+      "location": "business",
+      "imageUrl": "/images/business.png"
+    },
+    {
+      "id": 4,
+      "title": "Inversiones y Gestión Inmobiliaria",
+      "description": [
+        "Con E-golden puedes tener una solución inmobiliaria integrada desde la etapa de planificación hasta la gestión diaria de las propiedades en Portugal."
+      ],
+      "location": "realestate",
+      "imageUrl": "/images/realestate.png"
+    }
+  ]
+}

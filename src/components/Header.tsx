@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 // components/Header.js
 export default function Header() {
@@ -18,6 +19,7 @@ export default function Header() {
         <div className="logo flex items-center justify-center w-full md:w-auto">
           <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
         </div>
+        <LanguageSwitcher />
         <div className="block md:hidden">
           <button onClick={toggleMenu} className="text-white">
             <svg
