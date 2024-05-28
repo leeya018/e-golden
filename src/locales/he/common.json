@@ -69,5 +69,20 @@
     "realEstate": "נדל\"ן",
     "about": "אודות",
     "contact": "צור קשר"
+  },
+
+  "contactForm": {
+    "contactUs": "צור קשר!",
+    "firstName": "שם פרטי:",
+    "lastName": "שם משפחה:",
+    "topic": "נושא:",
+    "selectTopic": "בחר נושא",
+    "relocationInquiry": "בירור לגבי העברה",
+    "tax": "מס",
+    "businessSolutions": "פתרונות עסקיים",
+    "realEstate": "נדל\"ן",
+    "message": "הודעה:",
+    "email": "אימייל:",
+    "submit": "שלח"
   }
 }

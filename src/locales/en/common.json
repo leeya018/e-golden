@@ -68,5 +68,19 @@
     "realEstate": "Real Estate",
     "about": "About",
     "contact": "Contact"
+  },
+  "contactForm": {
+    "contactUs": "Contact Us!",
+    "firstName": "First Name:",
+    "lastName": "Last Name:",
+    "topic": "Topic:",
+    "selectTopic": "Select a topic",
+    "relocationInquiry": "Relocation Inquiry",
+    "tax": "Tax",
+    "businessSolutions": "Business Solutions",
+    "realEstate": "Realestate",
+    "message": "Message:",
+    "email": "Email:",
+    "submit": "Submit"
   }
 }

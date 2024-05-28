@@ -71,5 +71,20 @@
     "realEstate": "Bienes Raíces",
     "about": "Acerca de",
     "contact": "Contacto"
+  },
+
+  "contactForm": {
+    "contactUs": "¡Contáctanos!",
+    "firstName": "Nombre:",
+    "lastName": "Apellido:",
+    "topic": "Tema:",
+    "selectTopic": "Selecciona un tema",
+    "relocationInquiry": "Consulta sobre reubicación",
+    "tax": "Impuestos",
+    "businessSolutions": "Soluciones empresariales",
+    "realEstate": "Bienes raíces",
+    "message": "Mensaje:",
+    "email": "Correo electrónico:",
+    "submit": "Enviar"
   }
 }
