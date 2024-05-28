@@ -4,10 +4,14 @@ import Link from "next/link";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { languageStore } from "@/mobx/languageStore";
+import { observer } from "mobx-react-lite";
 
 // components/Header.js
-export default function Header() {
+
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { translations } = languageStore;
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -40,22 +44,22 @@ export default function Header() {
         </div>
         <div className={`hidden md:flex md:items-center `}>
           <Link href="/" className="nav-button">
-            Home
+            {translations.header.home}
           </Link>
           <Link href="/service/1" className="nav-button">
-            Residency & Relocation
+            {translations.header.residencyRelocation}
           </Link>
           <Link href="/service/2" className="nav-button">
-            Tax Planning
+            {translations.header.taxPlanning}
           </Link>
           <Link href="/service/3" className="nav-button">
-            Business
+            {translations.header.business}
           </Link>
           <Link href="/service/4" className="nav-button">
-            Real Estate
+            {translations.header.realEstate}
           </Link>
           <Link href="/about" className="nav-button">
-            About
+            {translations.header.about}
           </Link>
           <button
             onClick={() => ModalStore.openModal(modals.contact)}
@@ -63,7 +67,7 @@ export default function Header() {
           >
             <p className="text-xl border-2 rounded-md font-bold py-2 px-4 ml-4 relative overflow-hidden">
               <span className="inline-block transform transition-transform duration-100 ease-in-out hover:scale-105">
-                Contact
+                {translations.header.contact}
               </span>
             </p>
           </button>
@@ -105,42 +109,42 @@ export default function Header() {
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              Home
+              {translations.header.home}
             </Link>
             <Link
               href="/residency_relocation"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              Residency & Relocation
+              {translations.header.residencyRelocation}
             </Link>
             <Link
               href="/services"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              Tax Planning
+              {translations.header.taxPlanning}
             </Link>
             <Link
               href="/bussiness"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              Business
+              {translations.header.business}
             </Link>
             <Link
               href="/realestate"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              Real Estate
+              {translations.header.realEstate}
             </Link>
             <Link
               href="/about"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              About
+              {translations.header.about}
             </Link>
             <Link
               href=""
@@ -150,11 +154,13 @@ export default function Header() {
               }}
               className="text-black text-xl hover:text-gray"
             >
-              Contact
+              {translations.header.contact}
             </Link>
           </nav>
         </div>
       </div>
     </header>
   );
-}
+};
+
+export default observer(Header);

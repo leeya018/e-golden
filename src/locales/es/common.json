@@ -61,5 +61,15 @@
     "linkedIn": "LinkedIn",
     "whatsapp": "Whatsapp",
     "reserved.": "E-Golden. Todos los derechos reservados."
+  },
+
+  "header": {
+    "home": "Inicio",
+    "residencyRelocation": "Residencia y Reubicación",
+    "taxPlanning": "Planificación Fiscal",
+    "business": "Negocios",
+    "realEstate": "Bienes Raíces",
+    "about": "Acerca de",
+    "contact": "Contacto"
   }
 }

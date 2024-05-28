@@ -59,5 +59,14 @@
     "linkedIn": "LinkedIn",
     "whatsapp": "Whatsapp",
     "reserved.": "E-Golden. All rights reserved."
+  },
+  "header": {
+    "home": "Home",
+    "residencyRelocation": "Residency & Relocation",
+    "taxPlanning": "Tax Planning",
+    "business": "Business",
+    "realEstate": "Real Estate",
+    "about": "About",
+    "contact": "Contact"
   }
 }

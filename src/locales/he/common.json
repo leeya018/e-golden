@@ -60,5 +60,14 @@
     "linkedIn": "לינקדאין",
     "whatsapp": "וואטסאפ",
     "reserved.": "E-Golden. כל הזכויות שמורות."
+  },
+  "header": {
+    "home": "בית",
+    "residencyRelocation": "תושבות והעברה",
+    "taxPlanning": "תכנון מס",
+    "business": "עסקים",
+    "realEstate": "נדל\"ן",
+    "about": "אודות",
+    "contact": "צור קשר"
   }
 }
