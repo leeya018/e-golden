@@ -43,5 +43,21 @@
       "location": "realestate",
       "imageUrl": "/images/realestate.png"
     }
-  ]
+  ],
+  "footer": {
+    "title": "About Us",
+    "p1": "Learn more about our mission and services.",
+    "email": "Email: info@example.com",
+    "phone": "Phone: +123 456 7890",
+    "secedule_meeting": "scedule meeting",
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "about_us": " About Us",
+    "contact": "Contact",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedIn": "LinkedIn",
+    "whatsapp": "Whatsapp",
+    "reserved.": "E-Golden. All rights reserved."
+  }
 }

@@ -3,9 +3,13 @@ import Modal from "./Modal";
 import Calender from "./Calender";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
+import { languageStore } from "@/mobx/languageStore";
+import { observer } from "mobx-react-lite";
 
 // components/Footer.js
-export default function Footer() {
+const Footer = () => {
+  const { translations } = languageStore;
+
   const handleWhatsAppClick = () => {
     // const phoneNumber = "+972 54-222-6958"; // Replace with your phone number
     const phoneNumber = process.env.NEXT_PUBLIC_PHONE; // Replace with your phone number
@@ -22,28 +26,31 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-10">
         <div className="flex justify-between">
           <div>
-            <h3 className="text-lg font-bold">About Us</h3>
-            <p className="mt-2">Learn more about our mission and services.</p>
-            <p className="mt-2">Email: info@example.com</p>
-            <p className="mt-2">Phone: +123 456 7890</p>
+            <h3 className="text-lg font-bold">{translations.footer.title}</h3>
+            <p className="mt-2">{translations.footer.p1}</p>
+            <p className="mt-2">{translations.footer.email}</p>
+            <p className="mt-2">{translations.footer.phone}</p>
             <p
               className="mt-2 cursor-pointer hover:underline"
               onClick={() => ModalStore.openModal(modals.scedule)}
             >
-              scedule meeting
+              {translations.footer.secedule_meeting}
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-bold">Quick Links</h3>
+            <h3 className="text-lg font-bold">
+              {translations.footer.quick_links}
+            </h3>
             <ul>
               <li>
                 <a href="/services" className="hover:text-gray-300">
-                  Services
+                  {" "}
+                  {translations.footer.services}
                 </a>
               </li>
               <li>
                 <a href="/about" className="hover:text-gray-300">
-                  About Us
+                  {translations.footer.about_us}
                 </a>
               </li>
               <li>
@@ -51,7 +58,7 @@ export default function Footer() {
                   onClick={() => ModalStore.openModal(modals.contact)}
                   className="hover:text-gray-300 cursor-pointer"
                 >
-                  Contact
+                  {translations.footer.contact}
                 </span>
               </li>
             </ul>
@@ -61,17 +68,17 @@ export default function Footer() {
             <ul className=" flex md:flex-row flex-col  mt-2 gap-3 ">
               <li>
                 <a href="https://facebook.com" className="hover:text-gray-300">
-                  Facebook
+                  {translations.footer.facebook}
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com" className="hover:text-gray-300">
-                  Twitter
+                  {translations.footer.twitter}
                 </a>
               </li>
               <li>
                 <a href="https://linkedin.com" className="hover:text-gray-300">
-                  LinkedIn
+                  {translations.footer.linkedIn}
                 </a>
               </li>
               <li>
@@ -79,16 +86,19 @@ export default function Footer() {
                   onClick={handleWhatsAppClick}
                   className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
                 >
-                  Whatsapp
+                  {translations.footer.whatsapp}
                 </span>
               </li>
             </ul>
           </div>
         </div>
         <div className="text-center mt-10">
-          <p>© {new Date().getFullYear()} E-Golden. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} {translations.footer.reserved}
+          </p>
         </div>
       </div>
     </footer>
   );
-}
+};
+export default observer(Footer);

@@ -44,5 +44,21 @@
       "location": "realestate",
       "imageUrl": "/images/realestate.png"
     }
-  ]
+  ],
+  "footer": {
+    "title": "אודותינו",
+    "p1": "למידע נוסף על המשימה והשירותים שלנו.",
+    "email": "אימייל: info@example.com",
+    "phone": "טלפון: +123 456 7890",
+    "schedule_meeting": "תזמן פגישה",
+    "quick_links": "קישורים מהירים",
+    "services": "שירותים",
+    "about_us": "אודותינו",
+    "contact": "צור קשר",
+    "facebook": "פייסבוק",
+    "twitter": "טוויטר",
+    "linkedIn": "לינקדאין",
+    "whatsapp": "וואטסאפ",
+    "reserved.": "E-Golden. כל הזכויות שמורות."
+  }
 }
