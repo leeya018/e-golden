@@ -19,11 +19,14 @@ const Header = () => {
 
   return (
     <header className="bg-black text-white p-4 fixed top-0 left-0 right-0">
-      <nav className="container mx-auto flex justify-between items-center">
+      <nav className=" container mx-auto flex justify-between items-center">
+        <div className="  ">
+          <LanguageSwitcher />
+        </div>
         <div className="logo flex items-center justify-center w-full md:w-auto">
           <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
         </div>
-        <LanguageSwitcher />
+
         <div className="block md:hidden">
           <button onClick={toggleMenu} className="text-white">
             <svg
