@@ -5,6 +5,11 @@
     "p2": "Our mission is to make the process of moving stress-free and enjoyable. With years of experience in the industry, we have developed a comprehensive approach to relocation that covers every aspect, from packing and transportation to settling in your new home.",
     "p3": "At E-Golden, we value your satisfaction above all else. Our personalized services are designed to meet your unique needs and preferences, ensuring that your move is tailored to your requirements. Trust us to handle your relocation with the utmost care and professionalism."
   },
+  "servicesMain": {
+    "title": "Welcome to Our Service Portal",
+    "subtitle": "From Relocation to Investments Your One Stop Shop Services With E-golden",
+    "sectionTitle": "Services"
+  },
   "services": [
     {
       "id": 1,

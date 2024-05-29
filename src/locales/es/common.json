@@ -6,7 +6,11 @@
     "p3": "En E-Golden, valoramos tu satisfacción por encima de todo. Nuestros servicios personalizados están diseñados para satisfacer tus necesidades y preferencias únicas, asegurando que tu mudanza se adapte a tus requisitos. Confía en nosotros para manejar tu reubicación con el máximo cuidado y profesionalismo.",
     "p4": "Thank you for choosing E-Golden. We look forward to assisting you with your move!"
   },
-
+  "servicesMain": {
+    "title": "Bienvenido a nuestro portal de servicios",
+    "subtitle": "Desde reubicación hasta inversiones, su tienda de servicios única con E-golden",
+    "sectionTitle": "Servicios"
+  },
   "services": [
     {
       "id": 1,

@@ -11,14 +11,14 @@ const ServicesSection = () => {
   return (
     <section className="min-h-screen flex flex-col ">
       <h1 className="text-5xl  font-semibold text-center mb-6">
-        Welcome to Our Service Portal
+        {translations.servicesMain.title}
       </h1>
       <div className="flex justify-center mb-20 text-lg mt-10">
-        From Relocation to Investments Your One Stop Shop Services With E-golden
+        {translations.servicesMain.subtitle}
       </div>
 
       <div className="flex justify-center text-4xl font-semibold mb-10">
-        Services
+        {translations.servicesMain.sectionTitle}
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
