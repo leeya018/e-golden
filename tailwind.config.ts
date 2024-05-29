@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const rtl = require("tailwindcss-rtl");
 
 const config: Config = {
   content: [
@@ -22,6 +23,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [rtl],
 };
 export default config;

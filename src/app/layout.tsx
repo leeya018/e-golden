@@ -12,7 +12,8 @@ import ContactForm from "@/components/ContactForm";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import CalenderPopup from "@/components/CalenderPopup";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { languageStore } from "@/mobx/languageStore";
+
 // import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,7 +29,7 @@ function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={languageStore.direction}>
       <body className={inter.className}>
         <Header />
 

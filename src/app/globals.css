@@ -42,3 +42,7 @@ button {
     transform: translateX(-100%);
   }
 }
+
+html[dir="rtl"] {
+  direction: rtl;
+}

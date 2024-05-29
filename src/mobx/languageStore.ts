@@ -17,6 +17,7 @@ import { create } from "mobx-persist";
 class LanguageStore {
   translations: any = enTranslations;
   locale: string = "en";
+  direction: string = "ltr";
 
   constructor() {
     makeAutoObservable(this);
@@ -26,20 +27,28 @@ class LanguageStore {
     //   this.locale = "en";
     // });
   }
+  setDirection(newDirection: string) {
+    this.direction = newDirection;
+    document.documentElement.setAttribute("dir", newDirection);
+  }
 
   loadTranslations() {
     switch (this.locale) {
       case "en":
         this.translations = enTranslations;
+        this.setDirection("ltr");
         break;
       case "es":
         this.translations = esTranslations;
+        this.setDirection("ltr");
         break;
       case "he":
         this.translations = heTranslations;
+        this.setDirection("rtl");
         break;
       default:
         this.translations = enTranslations;
+        this.setDirection("ltr");
     }
 
     console.log({ translations: this.translations });

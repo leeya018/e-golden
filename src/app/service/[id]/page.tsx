@@ -6,12 +6,14 @@ import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import { useParams, useSearchParams } from "next/navigation";
 
-import React from "react";
+import React, { useState } from "react";
 
 const ServicePage = () => {
   const { translations } = languageStore;
+
   const params = useParams();
   const { id } = params as { id: string };
+
   if (!id) {
     throw new Error("id is not defiened");
   }
@@ -23,8 +25,9 @@ const ServicePage = () => {
   if (!chosenService) {
     throw new Error("id is not exsists");
   }
+
   return (
-    <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
+    <main className={`flex w-full  lg:w-[80%] lg:mx-auto flex-col `}>
       <h1 className="text-5xl  font-semibold text-center mb-6">
         {chosenService.title}
       </h1>

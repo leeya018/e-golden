@@ -18,7 +18,7 @@ import ContactForm from "@/components/ContactForm";
 
 const Main = observer(() => {
   return (
-    <div>
+    <div className="">
       <main className="flex w-full  lg:w-[80%] lg:mx-auto flex-col ">
         <ServicesSection />
         <AboutPortugalSection />
