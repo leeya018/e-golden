@@ -30,6 +30,9 @@ button {
 .nav-button {
   @apply font-bold border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
 }
+.center-absolute {
+  @apply absolute  top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2;
+}
 
 /* Smooth scrolling on hover */
 .scroll-smooth {

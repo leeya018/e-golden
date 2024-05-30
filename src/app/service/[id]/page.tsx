@@ -58,8 +58,20 @@ const ServicePage = () => {
   };
 
   return (
-    <main className="flex w-full  lg:mx-auto flex-col p-8 bg-gray-100">
-      <div>
+    <main className="flex w-full lg:mx-auto flex-col  bg-gray-100">
+      <div className="relative">
+        <Image
+          className="w-full h-[500px]"
+          alt={chosenService.title}
+          width={500}
+          height={500}
+          src={chosenService.imageUrl}
+        />
+        <div className="z-10 center-absolute title text-white ">
+          {chosenService.title}
+        </div>
+      </div>
+      <div className="px-10 mt-7">
         {Object.entries(chosenService.details).map(([key, value]) => (
           <div key={key} className="mb-8">
             <h2 className="text-3xl font-bold mb-4">
@@ -69,14 +81,6 @@ const ServicePage = () => {
           </div>
         ))}
       </div>
-
-      <Image
-        className="rounded-md mb-4 h-[500px] w-[500px] mx-auto mt-10"
-        alt={chosenService.title}
-        width={500}
-        height={500}
-        src={chosenService.imageUrl}
-      />
     </main>
   );
 };
