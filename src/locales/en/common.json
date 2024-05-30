@@ -18,12 +18,66 @@
         "We can tailor a package of services perfectly suited to your exact needs, including residency permits, tax advice, home search, opening bank account, health insurance, driving license, and others."
       ],
       "location": "relocation",
-      "imageUrl": "/images/relocation.png"
+      "imageUrl": "/images/relocation.png",
+      "details": {
+        "relocation_to_portugal": {
+          "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight. This is one of the reasons it makes perfect sense to take advantage of E-golden specialised relocation services in Portugal. We will walk alongside you on this adventure. Our main goal is to provide a one stop shop service for you to enjoy the most of your new journey."
+        },
+        "relocation_basic_steps": [
+          "Visa",
+          "Home Search",
+          "NIF number",
+          "Commodities Support",
+          "Bank Account",
+          "Money Transfer"
+        ],
+        "residency_permits": {
+          "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
+          "options": [
+            "Working Visa",
+            "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
+            "Golden Visa – Investment visa",
+            "D7 Visa – Passive Income Visa",
+            "D2 Visa – Freelancer/Independent services providers Visa",
+            "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
+            "Student Visa – Residence permit for studying in Portugal",
+            "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa"
+          ]
+        },
+        "relocation_services_packages": {
+          "red_package": {
+            "services": [
+              "Home Seeker",
+              "Residency Permit",
+              "Commodities Support Services",
+              "NISS",
+              "NIF",
+              "Bank Account Support"
+            ]
+          },
+          "golden_package": {
+            "services": [
+              "Home Seeker",
+              "Residency Permit",
+              "Commodities Support Services",
+              "NISS",
+              "NIF",
+              "Bank Account Support",
+              "Driving License",
+              "NHR",
+              "Insurance",
+              "School for kids",
+              "Cars Seekers"
+            ]
+          },
+          "custom_package": "Create your Own!"
+        }
+      }
     },
     "tax-planning-advice": {
       "title": "Tax Planning and advice",
       "description": [
-        "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country.    "
+        "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country. "
       ],
       "location": "tax",
       "imageUrl": "/images/tax.png"
@@ -31,7 +85,7 @@
     "business-solutions": {
       "title": "Business Solutions",
       "description": [
-        "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc"
+        "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc. "
       ],
       "location": "business",
       "imageUrl": "/images/business.png"
