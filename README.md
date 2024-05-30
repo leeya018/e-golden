@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+// https://nifonline.pt/en/criar-conta/
+// check how to cereate a lnading page fo rech servier and publish it seperatitly .
+// conncet the app to monday sofware, the uses can apply fo rhe sreve ie and then
+// they can see the uupdated status of that .
+// https://www.pearlsofportugal.com/client-area/
 
-## Getting Started
+// portugues languge + flag
+// logo shoud be bigger
+// put the video onn the top -full screen
+// services = diffreent design
+//From Relocation to Investments Your One Stop Shop Services With E-golden - put in 3 lines inside of the vid ( and left and right postion of the text in bottom )
+Welcome to Our Service Portal delete
+Egolden Services ( title )
+change th ebackggroudn iamge to be with color or
+// https://www.belionpartners.com/residency - services with images and the text unde .
+and also can do the text in gold border in gold .
+serviec name and the border is gold a
 
-First, run the development server:
+// create a video in AI about the 10 reasons abotu why Portugal ? (venesa will give me the reasons)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visa
+Home Search
+NIF number
+Commodities Support
+Bank Account
+Money Transfer
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+do that like in the image
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Working Visa
+Digital Nomad Visa – You get your Visa by Working remotely or running a business
+Golden Visa – Investment visa
+D7 Visa – Passive Income Visa
+D2 Visa – Freelancer/Independent services providers Visa
+Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal
+Student Visa – Residence permit for studying in Portugal
+Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+after each one can be an image .  
+each one can be clickable and move to diffrent paeg . ( link exmaple from firehoruse )
+example: https://www.belionpartners.com/student-visa
 
-## Learn More
+# make an opitno to crearte a landing page page , so pepole can book nif numbre service
 
-To learn more about Next.js, take a look at the following resources:
+https://www.pearlsofportugal.com/client-area/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+this is for the app

@@ -19,9 +19,7 @@ const ServicePage = () => {
   }
   console.log(id);
   console.log({ ser: toJS(translations.services) });
-  const chosenService = translations.services.find(
-    (service: any) => service.id == id
-  );
+  const chosenService = translations.services[id];
   if (!chosenService) {
     throw new Error("id is not exsists");
   }

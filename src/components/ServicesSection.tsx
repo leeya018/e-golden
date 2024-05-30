@@ -10,25 +10,18 @@ const ServicesSection = () => {
 
   return (
     <section className="min-h-screen flex flex-col ">
-      <h1 className="text-5xl  font-semibold text-center mb-6">
-        {translations.servicesMain.title}
-      </h1>
-      <div className="flex justify-center mb-20 text-lg mt-10">
-        {translations.servicesMain.subtitle}
-      </div>
-
       <div className="flex justify-center text-4xl font-semibold mb-10">
         {translations.servicesMain.sectionTitle}
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {translations.services.map((service: any) => (
+        {Object.entries(translations.services).map(([key, value]) => (
           <ServiceCard
-            key={service.id}
-            title={service.title}
-            description={service.description}
+            key={key}
+            title={value.title}
+            description={value.description}
             onClick={() => {
-              router.push(`/service/${service.id}`);
+              router.push(`/service/${key}`);
             }}
           />
         ))}

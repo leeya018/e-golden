@@ -10,9 +10,8 @@
     "subtitle": "From Relocation to Investments Your One Stop Shop Services With E-golden",
     "sectionTitle": "Services"
   },
-  "services": [
-    {
-      "id": 1,
+  "services": {
+    "relocation-residency": {
       "title": "Relocation and Residency",
       "description": [
         "Are you thinking about moving to a different country? Portugal will be the right place to fulfil your dreams and needs.",
@@ -21,8 +20,7 @@
       "location": "relocation",
       "imageUrl": "/images/relocation.png"
     },
-    {
-      "id": 2,
+    "tax-planning-advice": {
       "title": "Tax Planning and advice",
       "description": [
         "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country.    "
@@ -30,8 +28,7 @@
       "location": "tax",
       "imageUrl": "/images/tax.png"
     },
-    {
-      "id": 3,
+    "business-solutions": {
       "title": "Business Solutions",
       "description": [
         "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc"
@@ -39,8 +36,7 @@
       "location": "business",
       "imageUrl": "/images/business.png"
     },
-    {
-      "id": 4,
+    "real-estate-investments-management": {
       "title": "Real Estate Investments and Management",
       "description": [
         "With E-golden you can have an integrated real estate solution from the planning stage down to the day-to-day management of properties in Portugal."
@@ -48,7 +44,7 @@
       "location": "realestate",
       "imageUrl": "/images/realestate.png"
     }
-  ],
+  },
   "footer": {
     "title": "About Us",
     "p1": "Learn more about our mission and services.",

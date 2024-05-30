@@ -47,7 +47,7 @@ function RootLayout({
         </Modal>
 
         <CalenderPopup />
-        <main className="mt-36 min-h-screen">{children}</main>
+        <main className="mt-12 min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>

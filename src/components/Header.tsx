@@ -26,7 +26,12 @@ const Header = () => {
         <div className="logo flex items-center justify-center w-full md:w-auto">
           <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
         </div>
-
+        <Link href="#HowtoRenewthePortugalPassiveIncomeD7Visa">
+          <span>Jump Visa red</span>
+        </Link>
+        <Link href="#how2">
+          <span>Jump Visa red</span>
+        </Link>
         <div className="block md:hidden">
           <button onClick={toggleMenu} className="text-white">
             <svg
@@ -49,16 +54,19 @@ const Header = () => {
           <Link href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          <Link href="/service/1" className="nav-button">
+          <Link href={"/service/relocation-residency"} className="nav-button">
             {translations.header.residencyRelocation}
           </Link>
-          <Link href="/service/2" className="nav-button">
+          <Link href={"/service/tax-planning-advice"} className="nav-button">
             {translations.header.taxPlanning}
           </Link>
-          <Link href="/service/3" className="nav-button">
+          <Link href={"/service/business-solutions"} className="nav-button">
             {translations.header.business}
           </Link>
-          <Link href="/service/4" className="nav-button">
+          <Link
+            href={"/service/real-estate-investments-management"}
+            className="nav-button"
+          >
             {translations.header.realEstate}
           </Link>
           <Link href="/about" className="nav-button">
@@ -115,28 +123,28 @@ const Header = () => {
               {translations.header.home}
             </Link>
             <Link
-              href="/residency_relocation"
+              href="/service/relocation-residency"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.residencyRelocation}
             </Link>
             <Link
-              href="/services"
+              href="/service/tax-planning-advice"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.taxPlanning}
             </Link>
             <Link
-              href="/bussiness"
+              href="/service/business-solutions"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.business}
             </Link>
             <Link
-              href="/realestate"
+              href="/service/real-estate-investments-management"
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
