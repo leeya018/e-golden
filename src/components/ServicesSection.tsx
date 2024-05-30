@@ -20,6 +20,7 @@ const ServicesSection = () => {
             key={key}
             title={value.title}
             description={value.description}
+            imageUrl={value.imageUrl}
             onClick={() => {
               router.push(`/service/${key}`);
             }}
