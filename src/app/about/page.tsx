@@ -7,14 +7,29 @@ const About: React.FC = () => {
   const { translations } = languageStore;
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center ">
-      <div className="bg-white  rounded-lg max-w-2xl">
-        <h1 className="title">{translations.about.h1}</h1>
-        <p className="text-gray-700 text-lg mb-4">{translations.about.p1}</p>
-        <p className="text-gray-700 text-lg mb-4">{translations.about.p2}</p>
-        <p className="text-gray-700 text-lg mb-4">{translations.about.p3}</p>
-        <p className="text-gray-700 text-lg">{translations.about.p4}</p>
-      </div>
+    <div className="p-8 bg-gray-100">
+      <h1 className="text-4xl font-bold mb-4">About Us</h1>
+      <p className="text-lg mb-6">{translations.about_us.welcome_message}</p>
+
+      <h2 className="text-2xl font-semibold mb-4">Who We Are</h2>
+      <p className="text-lg mb-6">{translations.about_us.who_we_are}</p>
+
+      <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
+      <p className="text-lg mb-6">{translations.about_us.our_mission}</p>
+
+      <h2 className="text-2xl font-semibold mb-4">Our Vision</h2>
+      <p className="text-lg mb-6">{translations.about_us.our_vision}</p>
+
+      <h2 className="text-2xl font-semibold mb-4">Our Values</h2>
+      <ul className="list-disc list-inside text-lg mb-6">
+        {Object.entries(translations.about_us.our_values).map(
+          ([key, value]) => (
+            <li key={key} className="mb-2">
+              <strong className="font-medium capitalize">{key}:</strong> {value}
+            </li>
+          )
+        )}
+      </ul>
     </div>
   );
 };

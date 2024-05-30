@@ -1,9 +1,16 @@
 {
-  "about": {
-    "h1": "About Us",
-    "p1": "Welcome to E-Golden! We are dedicated to helping you relocate with ease and convenience. Our team of experts is committed to providing top-notch services to ensure a smooth transition to your new location.",
-    "p2": "Our mission is to make the process of moving stress-free and enjoyable. With years of experience in the industry, we have developed a comprehensive approach to relocation that covers every aspect, from packing and transportation to settling in your new home.",
-    "p3": "At E-Golden, we value your satisfaction above all else. Our personalized services are designed to meet your unique needs and preferences, ensuring that your move is tailored to your requirements. Trust us to handle your relocation with the utmost care and professionalism."
+  "about_us": {
+    "welcome_message": "Welcome to E-golden – Your Trusted Partner for Relocation to Portugal.",
+    "who_we_are": "At E-golden, we specialize in providing comprehensive relocation services tailored to meet the unique needs of our clients. The idea of creating E-golden was due to the fact that we realized the difficulty that people who wanted to move to Portugal faced. Therefore, combining our experience in providing the necessary services, as well as having ourselves, founders of E-golden, gone through an equivalent process, we welcome helping as many people as possible to receive the best and most comfortable experience in during your relocation process.",
+    "our_mission": "Our mission is to deliver top-tier relocation services that exceed client expectations. We aim to minimize downtime and disruptions, allowing a smoothly transition to their new locations and resume operations as quickly as possible.",
+    "our_vision": "We envision being the leading provider of relocation services globally, recognized for our commitment to quality, innovation, and customer satisfaction. Our goal is to set new standards in the relocation industry, ensuring every move is a step forward for our clients.",
+    "our_values": {
+      "integrity": "We conduct our business with the highest ethical standards, ensuring transparency and honesty in all our dealings.",
+      "customer_focus": "Our clients are at the heart of everything we do. We strive to understand their unique needs and provide customized solutions.",
+      "excellence": "We are committed to delivering exceptional service and continuously improving our processes to exceed client expectations.",
+      "teamwork": "We believe in the power of collaboration and work together to achieve common goals.",
+      "innovation": "We embrace new ideas and technologies to provide the best possible services to our clients."
+    }
   },
   "servicesMain": {
     "title": "Welcome to Our Service Portal",
@@ -80,7 +87,20 @@
         "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country. "
       ],
       "location": "tax",
-      "imageUrl": "/images/tax.png"
+      "imageUrl": "/images/tax.png",
+      "details": {
+        "tax_planning_and_advice": {
+          "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
+          "services": [
+            "Tax Consultancy",
+            "Tax Planning",
+            "Double taxation Consultancy",
+            "NHR Consultancy and application submission",
+            "Tax Consultancy for Athletes and artists",
+            "Tax Consultancy for Real Estate Investments"
+          ]
+        }
+      }
     },
     "business-solutions": {
       "title": "Business Solutions",
@@ -88,7 +108,19 @@
         "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc. "
       ],
       "location": "business",
-      "imageUrl": "/images/business.png"
+      "imageUrl": "/images/business.png",
+      "details": {
+        "business_solutions": {
+          "description": "In today's dynamic and competitive marketplace, businesses face numerous challenges that require innovative and tailored solutions. Business Solutions Services (BSS) are designed to address these challenges by providing a wide range of strategic, operational, and technological services that help organizations optimize their performance, achieve their goals, and drive sustainable growth. With E-Golden you will be able to achieve your goals faster and more efficiently. To this end, we are committed to providing the necessary services so that you can implement your business in Portugal. Starting with presenting a business plan, advice on the best tax structure for your business, choosing the best legal form for your company, supporting for opening a bank account and specialized accounting services.",
+          "services": [
+            "Business Advice – Business plan and tax advice",
+            "Company Services – Company Incorporation and Brand registration",
+            "Company’s Domiciliation",
+            "Bank account",
+            "Accounting"
+          ]
+        }
+      }
     },
     "real-estate-investments-management": {
       "title": "Real Estate Investments and Management",
@@ -96,7 +128,18 @@
         "With E-golden you can have an integrated real estate solution from the planning stage down to the day-to-day management of properties in Portugal."
       ],
       "location": "realestate",
-      "imageUrl": "/images/realestate.png"
+      "imageUrl": "/images/realestate.png",
+      "details": {
+        "real_estate_investments_and_management": {
+          "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
+          "services": [
+            "Real Estate Investment planning",
+            "Property Search services",
+            "Assistance with property purchase",
+            "Real Estate Management services"
+          ]
+        }
+      }
     }
   },
   "footer": {

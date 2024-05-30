@@ -18,6 +18,9 @@ input {
 .title {
   @apply text-4xl font-bold  mb-4 mt-8 flex justify-center;
 }
+.sub-title {
+  @apply text-2xl font-bold  mb-4 mt-8 flex justify-center;
+}
 button {
   @apply border-2 rounded-md border-black p-2;
 }

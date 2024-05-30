@@ -1,12 +1,10 @@
 "use client";
-
+import React, { useState } from "react";
 import { languageStore } from "@/mobx/languageStore";
 import { toJS } from "mobx";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
-import { useParams, useSearchParams } from "next/navigation";
-
-import React, { useState } from "react";
+import { useParams } from "next/navigation";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -15,22 +13,25 @@ const ServicePage = () => {
   const { id } = params as { id: string };
 
   if (!id) {
-    throw new Error("id is not defiened");
+    throw new Error("id is not defined");
   }
+
   console.log(id);
   console.log({ ser: toJS(translations.services) });
+
   const chosenService = translations.services[id];
   if (!chosenService) {
-    throw new Error("id is not exsists");
+    throw new Error("id does not exist");
   }
+
   const renderContent = (key: string, content: any) => {
     if (typeof content === "string") {
-      return <div>{content}</div>;
+      return <div className="text-lg mb-4">{content}</div>;
     }
 
     if (Array.isArray(content)) {
       return (
-        <ul>
+        <ul className="list-disc list-inside text-lg mb-4">
           {content.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
@@ -42,8 +43,8 @@ const ServicePage = () => {
       return (
         <div>
           {Object.entries(content).map(([subKey, subValue]) => (
-            <div key={subKey}>
-              <h3 className="title">
+            <div key={subKey} className="mb-4">
+              <h3 className="text-xl font-semibold mb-2">
                 {subKey !== "description" && subKey.replace(/_/g, " ")}
               </h3>
               {renderContent(subKey, subValue)}
@@ -57,21 +58,13 @@ const ServicePage = () => {
   };
 
   return (
-    <main className={`flex w-full lg:w-[80%] lg:mx-auto flex-col `}>
-      {/* <h1 className="title">{chosenService.title}</h1>
-      <ul className="flex flex-col gap-2">
-        {chosenService.description.map((item: any, key: number) => (
-          <li key={key} className="list-disc list-inside ">
-            {" "}
-            {item}
-          </li>
-        ))}
-      </ul> */}
-      {/* <div>{JSON.stringify(chosenService.details)}</div> */}
+    <main className="flex w-full  lg:mx-auto flex-col p-8 bg-gray-100">
       <div>
         {Object.entries(chosenService.details).map(([key, value]) => (
-          <div key={key}>
-            <h2 className="title">{key.replace(/_/g, " ")}</h2>
+          <div key={key} className="mb-8">
+            <h2 className="text-3xl font-bold mb-4">
+              {key.replace(/_/g, " ")}
+            </h2>
             {renderContent(key, value)}
           </div>
         ))}
