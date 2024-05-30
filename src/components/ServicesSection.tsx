@@ -10,8 +10,8 @@ const ServicesSection = () => {
 
   return (
     <section className="min-h-screen flex flex-col ">
-      <div className="flex justify-center text-4xl font-semibold mb-10">
-        {translations.servicesMain.sectionTitle}
+      <div className="flex justify-center ">
+        <h1 className="title">{translations.servicesMain.sectionTitle}</h1>
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

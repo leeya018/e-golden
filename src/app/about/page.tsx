@@ -8,10 +8,8 @@ const About: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center ">
-      <div className="bg-white  rounded-lg p-8 max-w-2xl">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          {translations.about.h1}
-        </h1>
+      <div className="bg-white  rounded-lg max-w-2xl">
+        <h1 className="title">{translations.about.h1}</h1>
         <p className="text-gray-700 text-lg mb-4">{translations.about.p1}</p>
         <p className="text-gray-700 text-lg mb-4">{translations.about.p2}</p>
         <p className="text-gray-700 text-lg mb-4">{translations.about.p3}</p>

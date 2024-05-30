@@ -26,9 +26,7 @@ const ServicePage = () => {
 
   return (
     <main className={`flex w-full  lg:w-[80%] lg:mx-auto flex-col `}>
-      <h1 className="text-5xl  font-semibold text-center mb-6">
-        {chosenService.title}
-      </h1>
+      <h1 className="title">{chosenService.title}</h1>
       <ul className="flex flex-col gap-2">
         {chosenService.description.map((item: any, key: number) => (
           <li key={key} className="list-disc list-inside ">
