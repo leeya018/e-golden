@@ -1,18 +1,18 @@
-import React, { FormEvent, useState } from "react";
-import { ModalStore } from "@/mobx/modalStore";
-import axios from "axios";
 import { languageStore } from "@/mobx/languageStore";
-import { observer } from "mobx-react-lite";
+import { ModalStore } from "@/mobx/modalStore";
+import { countries } from "@/util";
+import axios from "axios";
+import React, { FormEvent, useState } from "react";
 
-function ContactForm() {
-  const { translations } = languageStore;
-
+const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
     firstName: "Dana",
     lastName: "Golde",
     topic: "Tax",
     message: "hello lee , I want to pay ",
     email: "leeyahav018@gmial.com",
+    nationality: "",
+    residence: "",
   });
 
   const handleChange = (
@@ -46,98 +46,103 @@ function ContactForm() {
       console.error("Error submitting form:", error);
     }
   };
+
   return (
-    <div className="w-full max-w-lg mx-auto mt-10 h-[80vh] bg-white p-6 rounded-lg shadow-lg">
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="flex justify-center font-bold text-xl">
-          {translations.contactForm.contactUs}
+    <div className="bg-white p-8 rounded-lg shadow-md max-w-3xl mx-auto">
+      <h2 className="text-center text-2xl font-bold mb-4">
+        Have a question? Contact us
+      </h2>
+      <p className="text-center mb-6">
+        We will respond by email within no longer than one working day.
+      </p>
+      <form onSubmit={handleSubmit}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <input
+            value={formData.firstName}
+            name="firstName"
+            onChange={handleChange}
+            required
+            type="text"
+            placeholder="First name*"
+            className="border border-gray-300 p-2 rounded-lg w-full"
+          />
+          <input
+            value={formData.lastName}
+            name="lastName"
+            onChange={handleChange}
+            required
+            type="text"
+            placeholder="Last name*"
+            className="border border-gray-300 p-2 rounded-lg w-full"
+          />
         </div>
-        <div>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            {translations.contactForm.firstName}
-            <input
-              type="text"
-              name="firstName"
-              value={formData.firstName}
-              onChange={handleChange}
-              required
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
-            />
-          </label>
+        <div className="grid grid-cols-1 gap-4 mb-4">
+          <input
+            value={formData.email}
+            name="email"
+            c
+            onChange={handleChange}
+            required
+            type="email"
+            placeholder="Email*"
+            className="border border-gray-300 p-2 rounded-lg w-full"
+          />
         </div>
-        <div>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            {translations.contactForm.lastName}
-            <input
-              type="text"
-              name="lastName"
-              value={formData.lastName}
-              onChange={handleChange}
-              required
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
-            />
-          </label>
-        </div>
-        <div>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            {translations.contactForm.topic}
-            <select
-              name="topic"
-              value={formData.topic}
-              onChange={handleChange}
-              required
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
-            >
-              <option value="">{translations.contactForm.selectTopic}</option>
-              <option value="Relocation Inquiry">
-                {translations.contactForm.relocationInquiry}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <select
+            value={formData.nationality}
+            onChange={handleChange}
+            name="nationality"
+            // placeholder="Nationality*"
+            className="border border-gray-300 p-2 rounded-lg w-full"
+          >
+            <option value="">Nationality*</option>
+            {countries.map((country: string, index: number) => (
+              <option key={index} value={country}>
+                {country}
               </option>
-              <option value="Tax">{translations.contactForm.tax}</option>
-              <option value="Business Solutions">
-                {translations.contactForm.businessSolutions}
+            ))}
+          </select>
+          <select
+            value={formData.residence}
+            onChange={handleChange}
+            name="residence"
+            // placeholder="Country of Residence*"
+            className="border border-gray-300 p-2 rounded-lg w-full"
+          >
+            {countries.map((country: string, index: number) => (
+              <option key={index} value={country}>
+                {country}
               </option>
-              <option value="Realestate">
-                {translations.contactForm.realEstate}
-              </option>
-            </select>
-          </label>
+            ))}
+          </select>
         </div>
-        <div>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            {translations.contactForm.message}
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
-            />
-          </label>
+        <div className="mb-4">
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+            placeholder="What are you interested in?*"
+            className="border border-gray-300 p-2 rounded-lg w-full h-24"
+          />
         </div>
-        <div>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            {translations.contactForm.email}
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-1"
-            />
-          </label>
-        </div>
-        <div className="flex items-center justify-center">
+        <p className="text-sm text-gray-600 mb-4">
+          N.B.: By contacting us you are granting your consent for us to forward
+          your details to a Portugal-based Belion member firm that may respond
+          directly to you.
+        </p>
+        <div className="text-right">
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-black border-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-yellow-700 text-white py-2 px-6 rounded-lg"
           >
-            {translations.contactForm.submit}
+            Submit
           </button>
         </div>
       </form>
     </div>
   );
-}
+};
 
-export default observer(ContactForm);
+export default ContactForm;

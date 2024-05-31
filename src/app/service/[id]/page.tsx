@@ -5,6 +5,7 @@ import { toJS } from "mobx";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import ContactForm from "@/components/ContactForm";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -81,6 +82,7 @@ const ServicePage = () => {
           </div>
         ))}
       </div>
+      <ContactForm />
     </main>
   );
 };
