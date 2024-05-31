@@ -93,7 +93,6 @@ const ContactForm: React.FC = () => {
             value={formData.nationality}
             onChange={handleChange}
             name="nationality"
-            // placeholder="Nationality*"
             className="border border-gray-300 p-2 rounded-lg w-full"
           >
             <option value="">Nationality*</option>
@@ -129,8 +128,7 @@ const ContactForm: React.FC = () => {
         </div>
         <p className="text-sm text-gray-600 mb-4">
           N.B.: By contacting us you are granting your consent for us to forward
-          your details to a Portugal-based Belion member firm that may respond
-          directly to you.
+          your details to a E-golden respond directly to you.
         </p>
         <div className="text-right">
           <button
