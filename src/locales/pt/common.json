@@ -1,0 +1,185 @@
+{
+  "sobre_nos": {
+    "mensagem_de_boas_vindas": "Bem-vindo à E-golden – Seu Parceiro Confiável para Realocação em Portugal.",
+    "quem_somos": "Na E-golden, somos especializados em fornecer serviços completos de realocação, adaptados para atender às necessidades únicas de nossos clientes. A ideia de criar a E-golden surgiu devido à dificuldade que as pessoas que queriam se mudar para Portugal enfrentavam. Portanto, combinando nossa experiência na prestação dos serviços necessários, bem como nós mesmos, fundadores da E-golden, tendo passado por um processo equivalente, recebemos com satisfação a oportunidade de ajudar o maior número possível de pessoas a receber a melhor e mais confortável experiência durante o processo de realocação.",
+    "nossa_missao": "Nossa missão é oferecer serviços de realocação de primeira linha que superem as expectativas dos clientes. Nosso objetivo é minimizar o tempo de inatividade e as interrupções, permitindo uma transição suave para suas novas localidades e a retomada das operações o mais rápido possível.",
+    "nossa_visao": "Nossa visão é ser o principal fornecedor de serviços de realocação globalmente, reconhecido por nosso compromisso com a qualidade, inovação e satisfação do cliente. Nosso objetivo é estabelecer novos padrões na indústria de realocação, garantindo que cada mudança seja um passo à frente para nossos clientes.",
+    "nossos_valores": {
+      "integridade": "Conduzimos nossos negócios com os mais altos padrões éticos, garantindo transparência e honestidade em todas as nossas negociações.",
+      "foco_no_cliente": "Nossos clientes estão no centro de tudo o que fazemos. Esforçamo-nos para entender suas necessidades únicas e fornecer soluções personalizadas.",
+      "excelencia": "Estamos comprometidos em oferecer um serviço excepcional e melhorar continuamente nossos processos para superar as expectativas dos clientes.",
+      "trabalho_em_equipa": "Acreditamos no poder da colaboração e trabalhamos juntos para alcançar objetivos comuns.",
+      "inovacao": "Abraçamos novas ideias e tecnologias para fornecer os melhores serviços possíveis aos nossos clientes."
+    },
+    "imagemUrl": "/images/relocation.png"
+  },
+  "servicosMain": {
+    "titulo": "Bem-vindo ao Nosso Portal de Serviços",
+    "subtitulo": "De Realocação a Investimentos, Seu Serviço de Loja Única com E-golden",
+    "titulo_da_secao": "Serviços"
+  },
+  "servicos": {
+    "realocacao-residencia": {
+      "titulo": "Realocação e Residência",
+      "descricao": [
+        "Você está pensando em se mudar para outro país? Portugal será o lugar certo para realizar seus sonhos e necessidades.",
+        "Podemos personalizar um pacote de serviços perfeitamente adequado às suas necessidades exatas, incluindo permissões de residência, aconselhamento fiscal, busca de casa, abertura de conta bancária, seguro de saúde, carteira de motorista, entre outros."
+      ],
+      "localizacao": "realocacao",
+      "imagemUrl": "/images/relocation.png",
+      "detalhes": {
+        "realocacao_para_portugal": {
+          "descricao": "Quando você pensa em abraçar uma nova aventura como se mudar para outro país, a lista de formalidades que precisam ser tratadas pode parecer difícil de cumprir à primeira vista. Esta é uma das razões pelas quais faz todo o sentido aproveitar os serviços especializados de realocação da E-golden em Portugal. Caminharemos ao seu lado nesta aventura. Nosso principal objetivo é fornecer um serviço de loja única para que você aproveite ao máximo sua nova jornada."
+        },
+        "passos_basicos_da_realocacao": [
+          "Visto",
+          "Busca de Casa",
+          "Número de Contribuinte (NIF)",
+          "Apoio a Commodities",
+          "Conta Bancária",
+          "Transferência de Dinheiro"
+        ],
+        "permissoes_de_residencia": {
+          "descricao": "As permissões de residência em Portugal proporcionam um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja através de investimento, emprego ou laços familiares, Portugal oferece uma variedade de opções para indivíduos que desejam estabelecer residência neste belo país. Com sua atmosfera acolhedora, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente um portal para a vida europeia. Obter residência em Portugal vem com uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à Área Schengen mais ampla, permitindo viagens sem visto por grande parte da Europa.",
+          "opcoes": [
+            "Visto de Trabalho",
+            "Visto Nômade Digital – Você obtém seu Visto trabalhando remotamente ou gerenciando um negócio",
+            "Visto Gold – Visto de Investimento",
+            "Visto D7 – Visto de Rendimento Passivo",
+            "Visto D2 – Visto para Prestadores de Serviços Independentes/Freelancer",
+            "Visto de Startup – Visto por desenvolver um negócio empreendedor/inovador em Portugal",
+            "Visto de Estudante – Permissão de residência para estudar em Portugal",
+            "Visto de Reunião Familiar – Sendo português ou titular de uma permissão de residência, você pode garantir um Visto para seus familiares"
+          ]
+        },
+        "pacotes_de_servicos_de_realocacao": {
+          "pacote_vermelho": {
+            "servicos": [
+              "Busca de Casa",
+              "Permissão de Residência",
+              "Serviços de Suporte a Commodities",
+              "NISS",
+              "NIF",
+              "Suporte para Conta Bancária"
+            ]
+          },
+          "pacote_dourado": {
+            "servicos": [
+              "Busca de Casa",
+              "Permissão de Residência",
+              "Serviços de Suporte a Commodities",
+              "NISS",
+              "NIF",
+              "Suporte para Conta Bancária",
+              "Carteira de Motorista",
+              "NHR",
+              "Seguro",
+              "Escola para crianças",
+              "Busca de Carros"
+            ]
+          },
+          "pacote_personalizado": "Crie seu Próprio!"
+        }
+      }
+    },
+    "planejamento-tributario-consultoria": {
+      "titulo": "Planejamento Tributário e Consultoria",
+      "descricao": [
+        "Entender suas obrigações fiscais e seu impacto em sua vida pessoal e nos negócios é essencial quando você decide se realocar ou investir em um novo país."
+      ],
+      "localizacao": "tributario",
+      "imagemUrl": "/images/tax.png",
+      "detalhes": {
+        "planejamento_tributario_e_consultoria": {
+          "descricao": "O planejamento tributário é essencial para qualquer empresa ou empreendedor cujo objetivo é prosperar no desenvolvimento de seus negócios. A decisão de investir em um negócio, particularmente um com perspectivas de longo prazo, requer uma consideração cuidadosa das obrigações fiscais e seu impacto resultante no desenvolvimento de nossa proposta de empresa. A decisão de um indivíduo de investir ou começar uma vida em outro país é baseada, em última análise, no conhecimento dos Tratados de Dupla Tributação e nos benefícios potenciais que eles oferecem, bem como no conhecimento das leis fiscais da nação a nível nacional. Para efetivamente realizar qualquer projeto, é essencial consultar as informações fiscais mais atualizadas disponíveis. A E-Golden pode ajudá-lo a identificar a melhor maneira de proceder com base em suas circunstâncias específicas, oferecendo um serviço especializado e personalizado para reduzir os riscos com a carga tributária e, assim, melhorar seus resultados e renda.",
+          "servicos": [
+            "Consultoria Tributária",
+            "Planejamento Tributário",
+            "Consultoria sobre Dupla Tributação",
+            "Consultoria e submissão de aplicação NHR",
+            "Consultoria Tributária para Atletas e Artistas",
+            "Consultoria Tributária para Investimentos Imobiliários"
+          ]
+        }
+      }
+    },
+    "solucoes-de-negocios": {
+      "titulo": "Soluções de Negócios",
+      "descricao": [
+        "Você pode contar com a E-golden para fornecer serviços completos de empresa em Portugal, incluindo registro, domiciliação, abertura de conta bancária, contabilidade, planejamento tributário, etc."
+      ],
+      "localizacao": "negocios",
+      "imagemUrl": "/images/business.png",
+      "detalhes": {
+        "solucoes_de_negocios": {
+          "descricao": "No mercado dinâmico e competitivo de hoje, as empresas enfrentam inúmeros desafios que exigem soluções inovadoras e personalizadas. Os Serviços de Soluções de Negócios (BSS) são projetados para enfrentar esses desafios, proporcionando uma ampla gama de serviços estratégicos, operacionais e tecnológicos que ajudam as organizações a otimizar seu desempenho, alcançar seus objetivos e impulsionar um crescimento sustentável. Com a E-Golden, você poderá alcançar seus objetivos de forma mais rápida e eficiente. Para isso, estamos comprometidos em fornecer os serviços necessários para que você possa implementar seu negócio em Portugal. Começando com a apresentação de um plano de negócios, aconselhamento sobre a melhor estrutura tributária para seu negócio, escolha da melhor forma legal para sua empresa, suporte para abertura de conta bancária e serviços contábeis especializados.",
+          "servicos": [
+            "Consultoria de Negócios – Plano de negócios e aconselhamento tributário",
+            "Serviços de Empresa – Constituição de empresa e registro de marca",
+            "Domiciliação da Empresa",
+            "Conta bancária",
+            "Contabilidade"
+          ]
+        }
+      }
+    },
+    "investimentos-e-gestao-imobiliaria": {
+      "titulo": "Investimentos e Gestão Imobiliária",
+      "descricao": [
+        "Com a E-golden você pode ter uma solução imobiliária integrada desde a fase de planejamento até a gestão diária de propriedades em Portugal."
+      ],
+      "localizacao": "imobiliario",
+      "imagemUrl": "/images/realestate.png",
+      "detalhes": {
+        "investimentos_e_gestao_imobiliaria": {
+          "descricao": "Investir em imóveis pode ser altamente lucrativo, mas também complexo, exigindo expertise, planejamento estratégico e gestão meticulosa. Os Serviços de Investimentos e Gestão Imobiliária da E-Golden são projetados para guiá-lo a maximizar os retornos, minimizar os riscos e garantir a operação suave de seus ativos imobiliários. Seja você um investidor individual ou uma entidade corporativa, nosso conjunto abrangente de serviços é adaptado para atender às suas necessidades e objetivos únicos.",
+          "servicos": [
+            "Planejamento de Investimento Imobiliário",
+            "Serviços de Busca de Propriedade",
+            "Assistência na compra de imóveis",
+            "Serviços de Gestão Imobiliária"
+          ]
+        }
+      }
+    }
+  },
+  "rodape": {
+    "titulo": "Sobre Nós",
+    "p1": "Saiba mais sobre nossa missão e serviços.",
+    "email": "Email: info@example.com",
+    "telefone": "Telefone: +123 456 7890",
+    "agendar_reuniao": "Agendar Reunião",
+    "links_rapidos": "Links Rápidos",
+    "servicos": "Serviços",
+    "sobre_nos": "Sobre Nós",
+    "contato": "Contato",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "Whatsapp",
+    "reservados.": "E-Golden. Todos os direitos reservados."
+  },
+  "cabecalho": {
+    "inicio": "Início",
+    "residenciaRealocacao": "Residência & Realocação",
+    "planejamentoTributario": "Planejamento Tributário",
+    "negocios": "Negócios",
+    "imobiliario": "Imobiliário",
+    "sobre": "Sobre",
+    "contato": "Contato"
+  },
+  "formularioDeContato": {
+    "contateNos": "Contate-nos!",
+    "primeiroNome": "Primeiro Nome:",
+    "ultimoNome": "Último Nome:",
+    "topico": "Tópico:",
+    "selecionarTopico": "Selecionar um tópico",
+    "inquearioRealocacao": "Inquérito de Realocação",
+    "tributario": "Tributário",
+    "solucoesDeNegocios": "Soluções de Negócios",
+    "imobiliario": "Imobiliário",
+    "mensagem": "Mensagem:",
+    "email": "Email:",
+    "enviar": "Enviar"
+  }
+}

@@ -1,7 +1,7 @@
 // stores/languageStore.ts
 import { autorun, makeAutoObservable, runInAction, toJS } from "mobx";
 import enTranslations from "@/locales/en/common.json";
-import esTranslations from "@/locales/es/common.json";
+import esTranslations from "@/locales/pt/common.json";
 import heTranslations from "@/locales/he/common.json";
 import { create } from "mobx-persist";
 
@@ -38,7 +38,7 @@ class LanguageStore {
         this.translations = enTranslations;
         this.setDirection("ltr");
         break;
-      case "es":
+      case "pt":
         this.translations = esTranslations;
         this.setDirection("ltr");
         break;

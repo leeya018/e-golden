@@ -41,10 +41,10 @@ const LanguageSwitcher = observer(() => {
       label: (
         <div
           className="flex items-center text-black"
-          onClick={() => changeLanguage("es")}
+          onClick={() => changeLanguage("pt")}
         >
           <CurrencyFlag currency="EUR" size="lg" />
-          <span style={{ marginLeft: 10 }}>Spain</span>
+          <span style={{ marginLeft: 10 }}>Portugal</span>
         </div>
       ),
     },
