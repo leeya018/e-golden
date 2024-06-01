@@ -1,25 +1,25 @@
 {
   "about_us": {
-    "welcome_message": "Welcome to E-golden – Your Trusted Partner for Relocation to Portugal.",
-    "who_we_are": "At E-golden, we specialize in providing comprehensive relocation services tailored to meet the unique needs of our clients. The idea of creating E-golden was due to the fact that we realized the difficulty that people who wanted to move to Portugal faced. Therefore, combining our experience in providing the necessary services, as well as having ourselves, founders of E-golden, gone through an equivalent process, we welcome helping as many people as possible to receive the best and most comfortable experience in during your relocation process.",
-    "our_mission": "Our mission is to deliver top-tier relocation services that exceed client expectations. We aim to minimize downtime and disruptions, allowing a smoothly transition to their new locations and resume operations as quickly as possible.",
-    "our_vision": "We envision being the leading provider of relocation services globally, recognized for our commitment to quality, innovation, and customer satisfaction. Our goal is to set new standards in the relocation industry, ensuring every move is a step forward for our clients.",
+    "welcome_message": "ברוכים הבאים ל-E-golden – השותף האמין שלכם לרילוקיישן לפורטוגל.",
+    "who_we_are": "ב-E-golden, אנו מתמחים במתן שירותי רילוקיישן מקיפים המותאמים לצרכים הייחודיים של לקוחותינו. הרעיון ליצור את E-golden נבע מהקושי שזיהינו שאנשים שרוצים לעבור לפורטוגל נתקלים בו. לכן, בשילוב הניסיון שלנו במתן השירותים הנדרשים, וכן לאחר שעברנו בעצמנו, מייסדי E-golden, תהליך דומה, אנו מקדמים בברכה את האפשרות לעזור לכמה שיותר אנשים לקבל את החוויה הטובה והנוחה ביותר בתהליך הרילוקיישן שלכם.",
+    "our_mission": "המשימה שלנו היא לספק שירותי רילוקיישן מהשורה הראשונה שעולים על ציפיות הלקוחות. אנו שואפים למזער את זמן ההשבתה וההפרעות, ולאפשר מעבר חלק למיקומים החדשים וחידוש הפעילות בהקדם האפשרי.",
+    "our_vision": "חזוננו הוא להיות הספק המוביל של שירותי רילוקיישן ברחבי העולם, המוכר בזכות המחויבות שלנו לאיכות, חדשנות ושביעות רצון הלקוחות. מטרתנו היא לקבוע סטנדרטים חדשים בתעשיית הרילוקיישן, ולהבטיח שכל מעבר יהיה צעד קדימה עבור לקוחותינו.",
     "our_values": {
-      "integrity": "We conduct our business with the highest ethical standards, ensuring transparency and honesty in all our dealings.",
-      "customer_focus": "Our clients are at the heart of everything we do. We strive to understand their unique needs and provide customized solutions.",
-      "excellence": "We are committed to delivering exceptional service and continuously improving our processes to exceed client expectations.",
-      "teamwork": "We believe in the power of collaboration and work together to achieve common goals.",
-      "innovation": "We embrace new ideas and technologies to provide the best possible services to our clients."
+      "integrity": "אנו מנהלים את עסקינו בסטנדרטים האתיים הגבוהים ביותר, ומבטיחים שקיפות ויושר בכל עסקאותינו.",
+      "customer_focus": "לקוחותינו נמצאים במרכז כל מה שאנו עושים. אנו שואפים להבין את צרכיהם הייחודיים ולספק פתרונות מותאמים אישית.",
+      "excellence": "אנו מחויבים לספק שירות יוצא דופן ולשפר באופן מתמיד את תהליכינו כדי לעלות על ציפיות הלקוחות.",
+      "teamwork": "אנו מאמינים בכוחו של שיתוף פעולה ועובדים יחד להשגת מטרות משותפות.",
+      "innovation": "אנו מאמצים רעיונות וטכנולוגיות חדשות כדי לספק את השירותים הטובים ביותר ללקוחותינו."
     },
     "imageUrl": "/images/relocation.png"
   },
   "servicesMain": {
-    "title": "Welcome to Our Service Portal",
-    "subtitle": "From Relocation to Investments Your One Stop Shop Services With E-golden",
-    "sectionTitle": "Services"
+    "title": "ברוכים הבאים לפורטל השירותים שלנו",
+    "subtitle": "ממעבר להשקעות - חנות השירותים המלאה שלכם עם E-golden",
+    "sectionTitle": "שירותים"
   },
   "services": {
-    "relocation-residency": {
+    "residency_relocation": {
       "title": "Relocation and Residency",
       "description": [
         "Are you thinking about moving to a different country? Portugal will be the right place to fulfil your dreams and needs.",
@@ -27,19 +27,25 @@
       ],
       "location": "relocation",
       "imageUrl": "/images/relocation.png",
+
       "details": {
         "relocation_to_portugal": {
+          "label": "Relocation to Portugal",
           "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight. This is one of the reasons it makes perfect sense to take advantage of E-golden specialised relocation services in Portugal. We will walk alongside you on this adventure. Our main goal is to provide a one stop shop service for you to enjoy the most of your new journey."
         },
-        "relocation_basic_steps": [
-          "Visa",
-          "Home Search",
-          "NIF number",
-          "Commodities Support",
-          "Bank Account",
-          "Money Transfer"
-        ],
+        "relocation_basic_steps": {
+          "label": "Relocation Basic Steps",
+          "steps": [
+            "Visa",
+            "Home Search",
+            "NIF number",
+            "Commodities Support",
+            "Bank Account",
+            "Money Transfer"
+          ]
+        },
         "residency_permits": {
+          "label": "Residency Permits",
           "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
           "options": [
             "Working Visa",
@@ -53,7 +59,9 @@
           ]
         },
         "relocation_services_packages": {
+          "label": "Relocation Services Packages",
           "red_package": {
+            "label": "Red Package",
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -64,6 +72,7 @@
             ]
           },
           "golden_package": {
+            "label": "Golden Package",
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -78,7 +87,10 @@
               "Cars Seekers"
             ]
           },
-          "custom_package": "Create your Own!"
+          "custom_package": {
+            "label": "Custom Package",
+            "description": "Create your Own!"
+          }
         }
       }
     },
@@ -91,6 +103,7 @@
       "imageUrl": "/images/tax.png",
       "details": {
         "tax_planning_and_advice": {
+          "label": "Tax Planning and Advice",
           "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
           "services": [
             "Tax Consultancy",
@@ -112,6 +125,7 @@
       "imageUrl": "/images/business.png",
       "details": {
         "business_solutions": {
+          "label": "Business Solutions",
           "description": "In today's dynamic and competitive marketplace, businesses face numerous challenges that require innovative and tailored solutions. Business Solutions Services (BSS) are designed to address these challenges by providing a wide range of strategic, operational, and technological services that help organizations optimize their performance, achieve their goals, and drive sustainable growth. With E-Golden you will be able to achieve your goals faster and more efficiently. To this end, we are committed to providing the necessary services so that you can implement your business in Portugal. Starting with presenting a business plan, advice on the best tax structure for your business, choosing the best legal form for your company, supporting for opening a bank account and specialized accounting services.",
           "services": [
             "Business Advice – Business plan and tax advice",
@@ -132,6 +146,7 @@
       "imageUrl": "/images/realestate.png",
       "details": {
         "real_estate_investments_and_management": {
+          "label": "Real Estate Investments and Management",
           "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
           "services": [
             "Real Estate Investment planning",
@@ -143,41 +158,42 @@
       }
     }
   },
+
   "footer": {
     "title": "About Us",
     "p1": "Learn more about our mission and services.",
     "email": "Email: info@example.com",
     "phone": "Phone: +123 456 7890",
-    "secedule_meeting": "scedule meeting",
+    "schedule_meeting": "Schedule Meeting",
     "quick_links": "Quick Links",
     "services": "Services",
-    "about_us": " About Us",
+    "about_us": "About Us",
     "contact": "Contact",
     "facebook": "Facebook",
     "twitter": "Twitter",
-    "linkedIn": "LinkedIn",
+    "linkedin": "LinkedIn",
     "whatsapp": "Whatsapp",
-    "reserved.": "E-Golden. All rights reserved."
+    "reserved": "E-Golden. All rights reserved."
   },
   "header": {
     "home": "Home",
-    "residencyRelocation": "Residency & Relocation",
-    "taxPlanning": "Tax Planning",
+    "residency_relocation": "Residency & Relocation",
+    "tax_planning": "Tax Planning",
     "business": "Business",
-    "realEstate": "Real Estate",
+    "real_estate": "Real Estate",
     "about": "About",
     "contact": "Contact"
   },
-  "contactForm": {
-    "contactUs": "Contact Us!",
-    "firstName": "First Name:",
-    "lastName": "Last Name:",
+  "contact_form": {
+    "contact_us": "Contact Us!",
+    "first_name": "First Name:",
+    "last_name": "Last Name:",
     "topic": "Topic:",
-    "selectTopic": "Select a topic",
-    "relocationInquiry": "Relocation Inquiry",
+    "select_topic": "Select a topic",
+    "relocation_inquiry": "Relocation Inquiry",
     "tax": "Tax",
-    "businessSolutions": "Business Solutions",
-    "realEstate": "Realestate",
+    "business_solutions": "Business Solutions",
+    "real_estate": "Real Estate",
     "message": "Message:",
     "email": "Email:",
     "submit": "Submit"

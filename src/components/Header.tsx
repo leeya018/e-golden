@@ -24,7 +24,7 @@ const Header = () => {
           <LanguageSwitcher />
         </div>
         <div className="logo flex items-center justify-center w-full md:w-auto">
-          <Image alt="logo" width={70} height={70} src={"/images/logo.png"} />
+          <Image alt="logo" width={90} height={90} src={"/images/logo.png"} />
         </div>
         <Link href="#HowtoRenewthePortugalPassiveIncomeD7Visa">
           <span>Jump Visa red</span>
@@ -54,11 +54,11 @@ const Header = () => {
           <Link href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          <Link href={"/service/relocation-residency"} className="nav-button">
-            {translations.header.residencyRelocation}
+          <Link href={"/service/residency_relocation"} className="nav-button">
+            {translations.header.residency_relocation}
           </Link>
           <Link href={"/service/tax-planning-advice"} className="nav-button">
-            {translations.header.taxPlanning}
+            {translations.header.tax_planning}
           </Link>
           <Link href={"/service/business-solutions"} className="nav-button">
             {translations.header.business}
@@ -67,7 +67,7 @@ const Header = () => {
             href={"/service/real-estate-investments-management"}
             className="nav-button"
           >
-            {translations.header.realEstate}
+            {translations.header.real_estate}
           </Link>
           <Link href="/about" className="nav-button">
             {translations.header.about}
@@ -127,7 +127,7 @@ const Header = () => {
               className="text-black text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              {translations.header.residencyRelocation}
+              {translations.header.residency_relocation}
             </Link>
             <Link
               href="/service/tax-planning-advice"

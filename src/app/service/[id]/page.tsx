@@ -6,6 +6,7 @@ import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
+import { Service } from "@/interfaces/Service";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -20,7 +21,7 @@ const ServicePage = () => {
   console.log(id);
   console.log({ ser: toJS(translations.services) });
 
-  const chosenService = translations.services[id];
+  const chosenService: Service = translations.services[id];
   if (!chosenService) {
     throw new Error("id does not exist");
   }
@@ -46,7 +47,9 @@ const ServicePage = () => {
           {Object.entries(content).map(([subKey, subValue]) => (
             <div key={subKey} className="mb-4">
               <h3 className="text-xl font-semibold mb-2">
-                {subKey !== "description" && subKey.replace(/_/g, " ")}
+                {subKey !== "description" &&
+                  subKey !== "label" &&
+                  subKey.replace(/_/g, " ")}
               </h3>
               {renderContent(subKey, subValue)}
             </div>
@@ -75,9 +78,7 @@ const ServicePage = () => {
       <div className="px-10 mt-7">
         {Object.entries(chosenService.details).map(([key, value]) => (
           <div key={key} className="mb-8">
-            <h2 className="text-3xl font-bold mb-4">
-              {key.replace(/_/g, " ")}
-            </h2>
+            <h2 className="text-3xl font-bold mb-4">{value.label}</h2>
             {renderContent(key, value)}
           </div>
         ))}
