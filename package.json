@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.19",
+    "@paypal/react-paypal-js": "^8.3.0",
     "axios": "^1.7.1",
     "mobx": "^6.12.3",
     "mobx-persist": "^0.4.1",

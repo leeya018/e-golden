@@ -45,3 +45,10 @@ example: https://www.belionpartners.com/student-visa
 https://www.pearlsofportugal.com/client-area/
 
 this is for the app
+
+
+
+<!-- this is the best good one , bceause need to know if there will be seperation of the ser -->
+QUSETIOSN TO VENUS .
+in the servieces , which one of them gonna be clickable ,
+packaeg ? servies. ? opipotns?

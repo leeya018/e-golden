@@ -7,6 +7,9 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import { Service } from "@/interfaces/Service";
+import Link from "next/link";
+import { stepsContent } from "@/util";
+import Steps from "@/components/Steps";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -26,6 +29,15 @@ const ServicePage = () => {
     throw new Error("id does not exist");
   }
 
+  const fromTitleToKey = (title: string) => {
+    return title
+      .split(" ")
+      .join("_")
+      .split("")
+      .map((l) => l.toLocaleLowerCase())
+      .join("");
+  };
+
   const renderContent = (key: string, content: any) => {
     if (typeof content === "string") {
       return <div className="text-lg mb-4">{content}</div>;
@@ -33,9 +45,17 @@ const ServicePage = () => {
 
     if (Array.isArray(content)) {
       return (
-        <ul className="list-disc list-inside text-lg mb-4">
+        <ul className="list-disc list-inside text-lg mb-4 flex flex-col">
           {content.map((item, index) => (
-            <li key={index}>{item}</li>
+            <>
+              {key === "steps" ? (
+                <Link key={index} href={`#${fromTitleToKey(item)}`}>
+                  <span className=" hover:underline">{item}</span>
+                </Link>
+              ) : (
+                <div>{item}</div>
+              )}
+            </>
           ))}
         </ul>
       );
@@ -82,6 +102,10 @@ const ServicePage = () => {
             {renderContent(key, value)}
           </div>
         ))}
+      </div>
+      <ContactForm />
+      <div className="px-10 mt-7">
+        {/* <Steps steps={stepsContent} />{" "} */}
       </div>
       <ContactForm />
     </main>
