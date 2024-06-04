@@ -47,14 +47,46 @@
           "label": "Permissões de Residência",
           "description": "As permissões de residência em Portugal oferecem um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja através de investimento, emprego ou laços familiares, Portugal oferece uma gama de opções para indivíduos que desejam estabelecer residência neste belo país. Com sua atmosfera acolhedora, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente uma porta de entrada para a vida europeia. Obter residência em Portugal traz uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à área de Schengen, permitindo viagens sem visto em grande parte da Europa.",
           "options": [
-            "Visto de Trabalho",
-            "Visto de Nômade Digital – Você obtém seu visto trabalhando remotamente ou gerenciando um negócio",
-            "Visto de Ouro – Visto de Investimento",
-            "Visto D7 – Visto de Rendimento Passivo",
-            "Visto D2 – Visto para Freelancers/Prestadores de Serviços Independentes",
-            "Visto de Startup – Visto para desenvolvimento de um negócio empreendedor/inovador em Portugal",
-            "Visto de Estudante – Permissão de residência para estudar em Portugal",
-            "Visto de Reunião Familiar – Sendo português ou titular de permissão de residência, você pode garantir um visto para seus familiares"
+            {
+              "label": "visto_trabalho",
+              "title": "Visto de Trabalho",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_nômade_digital",
+              "title": "Visto de Nômade Digital – Você obtém seu visto trabalhando remotamente ou administrando um negócio",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_dourado",
+              "title": "Visto Dourado – Visto de Investimento",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_d7",
+              "title": "Visto D7 – Visto de Rendimento Passivo",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_d2",
+              "title": "Visto D2 – Visto para Freelancers/Prestadores de Serviços Independentes",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_startup",
+              "title": "Visto Startup – Visto para desenvolver um negócio empreendedor/inovador em Portugal",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_estudante",
+              "title": "Visto de Estudante – Autorização de residência para estudar em Portugal",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            },
+            {
+              "label": "visto_reunião_familiar",
+              "title": "Visto de Reunião Familiar – Sendo português ou titular de autorização de residência, você pode garantir um visto para seus familiares",
+              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
+            }
           ]
         },
         "relocation_services_packages": {
