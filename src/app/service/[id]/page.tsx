@@ -8,7 +8,7 @@ import { useParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import { Service } from "@/interfaces/Service";
 import Link from "next/link";
-import { stepsContent } from "@/util";
+
 import Steps from "@/components/Steps";
 
 const ServicePage = () => {
@@ -48,9 +48,9 @@ const ServicePage = () => {
         <ul className="list-disc list-inside text-lg mb-4 flex flex-col">
           {content.map((item, index) => (
             <>
-              {key === "steps" ? (
-                <Link key={index} href={`#${fromTitleToKey(item)}`}>
-                  <span className=" hover:underline">{item}</span>
+              {key === "options" ? (
+                <Link key={index} href={`/service/${id}/visa/${item.label}`}>
+                  <span className=" hover:underline">{item.title}</span>
                 </Link>
               ) : (
                 <div>{item}</div>
@@ -102,10 +102,6 @@ const ServicePage = () => {
             {renderContent(key, value)}
           </div>
         ))}
-      </div>
-      <ContactForm />
-      <div className="px-10 mt-7">
-        {/* <Steps steps={stepsContent} />{" "} */}
       </div>
       <ContactForm />
     </main>

@@ -48,14 +48,48 @@
           "label": "Residency Permits",
           "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
           "options": [
-            "Working Visa",
-            "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
-            "Golden Visa – Investment visa",
-            "D7 Visa – Passive Income Visa",
-            "D2 Visa – Freelancer/Independent services providers Visa",
-            "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
-            "Student Visa – Residence permit for studying in Portugal",
-            "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa"
+            {
+              "label": "working_visa",
+              "title": "Working Visa",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+            {
+              "label": "digital_nomad_visa",
+              "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+            {
+              "label": "golden_visa",
+              "title": "Golden Visa – Investment visa",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+            {
+              "label": "d7_visa",
+              "title": "D7 Visa – Passive Income Visa",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+            {
+              "label": "d2_visa",
+              "title": "D2 Visa – Freelancer/Independent services providers Visa",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+            {
+              "label": "startup_visa",
+              "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+
+            {
+              "label": "student_visa",
+              "title": "Student Visa – Residence permit for studying in Portugal",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            },
+
+            {
+              "label": "family_reunion_visa",
+              "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
+              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            }
           ]
         },
         "relocation_services_packages": {
