@@ -8,9 +8,9 @@ import { useParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import { Service } from "@/interfaces/Service";
 import Link from "next/link";
-import { StepOption } from "@/interfaces/StepOption";
+import RelocationServices from "@/components/RelocationServices";
+import { residency_relocation_name } from "@/util";
 
-const residency_relocation = "residency_relocation";
 const ServicePage = () => {
   const { translations } = languageStore;
 
@@ -61,7 +61,7 @@ const ServicePage = () => {
             ))}
           </ul>
           <div>
-            {id === residency_relocation && (
+            {id === residency_relocation_name && (
               <RelocationServices details={chosenService.details} />
             )}
           </div>
@@ -72,76 +72,3 @@ const ServicePage = () => {
   );
 };
 export default observer(ServicePage);
-
-type RelocationServicesPorps = {
-  details: any;
-};
-const RelocationServices: React.FC = ({ details }: RelocationServicesPorps) => {
-  // const {red_package,red_package} = details.packages
-
-  // const fromTitleToKey = (title: string) => {
-  //   return title
-  //     .split(" ")
-  //     .join("_")
-  //     .split("")
-  //     .map((l) => l.toLocaleLowerCase())
-  //     .join("");
-  // };
-  return (
-    <div className="p-6">
-      <div className="mb-6">
-        {/* <h2 className="text-2xl font-bold mb-4">
-          {details.relocation_to_portugal.label}
-        </h2>
-        <p>{details.relocation_to_portugal.description}</p> */}
-      </div>
-      <div className="mb-6">
-        <h3 className="text-xl font-semibold mb-2">{"steps"}</h3>
-        <ul className="list-disc list-inside">
-          {details.steps.map((step: StepOption, index: number) => (
-            <li key={index}>
-              <Link
-                href={`/service/${residency_relocation}/step/${step.label}`}
-              >
-                <span className="hover:underline">{step.title}</span>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h3 className="text-xl font-semibold mb-4">Packages </h3>
-        <ul className="mb-6 list-disc list-inside">
-          <li>
-            <Link
-              href={`/service/${residency_relocation}/package/${details.packages.red_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.red_package.title}
-              </span>
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              href={`/service/${residency_relocation}/package/${details.packages.golden_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.golden_package.title}
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={`/service/${residency_relocation}/package/${details.packages.custom_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.custom_package.title}
-              </span>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
