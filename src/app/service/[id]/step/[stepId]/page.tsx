@@ -1,31 +1,25 @@
 "use client";
+import { StepOption } from "@/interfaces/StepOption";
 import { languageStore } from "@/mobx/languageStore";
 import { useParams } from "next/navigation";
 import React from "react";
 
-type VisaOption = {
-  label: string;
-  title: string;
-  description: string;
-};
 export default function VisaPage() {
   const params = useParams();
   const { translations } = languageStore;
 
-  const { id, visaId } = params as { id: string; visaId: string };
+  const { id, stepId } = params as { id: string; stepId: string };
 
-  const info: VisaOption = translations.services[
-    id
-  ].details.residency_permits.options.find(
-    (option: VisaOption) => option.label === visaId
+  const info: StepOption = translations.services[id].details.steps.find(
+    (option: StepOption) => option.label === stepId
   );
   if (!info) {
-    throw new Error(`${visaId} id option does not exists`);
+    throw new Error(`${stepId} id option does not exists`);
   }
 
   return (
     <main className="flex w-full lg:mx-auto flex-col  bg-gray-100">
-      {/* visa page : {id} and the visa id {visaId} */}
+      {/* visa page : {id} and the visa id {stepId} */}
       <div className="px-10 mt-7">
         <h1 className="title">{info.title}</h1>
         <div className="text-lg">{info.description}</div>

@@ -1,22 +1,22 @@
 {
   "about_us": {
-    "welcome_message": "ברוכים הבאים ל-E-golden – השותף האמין שלכם לרילוקיישן לפורטוגל.",
-    "who_we_are": "ב-E-golden, אנו מתמחים במתן שירותי רילוקיישן מקיפים המותאמים לצרכים הייחודיים של לקוחותינו. הרעיון ליצור את E-golden נבע מהקושי שזיהינו שאנשים שרוצים לעבור לפורטוגל נתקלים בו. לכן, בשילוב הניסיון שלנו במתן השירותים הנדרשים, וכן לאחר שעברנו בעצמנו, מייסדי E-golden, תהליך דומה, אנו מקדמים בברכה את האפשרות לעזור לכמה שיותר אנשים לקבל את החוויה הטובה והנוחה ביותר בתהליך הרילוקיישן שלכם.",
-    "our_mission": "המשימה שלנו היא לספק שירותי רילוקיישן מהשורה הראשונה שעולים על ציפיות הלקוחות. אנו שואפים למזער את זמן ההשבתה וההפרעות, ולאפשר מעבר חלק למיקומים החדשים וחידוש הפעילות בהקדם האפשרי.",
-    "our_vision": "חזוננו הוא להיות הספק המוביל של שירותי רילוקיישן ברחבי העולם, המוכר בזכות המחויבות שלנו לאיכות, חדשנות ושביעות רצון הלקוחות. מטרתנו היא לקבוע סטנדרטים חדשים בתעשיית הרילוקיישן, ולהבטיח שכל מעבר יהיה צעד קדימה עבור לקוחותינו.",
+    "welcome_message": "Welcome to E-golden – your trusted partner for relocation to Portugal.",
+    "who_we_are": "At E-golden, we specialize in providing comprehensive relocation services tailored to the unique needs of our clients. The idea to create E-golden stemmed from the challenges we identified that people wanting to move to Portugal face. Therefore, combining our experience in providing the necessary services, and after having gone through a similar process ourselves, the founders of E-golden, we welcome the opportunity to help as many people as possible to have the best and most comfortable experience in their relocation process.",
+    "our_mission": "Our mission is to provide top-notch relocation services that exceed customer expectations. We aim to minimize downtime and disruptions, enabling a smooth transition to new locations and resumption of activities as quickly as possible.",
+    "our_vision": "Our vision is to be the leading provider of relocation services worldwide, recognized for our commitment to quality, innovation, and customer satisfaction. Our goal is to set new standards in the relocation industry, ensuring that every move is a step forward for our clients.",
     "our_values": {
-      "integrity": "אנו מנהלים את עסקינו בסטנדרטים האתיים הגבוהים ביותר, ומבטיחים שקיפות ויושר בכל עסקאותינו.",
-      "customer_focus": "לקוחותינו נמצאים במרכז כל מה שאנו עושים. אנו שואפים להבין את צרכיהם הייחודיים ולספק פתרונות מותאמים אישית.",
-      "excellence": "אנו מחויבים לספק שירות יוצא דופן ולשפר באופן מתמיד את תהליכינו כדי לעלות על ציפיות הלקוחות.",
-      "teamwork": "אנו מאמינים בכוחו של שיתוף פעולה ועובדים יחד להשגת מטרות משותפות.",
-      "innovation": "אנו מאמצים רעיונות וטכנולוגיות חדשות כדי לספק את השירותים הטובים ביותר ללקוחותינו."
+      "integrity": "We conduct our business to the highest ethical standards, ensuring transparency and honesty in all our dealings.",
+      "customer_focus": "Our customers are at the center of everything we do. We strive to understand their unique needs and provide personalized solutions.",
+      "excellence": "We are committed to delivering exceptional service and continuously improving our processes to exceed customer expectations.",
+      "teamwork": "We believe in the power of collaboration and work together to achieve common goals.",
+      "innovation": "We embrace new ideas and technologies to provide the best services to our customers."
     },
     "imageUrl": "/images/relocation.png"
   },
   "servicesMain": {
-    "title": "ברוכים הבאים לפורטל השירותים שלנו",
-    "subtitle": "ממעבר להשקעות - חנות השירותים המלאה שלכם עם E-golden",
-    "sectionTitle": "שירותים"
+    "title": "Welcome to our services portal",
+    "subtitle": "From relocation to investments - your one-stop service shop with E-golden",
+    "sectionTitle": "Services"
   },
   "services": {
     "residency_relocation": {
@@ -29,73 +29,89 @@
       "imageUrl": "/images/relocation.png",
 
       "details": {
-        "relocation_to_portugal": {
-          "label": "Relocation to Portugal",
-          "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight. This is one of the reasons it makes perfect sense to take advantage of E-golden specialised relocation services in Portugal. We will walk alongside you on this adventure. Our main goal is to provide a one stop shop service for you to enjoy the most of your new journey."
-        },
-        "relocation_basic_steps": {
-          "label": "Relocation Basic Steps",
-          "steps": [
-            "Visa",
-            "Home Search",
-            "NIF number",
-            "Commodities Support",
-            "Bank Account",
-            "Money Transfer"
-          ]
-        },
-        "residency_permits": {
-          "label": "Residency Permits",
-          "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
-          "options": [
-            {
-              "label": "working_visa",
-              "title": "Working Visa",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
-            {
-              "label": "digital_nomad_visa",
-              "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
-            {
-              "label": "golden_visa",
-              "title": "Golden Visa – Investment visa",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
-            {
-              "label": "d7_visa",
-              "title": "D7 Visa – Passive Income Visa",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
-            {
-              "label": "d2_visa",
-              "title": "D2 Visa – Freelancer/Independent services providers Visa",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
-            {
-              "label": "startup_visa",
-              "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
+        "label": "Residency Permits",
+        "description": "Residency permits in Portugal provide a pathway to a new life in one of Europe's most desirable destinations. Whether through investment, employment, or family ties, Portugal offers a range of options for individuals seeking to establish residency in this beautiful country. With its welcoming atmosphere, rich culture, and stunning landscapes, Portugal truly is a gateway to European living. Obtaining residency in Portugal comes with a host of benefits. Beyond the opportunity to live in a safe and welcoming country with a high standard of living, residents also have access to Portugal's excellent healthcare and education systems. Additionally, residency in Portugal grants access to the wider Schengen Area, allowing for visa-free travel throughout much of Europe.",
+        "services": [
+          {
+            "label": "working_visa",
+            "title": "Working Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "digital_nomad_visa",
+            "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "golden_visa",
+            "title": "Golden Visa – Investment visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "d7_visa",
+            "title": "D7 Visa – Passive Income Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "d2_visa",
+            "title": "D2 Visa – Freelancer/Independent services providers Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "startup_visa",
+            "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
 
-            {
-              "label": "student_visa",
-              "title": "Student Visa – Residence permit for studying in Portugal",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            },
+          {
+            "label": "student_visa",
+            "title": "Student Visa – Residence permit for studying in Portugal",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
 
-            {
-              "label": "family_reunion_visa",
-              "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
-              "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-            }
-          ]
-        },
-        "relocation_services_packages": {
-          "label": "Relocation Services Packages",
+          {
+            "label": "family_reunion_visa",
+            "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ],
+
+        "steps": [
+          {
+            "label": "visa",
+            "title": "Visa",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "home_search",
+            "title": "Home Search",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "nif_number",
+            "title": "NIF Number",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "commodities_support",
+            "title": "Commodities Support",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "bank_account",
+            "title": "Bank Account",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          },
+          {
+            "label": "money_transfer",
+            "title": "Money Transfer",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that need to be dealt with can seem hard to fulfil at the first sight."
+          }
+        ],
+        "packages": {
           "red_package": {
-            "label": "Red Package",
+            "label": "red_package",
+            "title": "Red Package",
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -106,7 +122,8 @@
             ]
           },
           "golden_package": {
-            "label": "Golden Package",
+            "label": "golden_package",
+            "title": "Golden Package",
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -122,7 +139,8 @@
             ]
           },
           "custom_package": {
-            "label": "Custom Package",
+            "label": "custom_package",
+            "title": "Custom Package",
             "description": "Create your Own!"
           }
         }
@@ -136,18 +154,40 @@
       "location": "tax",
       "imageUrl": "/images/tax.png",
       "details": {
-        "tax_planning_and_advice": {
-          "label": "Tax Planning and Advice",
-          "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
-          "services": [
-            "Tax Consultancy",
-            "Tax Planning",
-            "Double taxation Consultancy",
-            "NHR Consultancy and application submission",
-            "Tax Consultancy for Athletes and artists",
-            "Tax Consultancy for Real Estate Investments"
-          ]
-        }
+        "title": "Tax Planning and Advice",
+        "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
+        "services": [
+          {
+            "label": "tax_consultancy",
+            "title": "Tax Consultancy",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_planning",
+            "title": "Tax Planning",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "double_taxation_consultancy",
+            "title": "Double Taxation Consultancy",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "nhr_consultancy_and_application_submission",
+            "title": "NHR Consultancy and Application Submission",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_consultancy_for_athletes_and_artists",
+            "title": "Tax Consultancy for Athletes and Artists",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "tax_consultancy_for_real_estate_investments",
+            "title": "Tax Consultancy for Real Estate Investments",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
       }
     },
     "business-solutions": {
@@ -158,17 +198,36 @@
       "location": "business",
       "imageUrl": "/images/business.png",
       "details": {
-        "business_solutions": {
-          "label": "Business Solutions",
-          "description": "In today's dynamic and competitive marketplace, businesses face numerous challenges that require innovative and tailored solutions. Business Solutions Services (BSS) are designed to address these challenges by providing a wide range of strategic, operational, and technological services that help organizations optimize their performance, achieve their goals, and drive sustainable growth. With E-Golden you will be able to achieve your goals faster and more efficiently. To this end, we are committed to providing the necessary services so that you can implement your business in Portugal. Starting with presenting a business plan, advice on the best tax structure for your business, choosing the best legal form for your company, supporting for opening a bank account and specialized accounting services.",
-          "services": [
-            "Business Advice – Business plan and tax advice",
-            "Company Services – Company Incorporation and Brand registration",
-            "Company’s Domiciliation",
-            "Bank account",
-            "Accounting"
-          ]
-        }
+        "label": "Business Solutions",
+        "description": "In today's dynamic and competitive marketplace, businesses face numerous challenges that require innovative and tailored solutions. Business Solutions Services (BSS) are designed to address these challenges by providing a wide range of strategic, operational, and technological services that help organizations optimize their performance, achieve their goals, and drive sustainable growth. With E-Golden you will be able to achieve your goals faster and more efficiently. To this end, we are committed to providing the necessary services so that you can implement your business in Portugal. Starting with presenting a business plan, advice on the best tax structure for your business, choosing the best legal form for your company, supporting for opening a bank account and specialized accounting services.",
+
+        "services": [
+          {
+            "label": "business_advice",
+            "title": "Business Advice – Business plan and tax advice",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "company_services",
+            "title": "Company Services – Company Incorporation and Brand registration",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "company_domiciliation",
+            "title": "Company’s Domiciliation",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "bank_account",
+            "title": "Bank account",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "accounting",
+            "title": "Accounting",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
       }
     },
     "real-estate-investments-management": {
@@ -179,16 +238,31 @@
       "location": "realestate",
       "imageUrl": "/images/realestate.png",
       "details": {
-        "real_estate_investments_and_management": {
-          "label": "Real Estate Investments and Management",
-          "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
-          "services": [
-            "Real Estate Investment planning",
-            "Property Search services",
-            "Assistance with property purchase",
-            "Real Estate Management services"
-          ]
-        }
+        "label": "Real Estate Investments and Management",
+        "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
+
+        "services": [
+          {
+            "label": "real_estate_investment_planning",
+            "title": "Real Estate Investment Planning",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "property_search_services",
+            "title": "Property Search Services",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "assistance_with_property_purchase",
+            "title": "Assistance with Property Purchase",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          },
+          {
+            "label": "real_estate_management_services",
+            "title": "Real Estate Management Services",
+            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+          }
+        ]
       }
     }
   },

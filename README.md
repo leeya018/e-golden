@@ -52,3 +52,11 @@ this is for the app
 QUSETIOSN TO VENUS .
 in the servieces , which one of them gonna be clickable ,
 packaeg ? servies. ? opipotns?
+
+
+
+keep going with belion design
+
+
+steps - make in image . 
+

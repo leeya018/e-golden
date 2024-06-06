@@ -26,12 +26,7 @@ const Header = () => {
         <div className="logo flex items-center justify-center w-full md:w-auto">
           <Image alt="logo" width={90} height={90} src={"/images/logo.png"} />
         </div>
-        <Link href="#HowtoRenewthePortugalPassiveIncomeD7Visa">
-          <span>Jump Visa red</span>
-        </Link>
-        <Link href="#how2">
-          <span>Jump Visa red</span>
-        </Link>
+
         <div className="block md:hidden">
           <button onClick={toggleMenu} className="text-white">
             <svg

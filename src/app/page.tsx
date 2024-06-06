@@ -21,20 +21,11 @@ const Main = observer(() => {
   return (
     <div className="">
       <main className="flex w-full   lg:mx-auto flex-col ">
-        <div className="text-black bg-red-600">
-          <h2 id="HowtoRenewthePortugalPassiveIncomeD7Visa">
-            How to Renew the Portugal Passive Income D7 Visa
-          </h2>
-          <p>Here is the content of the section...</p>
-        </div>
         {/* <AboutPortugalSection /> */}
         <ServicesSection />
 
         <UserPosts />
-        <div className="text-black bg-blue">
-          <h2 id="how2">How to Renew the Portugal Passive Income D7 Visa</h2>
-          <p>Here is the content of the section...</p>
-        </div>
+
         <News />
       </main>
     </div>
