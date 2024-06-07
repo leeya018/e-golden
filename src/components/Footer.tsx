@@ -25,25 +25,36 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white mt-10 px-6">
       <div className="container mx-auto  py-10">
-        <div className="flex ">
+        <div className="flex flex-row items-center ">
           {/* first */}
-          <div className="w-2/5">
+          <div className="w-2/5 flex flex-col pl-2">
             <Image
               alt="logo"
               width={150}
               height={150}
+              className=""
               src={"/images/logo.png"}
             />
+            <div className="mt-2 line-clamp-3 font-medium leading-[27px]">
+              Specialists in relocation and Tax in Portugal, from your residence
+              to your project
+            </div>
           </div>
           {/* second */}
           <div className="w-1/5">
-            <h3 className="font-medium text-[18px] leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-[27px] text-white">
               {translations.footer.title}
             </h3>
 
-            <p className="mt-2">{translations.footer.p1}</p>
-            <p className="mt-2">{translations.footer.email}</p>
-            <p className="mt-2">{translations.footer.phone}</p>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.p1}
+            </p>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.email}
+            </p>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.phone}
+            </p>
             <p
               className="mt-2 cursor-pointer hover:underline"
               onClick={() => ModalStore.openModal(modals.scedule)}
@@ -53,22 +64,22 @@ const Footer = () => {
           </div>
           {/* third */}
           <div className="w-1/5 ">
-            <h3 className="font-medium text-[18px] leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-[27px] text-white">
               {translations.footer.quick_links}
             </h3>
-            <ul className="text-gray flex flex-col mt-2 gap-2 ">
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+            <ul className="text-white flex flex-col mt-2 gap-1 ">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="/services" className="hover:text-gray-300">
                   {" "}
                   {translations.footer.services}
                 </a>
               </li>
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="/about" className="hover:text-gray-300">
                   {translations.footer.about_us}
                 </a>
               </li>
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <span
                   onClick={() => ModalStore.openModal(modals.contact)}
                   className="hover:text-gray-300 cursor-pointer"
@@ -80,26 +91,26 @@ const Footer = () => {
           </div>
           {/* forth */}
           <div className="w-1/5">
-            <h3 className="font-medium text-[18px] leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-[27px] text-white">
               Follow Us
             </h3>
-            <ul className=" text-gray flex flex-col mt-2 gap-2 ">
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+            <ul className=" text-white flex flex-col mt-2 gap-1 ">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://facebook.com" className="hover:text-gray-300">
                   {translations.footer.facebook}
                 </a>
               </li>
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://twitter.com" className="hover:text-gray-300">
                   {translations.footer.twitter}
                 </a>
               </li>
-              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://linkedin.com" className="hover:text-gray-300">
                   {translations.footer.linkedIn}
                 </a>
               </li>
-              <li className=" font-normal text-[16px] leading-[24px] text-white  cursor-pointer mb-4 ">
+              <li className=" font-normal text-lg leading-[24px] text-white  cursor-pointer mb-4 ">
                 <span
                   onClick={handleWhatsAppClick}
                   className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
@@ -110,7 +121,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="text-center mt-10">
+        <div className="text-lg font-medium mt-10">
           <p>
             © {new Date().getFullYear()} {translations.footer.reserved}
           </p>
