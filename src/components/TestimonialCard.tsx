@@ -1,10 +1,14 @@
-import { Tenstemonial } from "@/interfaces/Tensttemonial";
+import { Testemonial } from "@/interfaces/Testemonial";
+import { TestemonialStore } from "@/mobx/TestemonialStore";
+import { ModalStore } from "@/mobx/modalStore";
+import { modals } from "@/util";
+import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import React from "react";
 
-const TestimonialCard = ({ location, name, info }: Tenstemonial) => {
+const TestimonialCard = ({ location, name, info }: Testemonial) => {
   return (
-    <div className="sm:w-24 lg:w-52 px-4 py-4 rounded-xl my-5 mx-2 border-2  ">
+    <div className="w-52 px-4 py-4 rounded-xl my-5 mx-2 border-2  hover:bg-card-gradient ">
       {/* /first  */}
       <div className="flex gap-4 ">
         <Image
@@ -30,9 +34,17 @@ const TestimonialCard = ({ location, name, info }: Tenstemonial) => {
       >
         {info}
       </p>
-      <button className="text-white underline">Read More</button>
+      <button
+        onClick={() => {
+          TestemonialStore.setTestemonial({ location, name, info });
+
+          ModalStore.openModal(modals.testemonial);
+        }}
+        className="text-white underline"
+      >
+        Read More
+      </button>
     </div>
   );
 };
-
-export default TestimonialCard;
+export default observer(TestimonialCard);

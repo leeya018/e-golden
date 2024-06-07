@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 // import ImagesSection from "@/components/ImagesSection";
 import ServicesSection from "@/components/ServicesSection";
 import AboutPortugalSection from "@/components/AboutPortugalSection";
-import UserPosts from "@/components/UserPosts";
-import News from "@/components/News";
+import TentemonialList from "@/components/TentemonialList";
+import PressCards from "@/components/PressCards";
 import Calender from "@/components/Calender";
 import CalenderPopup from "@/components/CalenderPopup";
 import Modal from "@/components/Modal";
@@ -22,11 +22,12 @@ const Main = observer(() => {
     <div className="">
       <main className="flex w-full   lg:mx-auto flex-col ">
         {/* <AboutPortugalSection /> */}
-        <ServicesSection />
+        <div className="px-6">
+          <ServicesSection />
+          <TentemonialList />
 
-        <UserPosts />
-
-        <News />
+          <PressCards />
+        </div>
       </main>
     </div>
   );

@@ -17,6 +17,8 @@ const config: Config = {
         gray: "#9E9E9E",
       },
       backgroundImage: {
+        "card-gradient":
+          "linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

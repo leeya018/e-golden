@@ -30,7 +30,8 @@ input {
   @apply text-3xl font-semibold  mb-4 mt-8 flex justify-center;
 }
 .sub-title {
-  @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center;
+  /* @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center; */
+  @apply text-2xl font-semibold  mb-4 mt-8;
 }
 button {
   @apply border-2 rounded-md border-black p-2;

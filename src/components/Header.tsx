@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black border-white text-white p-4 fixed top-0 left-0 right-0 z-50 border-2">
+    <header className="bg-black border-white text-white p-4 fixed top-0 left-0 right-0 z-50 border-b-2">
       <nav className=" container mx-auto flex justify-between items-center">
         <div className="  ">
           <LanguageSwitcher />

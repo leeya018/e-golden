@@ -13,6 +13,7 @@ import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import CalenderPopup from "@/components/CalenderPopup";
 import { languageStore } from "@/mobx/languageStore";
+import TestemonialData from "@/components/TestemonialData";
 
 // import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
@@ -44,6 +45,12 @@ function RootLayout({
           closeModal={ModalStore.closeModal}
         >
           <ContactForm />
+        </Modal>
+        <Modal
+          isOpen={ModalStore.modalName === modals.testemonial}
+          closeModal={ModalStore.closeModal}
+        >
+          <TestemonialData />
         </Modal>
 
         <CalenderPopup />

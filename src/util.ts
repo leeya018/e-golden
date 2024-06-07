@@ -86,6 +86,7 @@ export interface Service {
 export const modals = {
   scedule: "scedule",
   contact: "contact",
+  testemonial: "testemonial",
 };
 
 export const countries: string[] = [
