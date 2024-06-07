@@ -5,6 +5,7 @@ import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import { languageStore } from "@/mobx/languageStore";
 import { observer } from "mobx-react-lite";
+import Image from "next/image";
 
 // components/Footer.js
 const Footer = () => {
@@ -22,13 +23,24 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-white mt-10 ">
-      <div className="container mx-auto px-6 py-10">
-        <div className="flex justify-between">
-          <div>
-            <h3 className="text-lg font-semibold">
+    <footer className="bg-black text-white mt-10 px-6">
+      <div className="container mx-auto  py-10">
+        <div className="flex ">
+          {/* first */}
+          <div className="w-2/5">
+            <Image
+              alt="logo"
+              width={150}
+              height={150}
+              src={"/images/logo.png"}
+            />
+          </div>
+          {/* second */}
+          <div className="w-1/5">
+            <h3 className="font-medium text-[18px] leading-[27px] text-white">
               {translations.footer.title}
             </h3>
+
             <p className="mt-2">{translations.footer.p1}</p>
             <p className="mt-2">{translations.footer.email}</p>
             <p className="mt-2">{translations.footer.phone}</p>
@@ -39,23 +51,24 @@ const Footer = () => {
               {translations.footer.secedule_meeting}
             </p>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold">
+          {/* third */}
+          <div className="w-1/5 ">
+            <h3 className="font-medium text-[18px] leading-[27px] text-white">
               {translations.footer.quick_links}
             </h3>
-            <ul>
-              <li>
+            <ul className="text-gray flex flex-col mt-2 gap-2 ">
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="/services" className="hover:text-gray-300">
                   {" "}
                   {translations.footer.services}
                 </a>
               </li>
-              <li>
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="/about" className="hover:text-gray-300">
                   {translations.footer.about_us}
                 </a>
               </li>
-              <li>
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <span
                   onClick={() => ModalStore.openModal(modals.contact)}
                   className="hover:text-gray-300 cursor-pointer"
@@ -65,25 +78,28 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold">Follow Us</h3>
-            <ul className=" flex md:flex-row flex-col  mt-2 gap-3 ">
-              <li>
+          {/* forth */}
+          <div className="w-1/5">
+            <h3 className="font-medium text-[18px] leading-[27px] text-white">
+              Follow Us
+            </h3>
+            <ul className=" text-gray flex flex-col mt-2 gap-2 ">
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://facebook.com" className="hover:text-gray-300">
                   {translations.footer.facebook}
                 </a>
               </li>
-              <li>
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://twitter.com" className="hover:text-gray-300">
                   {translations.footer.twitter}
                 </a>
               </li>
-              <li>
+              <li className=" font-normal text-[16px] leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
                 <a href="https://linkedin.com" className="hover:text-gray-300">
                   {translations.footer.linkedIn}
                 </a>
               </li>
-              <li>
+              <li className=" font-normal text-[16px] leading-[24px] text-white  cursor-pointer mb-4 ">
                 <span
                   onClick={handleWhatsAppClick}
                   className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
