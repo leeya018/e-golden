@@ -26,7 +26,9 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-10">
         <div className="flex justify-between">
           <div>
-            <h3 className="text-lg font-bold">{translations.footer.title}</h3>
+            <h3 className="text-lg font-semibold">
+              {translations.footer.title}
+            </h3>
             <p className="mt-2">{translations.footer.p1}</p>
             <p className="mt-2">{translations.footer.email}</p>
             <p className="mt-2">{translations.footer.phone}</p>
@@ -38,7 +40,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-bold">
+            <h3 className="text-lg font-semibold">
               {translations.footer.quick_links}
             </h3>
             <ul>
@@ -64,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-bold">Follow Us</h3>
+            <h3 className="text-lg font-semibold">Follow Us</h3>
             <ul className=" flex md:flex-row flex-col  mt-2 gap-3 ">
               <li>
                 <a href="https://facebook.com" className="hover:text-gray-300">

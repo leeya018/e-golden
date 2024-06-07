@@ -20,7 +20,7 @@ const About: React.FC = () => {
         <div className="z-10 center-absolute title text-white ">About Us</div>
       </div>
       <div className="px-10 mt-7">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <h1 className="text-4xl font-semibold mb-4">About Us</h1>
         <p className="text-lg mb-6">{translations.about_us.welcome_message}</p>
 
         <h2 className="text-2xl font-semibold mb-4">Who We Are</h2>

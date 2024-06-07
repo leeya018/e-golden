@@ -1,71 +1,61 @@
 import React, { useRef } from "react";
 import TestimonialCard from "./TestimonialCard";
-const testimonials = [
+import { Tenstemonial } from "@/interfaces/Tensttemonial";
+const testimonials: Tenstemonial[] = [
   {
+    location: "Irael, Rishon",
     name: "John Smith",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 1",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 2",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 3",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 4",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 5",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 6",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 6",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 6",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 6",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
   {
+    location: "Irael, Rishon",
     name: "Madelaine 6",
-    quote: "I never knew how much I would ",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
   },
 ];
 
@@ -99,8 +89,8 @@ export default function UserPosts() {
       <div
         ref={scrollContainer}
         className="flex overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"
-        onMouseEnter={startScrolling}
-        onMouseLeave={stopScrolling}
+        // onMouseEnter={startScrolling}
+        // onMouseLeave={stopScrolling}
       >
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={index} {...testimonial} />

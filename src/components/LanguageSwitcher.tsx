@@ -15,7 +15,7 @@ const LanguageSwitcher = observer(() => {
       value: "USD",
       label: (
         <div
-          className="flex items-center text-black"
+          className="flex items-center text-black "
           onClick={() => changeLanguage("en")}
         >
           <CurrencyFlag currency="USD" size="lg" />
@@ -27,7 +27,7 @@ const LanguageSwitcher = observer(() => {
       value: "ILS",
       label: (
         <div
-          className="flex items-center text-black"
+          className="flex items-center text-black "
           onClick={() => changeLanguage("he")}
         >
           <CurrencyFlag currency="ILS" size="lg" />
@@ -40,7 +40,7 @@ const LanguageSwitcher = observer(() => {
       value: "EUR",
       label: (
         <div
-          className="flex items-center text-black"
+          className="flex items-center text-black "
           onClick={() => changeLanguage("pt")}
         >
           <CurrencyFlag currency="EUR" size="lg" />

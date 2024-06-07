@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-white p-4 fixed top-0 left-0 right-0 z-50">
+    <header className="bg-black border-white text-white p-4 fixed top-0 left-0 right-0 z-50 border-2">
       <nav className=" container mx-auto flex justify-between items-center">
         <div className="  ">
           <LanguageSwitcher />
@@ -71,7 +71,7 @@ const Header = () => {
             onClick={() => ModalStore.openModal(modals.contact)}
             className="nav-button"
           >
-            <p className="text-xl border-2 rounded-md font-bold py-2 px-4 ml-4 relative overflow-hidden">
+            <p className="text-xl border-2 rounded-md font-semibold py-2 px-4 ml-4 relative overflow-hidden">
               <span className="inline-block transform transition-transform duration-100 ease-in-out hover:scale-105">
                 {translations.header.contact}
               </span>
@@ -90,10 +90,7 @@ const Header = () => {
           }`}
           style={{ width: "75%" }}
         >
-          <button
-            className="absolute top-4 right-4 text-black"
-            onClick={toggleMenu}
-          >
+          <button className="absolute top-4 right-4 " onClick={toggleMenu}>
             <svg
               className="w-6 h-6"
               fill="none"
@@ -112,42 +109,42 @@ const Header = () => {
           <nav className="flex flex-col space-y-8 mt-8 font-md ">
             <Link
               href="/"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.home}
             </Link>
             <Link
               href="/service/relocation-residency"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.residency_relocation}
             </Link>
             <Link
               href="/service/tax-planning-advice"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.taxPlanning}
             </Link>
             <Link
               href="/service/business-solutions"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.business}
             </Link>
             <Link
               href="/service/real-estate-investments-management"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.realEstate}
             </Link>
             <Link
               href="/about"
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
               {translations.header.about}
@@ -158,7 +155,7 @@ const Header = () => {
                 toggleMenu();
                 ModalStore.openModal(modals.contact);
               }}
-              className="text-black text-xl hover:text-gray"
+              className=" text-xl hover:text-gray"
             >
               {translations.header.contact}
             </Link>

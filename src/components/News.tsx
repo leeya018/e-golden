@@ -94,7 +94,7 @@ const NewsCard = ({ name, description }: NewsCard) => {
       className="flex flex-col rounded-md items-center px-4 py-10    
       sm:w-1/2 md:w-1/3 lg:w-1/4  border-2"
     >
-      <h3 className="text-lg font-bold mb-2">{name}</h3>
+      <h3 className="text-lg font-semibold mb-2">{name}</h3>
       <p className="text-sm text-gray-600">{description}</p>
     </div>
   );

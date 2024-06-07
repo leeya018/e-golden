@@ -23,6 +23,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [rtl],
+  plugins: [rtl, require("@tailwindcss/line-clamp")],
 };
 export default config;

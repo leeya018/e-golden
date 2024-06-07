@@ -52,13 +52,13 @@ const BasicServiceInfo = ({ serivceId }: BasicServiceInfoProps) => {
       </div>
       <div className="px-10 mt-7">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">{chosenService.title}</h2>
+          <h2 className="text-3xl font-semibold mb-4">{chosenService.title}</h2>
           <div className=" mb-4">{chosenService.description}</div>
           <ul className="list-disc list-inside text-lg mb-4 flex flex-col">
-            <h2 className="text-3xl font-bold mb-4">Description</h2>
+            <h2 className="text-3xl font-semibold mb-4">Description</h2>
 
             <div className=" mb-4">{chosenService.details.description}</div>
-            <h2 className="text-3xl font-bold my-10">Services</h2>
+            <h2 className="text-3xl font-semibold my-10">Services</h2>
             {chosenService.details.services.map((service, index) => (
               <>
                 <Link

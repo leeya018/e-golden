@@ -49,7 +49,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="bg-white p-8 rounded-lg shadow-md max-w-3xl mx-auto">
-      <h2 className="text-center text-2xl font-bold mb-4">
+      <h2 className="text-center text-2xl font-semibold mb-4">
         Have a question? Contact us
       </h2>
       <p className="text-center mb-6">

@@ -1,28 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+  /* text-decoration-color: white;
+  background-color: black;
   font-family: "Kumbh Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-variation-settings: "YOPQ" 300;
+  font-variation-settings: "YOPQ" 300; */
+  background-color: black;
+  text-decoration-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 div,
 button,
 input {
+  @apply text-white;
   /* @apply border-2 border-black; */
 }
 
 .title {
-  @apply text-4xl font-bold  mb-4 mt-8 flex justify-center;
+  @apply text-3xl font-semibold  mb-4 mt-8 flex justify-center;
 }
 .sub-title {
-  @apply text-2xl font-bold  mb-4 mt-8 flex justify-center;
+  @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center;
 }
 button {
   @apply border-2 rounded-md border-black p-2;
@@ -31,7 +39,7 @@ button {
   display: none; /* Remove scrollbar space */
 }
 .nav-button {
-  @apply font-bold border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
+  @apply font-medium border-2 rounded-md border-black p-2 hover:scale-105 duration-100;
 }
 .center-absolute {
   @apply absolute  top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2;

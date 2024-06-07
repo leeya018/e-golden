@@ -12,7 +12,7 @@ export default function AboutPortugalSection() {
         title="Special Video"
       />
       <div
-        className="absolute z-50 top-0 left-0 translate-x-1/2 translate-y-1/2 flex flex-col font-bold text-2xl 
+        className="absolute z-50 top-0 left-0 translate-x-1/2 translate-y-1/2 flex flex-col font-semibold text-2xl 
       justify-center items-center gap-3 mb-20 mt-10 text-white"
       >
         <div>From Relocation to Investments</div>

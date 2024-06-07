@@ -21,7 +21,7 @@ export default function ImagesSection() {
       <MdArrowBackIosNew
         size={40}
         onClick={scrollLeft}
-        className=" text-black cursor-pointer font-bold  h-full"
+        className="  cursor-pointer font-semibold  h-full"
       />
 
       <ul
@@ -44,7 +44,7 @@ export default function ImagesSection() {
       <MdArrowForwardIos
         size={40}
         onClick={scrollRight}
-        className=" text-black cursor-pointer font-bold  h-full"
+        className="  cursor-pointer font-semibold  h-full"
       />
     </div>
   );

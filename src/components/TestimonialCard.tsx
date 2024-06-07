@@ -1,69 +1,38 @@
+import { Tenstemonial } from "@/interfaces/Tensttemonial";
 import Image from "next/image";
 import React from "react";
 
-type TestimonialCardProps = {
-  imageUrl: string;
-  name: string;
-  quote: string;
-};
-const TestimonialCard = ({ imageUrl, name, quote }: TestimonialCardProps) => {
+const TestimonialCard = ({ location, name, info }: Tenstemonial) => {
   return (
-    <div
-      className="flex flex-col items-center rounded-md
-    p-4 sm:w-1/2 md:w-1/3 lg:w-1/4  border-2 "
-    >
-      <Image
-        className="rounded-full mb-4 h-20 w-20"
-        alt={name}
-        width={80}
-        height={80}
-        src={imageUrl}
-      />
-
-      <div className="flex flex-wrap text-sm text-center text-gray-600 mb-4">
-        {quote}
+    <div className="sm:w-24 lg:w-52 px-4 py-4 rounded-xl my-5 mx-2 border-2  ">
+      {/* /first  */}
+      <div className="flex gap-4 ">
+        <Image
+          className="h-10 w-10"
+          alt={"quate"}
+          width={42}
+          height={42}
+          src={"/images/quate.svg"}
+        />
+        <div className="flex flex-col ">
+          <div className="font-semibold text-white text-[16px] leading-[23px] mb-1">
+            {name}
+          </div>
+          <div className="font-normal text-dimWhite text-[14px] leading-[24px] mb-1">
+            {location}
+          </div>
+        </div>
       </div>
-      <p className="font-semibold text-lg text-center">{name}</p>
+      {/* /secodn  */}
+      <p
+        className=" font-normal text-[14px] leading-[32px]
+       text-white my-2 line-clamp-3"
+      >
+        {info}
+      </p>
+      <button className="text-white underline">Read More</button>
     </div>
   );
 };
 
 export default TestimonialCard;
-
-// import Image from "next/image";
-// import React from "react";
-
-// interface TestimonialCardProps {
-//   imageUrl: string;
-//   quote: string;
-//   name: string;
-// }
-
-// const TestimonialCard: React.FC<TestimonialCardProps> = ({
-//   imageUrl,
-//   quote,
-//   name,
-// }) => {
-//   return (
-//     <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-//       {/* <img
-//         className="w-full h-48 object-cover object-center"
-//         src={imageUrl}
-//         alt={name}
-//       /> */}
-//       <Image
-//         className="rounded-full mb-4 h-20 w-20"
-//         alt={name}
-//         width={80}
-//         height={80}
-//         src={imageUrl}
-//       />
-//       <div className="p-6">
-//         <p className="text-gray-700 text-base mb-4">{quote}</p>
-//         <h2 className="text-xl font-semibold text-gray-900">{name}</h2>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TestimonialCard;

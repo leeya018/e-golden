@@ -34,7 +34,7 @@ export default function ServiceCard({
         src={imageUrl}
       />
       <div className="p-2 pb-4">
-        <h2 className="mb-5 text-xl font-bold">{title}</h2>
+        <h2 className="mb-5 text-xl font-semibold">{title}</h2>
         <ul className="flex flex-col gap-2">
           {description.map((item, key) => (
             <li key={key} className="list-disc list-inside">
