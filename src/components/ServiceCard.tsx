@@ -22,7 +22,7 @@ export default function ServiceCard({
 
   return (
     <div
-      className={`relative border border-yellow-700 ${
+      className={`relative border border-gold leading-7 ${
         expanded ? "h-auto" : "h-[500px]"
       } overflow-hidden rounded-lg shadow-lg pb-2 transition-all duration-300`}
     >
@@ -33,9 +33,11 @@ export default function ServiceCard({
         height={500}
         src={imageUrl}
       />
-      <div className="p-2 pb-4">
-        <h2 className="mb-5 text-xl font-semibold">{title}</h2>
-        <ul className="flex flex-col gap-2">
+      <div className="p-3 pb-4">
+        <h2 className="mb-5 text-xl font-semibold mt-2 line-clamp-1">
+          {title}
+        </h2>
+        <ul className="flex flex-col gap-2 line-clamp-3">
           {description.map((item, key) => (
             <li key={key} className="list-disc list-inside">
               {item}
@@ -43,14 +45,11 @@ export default function ServiceCard({
           ))}
         </ul>
 
-        <button
-          className="mt-4 bg-yellow-700 text-white py-2 px-4 rounded"
-          onClick={handleReadMoreClick}
-        >
+        {/* <button onClick={handleReadMoreClick} className="text-white underline">
           {expanded ? "Read Less" : "Read More"}
-        </button>
+        </button> */}
         <button
-          className="mt-4 bg-yellow-700 text-white py-2 px-4 rounded"
+          className="mt-4 bg-gold text-white py-2 px-4 rounded"
           onClick={onClick}
         >
           to service

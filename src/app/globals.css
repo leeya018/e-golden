@@ -12,6 +12,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-variation-settings: "YOPQ" 300; */
+  line-height: 1.75rem;
   background-color: black;
   text-decoration-color: white;
   font-family: "Poppins", sans-serif;
@@ -67,4 +68,23 @@ button {
 
 html[dir="rtl"] {
   direction: rtl;
+}
+
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }

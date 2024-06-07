@@ -15,6 +15,7 @@ const config: Config = {
       colors: {
         blue: "#0069FF",
         gray: "#9E9E9E",
+        gold: "#A29A65",
       },
       backgroundImage: {
         "card-gradient":

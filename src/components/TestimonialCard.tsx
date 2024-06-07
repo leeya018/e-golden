@@ -28,12 +28,12 @@ const TestimonialCard = ({ location, name, info }: Testemonial) => {
         </div>
       </div>
       {/* /secodn  */}
-      <p
-        className=" font-normal text-[14px] leading-[32px]
-       text-white my-2 line-clamp-3"
+      <div
+        className=" font-normal text-[14px] leading-[32px] 
+       text-white my-2 line-clamp-3 flex flex-wrap"
       >
         {info}
-      </p>
+      </div>
       <button
         onClick={() => {
           TestemonialStore.setTestemonial({ location, name, info });

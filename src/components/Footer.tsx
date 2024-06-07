@@ -35,14 +35,14 @@ const Footer = () => {
               className=""
               src={"/images/logo.png"}
             />
-            <div className="mt-2 line-clamp-3 font-medium leading-[27px]">
+            <div className="mt-2 line-clamp-3 font-medium leading-7">
               Specialists in relocation and Tax in Portugal, from your residence
               to your project
             </div>
           </div>
           {/* second */}
           <div className="w-1/5">
-            <h3 className="font-semibold text-2xl leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
               {translations.footer.title}
             </h3>
 
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
           {/* third */}
           <div className="w-1/5 ">
-            <h3 className="font-semibold text-2xl leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
               {translations.footer.quick_links}
             </h3>
             <ul className="text-white flex flex-col mt-2 gap-1 ">
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           {/* forth */}
           <div className="w-1/5">
-            <h3 className="font-semibold text-2xl leading-[27px] text-white">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
               Follow Us
             </h3>
             <ul className=" text-white flex flex-col mt-2 gap-1 ">

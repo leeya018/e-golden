@@ -72,7 +72,7 @@ const PressCard = ({ title, description, imageUrl }: PressCard) => {
       <Image alt="relocation" height={180} width={256} src={imageUrl} />
       <div className="my-4 p-2">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
-        <p className="text-sm text-gray-600 line-clamp-2 ">{description}</p>
+        <p className="text-sm text-gray-600 line-clamp-3 ">{description}</p>
       </div>
     </div>
   );
