@@ -30,7 +30,7 @@ function RootLayout({
 }>) {
   return (
     <html lang="en" className={languageStore.direction}>
-      <body className={inter.className}>
+      <body className="body">
         <Header />
 
         <Modal
