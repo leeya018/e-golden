@@ -19,11 +19,10 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
   //     .join("");
   // };
   return (
-    <div className="p-6">
-      <div className="mb-6"></div>
+    <div className="">
       <div className="mb-6">
-        <h3 className="text-xl font-semibold mb-2">{"steps"}</h3>
-        <ul className="list-disc list-inside">
+        <h3 className="sub-title">{"steps"}</h3>
+        <ul className="list-disc list-inside text">
           {details.steps.map((step: StepOption, index: number) => (
             <li key={index}>
               <Link
@@ -36,8 +35,8 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
         </ul>
       </div>
       <div>
-        <h3 className="text-xl font-semibold mb-4">Packages </h3>
-        <ul className="mb-6 list-disc list-inside">
+        <h3 className="sub-title">Packages </h3>
+        <ul className="mb-6 list-disc list-inside text">
           <li>
             <Link
               href={`/service/${residency_relocation_name}/package/${details.packages.red_package.label}`}

@@ -28,9 +28,9 @@ export default function PackagePage() {
     <main className="flex w-full lg:mx-auto flex-col  bg-gray-100">
       {/* visa page : {id} and the visa id {packageId} */}
       <div className="px-10 mt-7">
-        <h1 className="title">{info.title}</h1>
+        <h1 className="title-left">{info.title}</h1>
         <div className="">{info.description}</div>
-        <ul className="list-disc list-inside text-lg mb-6">
+        <ul className="list-disc list-inside text-lg mb-6 text">
           {info.services &&
             info.services.map((service) => (
               <li key={service} className="mb-2 ">

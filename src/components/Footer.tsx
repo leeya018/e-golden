@@ -23,112 +23,104 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-white mt-10 ">
-      <div className="px-16">
-        <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full ">
-          {/* first */}
-          <div className="flex-[1] flex flex-col justify-start mr-10">
-            <Image
-              alt="logo"
-              width={150}
-              height={150}
-              className=""
-              src={"/images/logo.png"}
-            />
-            <div className="mt-2 line-clamp-3 font-medium leading-7 pr-10">
-              Specialists in relocation and Tax in Portugal, from your residence
-              to your project
-            </div>
+    <footer className="bg-black text-white mt-20  px-16">
+      <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full border-t-2 py-7">
+        {/* first */}
+        <div className="flex-[1] flex flex-col justify-start mr-10">
+          <Image
+            alt="logo"
+            width={150}
+            height={150}
+            className=""
+            src={"/images/logo.png"}
+          />
+          <div className="mt-2 line-clamp-3 font-medium leading-7 pr-10">
+            Specialists in relocation and Tax in Portugal, from your residence
+            to your project
           </div>
-          {/* second */}
-          <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-2">
-            {/* second1 */}
+        </div>
+        {/* second */}
+        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-2">
+          {/* second1 */}
 
-            <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
-              <h3 className="font-semibold text-2xl leading-7 text-white">
-                {translations.footer.title}
-              </h3>
+          <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
+              {translations.footer.title}
+            </h3>
 
-              <p className="mt-2 font-normal text-lg leading-[24px]">
-                {translations.footer.p1}
-              </p>
-              <p className="mt-2 font-normal text-lg leading-[24px]">
-                {translations.footer.email}
-              </p>
-              <p className="mt-2 font-normal text-lg leading-[24px]">
-                {translations.footer.phone}
-              </p>
-              <p
-                className="mt-2 cursor-pointer hover:underline"
-                onClick={() => ModalStore.openModal(modals.scedule)}
-              >
-                {translations.footer.secedule_meeting}
-              </p>
-            </div>
-            {/* second2 */}
-            <div className="flex flex-col ss:my-0 my-4 min-w-[150px] ">
-              <h3 className="font-semibold text-2xl leading-7 text-white">
-                {translations.footer.quick_links}
-              </h3>
-              <ul className="text-white flex flex-col mt-2 gap-1 ">
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <a href="/services" className="hover:text-gray-300">
-                    {" "}
-                    {translations.footer.services}
-                  </a>
-                </li>
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <a href="/about" className="hover:text-gray-300">
-                    {translations.footer.about_us}
-                  </a>
-                </li>
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <span
-                    onClick={() => ModalStore.openModal(modals.contact)}
-                    className="hover:text-gray-300 cursor-pointer"
-                  >
-                    {translations.footer.contact}
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* second3 */}
-            <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
-              <h3 className="font-semibold text-2xl leading-7 text-white">
-                Follow Us
-              </h3>
-              <ul className=" text-white flex flex-col mt-2 gap-1 ">
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <a
-                    href="https://facebook.com"
-                    className="hover:text-gray-300"
-                  >
-                    {translations.footer.facebook}
-                  </a>
-                </li>
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <a href="https://twitter.com" className="hover:text-gray-300">
-                    {translations.footer.twitter}
-                  </a>
-                </li>
-                <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                  <a
-                    href="https://linkedin.com"
-                    className="hover:text-gray-300"
-                  >
-                    {translations.footer.linkedIn}
-                  </a>
-                </li>
-                <li className=" font-normal text-lg leading-[24px] text-white  cursor-pointer mb-4 ">
-                  <span
-                    onClick={handleWhatsAppClick}
-                    className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
-                  >
-                    {translations.footer.whatsapp}
-                  </span>
-                </li>
-              </ul>
-            </div>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.p1}
+            </p>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.email}
+            </p>
+            <p className="mt-2 font-normal text-lg leading-[24px]">
+              {translations.footer.phone}
+            </p>
+            <p
+              className="mt-2 cursor-pointer hover:underline"
+              onClick={() => ModalStore.openModal(modals.scedule)}
+            >
+              {translations.footer.secedule_meeting}
+            </p>
+          </div>
+          {/* second2 */}
+          <div className="flex flex-col ss:my-0 my-4 min-w-[150px] ">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
+              {translations.footer.quick_links}
+            </h3>
+            <ul className="text-white flex flex-col mt-2 gap-1 ">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="/services" className="hover:text-gray-300">
+                  {" "}
+                  {translations.footer.services}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="/about" className="hover:text-gray-300">
+                  {translations.footer.about_us}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <span
+                  onClick={() => ModalStore.openModal(modals.contact)}
+                  className="hover:text-gray-300 cursor-pointer"
+                >
+                  {translations.footer.contact}
+                </span>
+              </li>
+            </ul>
+          </div>
+          {/* second3 */}
+          <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+            <h3 className="font-semibold text-2xl leading-7 text-white">
+              Follow Us
+            </h3>
+            <ul className=" text-white flex flex-col mt-2 gap-1 ">
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="https://facebook.com" className="hover:text-gray-300">
+                  {translations.footer.facebook}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="https://twitter.com" className="hover:text-gray-300">
+                  {translations.footer.twitter}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="https://linkedin.com" className="hover:text-gray-300">
+                  {translations.footer.linkedIn}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-white  cursor-pointer mb-4 ">
+                <span
+                  onClick={handleWhatsAppClick}
+                  className="bg-[#14957B] p-2 rounded-md  cursor-pointer"
+                >
+                  {translations.footer.whatsapp}
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

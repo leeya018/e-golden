@@ -30,24 +30,24 @@ const ServicePage = () => {
   }
 
   return (
-    <main className="flex w-full lg:mx-auto flex-col  bg-gray-100">
+    <section className="flex w-full lg:mx-auto flex-col  bg-gray-100">
       <div className="relative">
         <Image
-          className="w-full h-[500px]"
+          className="w-full h-[600px] object-fill bg-center"
           alt={chosenService.title}
           width={500}
           height={500}
           src={chosenService.imageUrl}
         />
-        <div className="z-10 center-absolute title text-white ">
+        <div className="z-10 center-absolute title-image shadow-xl text-white ">
           {chosenService.title}
         </div>
       </div>
       <div className="px-10 mt-7">
         <div className="mb-8">
-          <h2 className="text-3xl font-semibold mb-4">{chosenService.title}</h2>
-          <div className=" mb-4">{chosenService.description}</div>
-          <ul className="list-disc list-inside text-lg mb-4 flex flex-col">
+          <h2 className="title-left">{chosenService.title}</h2>
+          <div className=" mb-4 text">{chosenService.description}</div>
+          <ul className="list-disc  list-inside text-lg mb-4 flex flex-col">
             <h2 className="text-3xl font-semibold my-10">Services</h2>
             {chosenService.details.services.map((service, index) => (
               <>
@@ -55,7 +55,7 @@ const ServicePage = () => {
                   key={index}
                   href={`/service/${id}/subSeservice/${service.label}`}
                 >
-                  <span className="hover:underline">{service.title}</span>
+                  <span className="hover:underline text">{service.title}</span>
                 </Link>
               </>
             ))}
@@ -68,7 +68,7 @@ const ServicePage = () => {
         </div>
       </div>
       <ContactForm />
-    </main>
+    </section>
   );
 };
 export default observer(ServicePage);
