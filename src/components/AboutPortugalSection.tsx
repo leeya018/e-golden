@@ -13,11 +13,11 @@ export default function AboutPortugalSection() {
       />
       <div
         className="center-absolute-top flex flex-col font-semibold text-2xl 
-      justify-center items-center gap-3 mb-20 mt-10 text-white"
+      justify-center items-center gap-3 mb-20 mt-10 "
       >
-        <div>From Relocation to Investments</div>
-        <div>Your One Stop Shop Services</div>
-        <div>With E-golden</div>
+        <div className="text-black">From Relocation to Investments</div>
+        <div className="text-black">Your One Stop Shop Services</div>
+        <div className="text-black">With E-golden</div>
       </div>
     </section>
   );
