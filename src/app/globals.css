@@ -46,6 +46,9 @@ button {
 .center-absolute {
   @apply absolute  top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2;
 }
+.center-absolute-top {
+  @apply absolute  top-1/4 left-1/2  -translate-x-1/2 -translate-y-1/2;
+}
 
 /* Smooth scrolling on hover */
 .scroll-smooth {

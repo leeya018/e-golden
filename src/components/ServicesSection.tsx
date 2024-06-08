@@ -9,7 +9,7 @@ const ServicesSection = () => {
   const { translations } = languageStore;
 
   return (
-    <section className="min-h-screen flex flex-col ">
+    <section className=" flex flex-col ">
       <div className="flex justify-center ">
         <h1 className="title">{translations.servicesMain.sectionTitle}</h1>
       </div>

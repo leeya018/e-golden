@@ -21,8 +21,8 @@ const Main = observer(() => {
   return (
     <div className="">
       <main className="flex w-full   lg:mx-auto flex-col ">
-        {/* <AboutPortugalSection /> */}
-        <div className="px-6">
+        <AboutPortugalSection />
+        <div className="px-16">
           <ServicesSection />
           <TentemonialList />
 
