@@ -1,8 +1,9 @@
 // Anywhere inside your component or page files
 import { languageStore } from "@/mobx/languageStore";
 import Video from "./Video";
+import { observer } from "mobx-react-lite";
 
-export default function AboutPortugalSection() {
+function AboutPortugalSection() {
   const { translations } = languageStore;
 
   return (
@@ -15,10 +16,15 @@ export default function AboutPortugalSection() {
         className="center-absolute-top flex flex-col font-semibold text-2xl 
       justify-center items-center gap-3 mb-20 mt-10 "
       >
-        <div className="text-black">From Relocation to Investments</div>
-        <div className="text-black">Your One Stop Shop Services</div>
-        <div className="text-black">With E-golden</div>
+        <ul className="text-black flex flex-col items-center">
+          {translations.servicesMain.subtitles.map(
+            (sub: string, key: number) => (
+              <li key={key}>{sub}</li>
+            )
+          )}
+        </ul>
       </div>
     </section>
   );
 }
+export default observer(AboutPortugalSection);

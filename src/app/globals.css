@@ -85,7 +85,7 @@ html[dir="rtl"] {
   direction: rtl;
 }
 
-.line-clamp-1 {
+/* .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -102,4 +102,4 @@ html[dir="rtl"] {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
-}
+} */

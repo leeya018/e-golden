@@ -15,7 +15,11 @@
   },
   "servicesMain": {
     "title": "Bem-vindo ao nosso portal de serviços",
-    "subtitle": "De realocação a investimentos: sua loja de serviços completa com a E-golden",
+    "subtitles": [
+      "De realocação a investimentos",
+      "sua loja de serviços completa",
+      "com a E-golden"
+    ],
     "sectionTitle": "Serviços"
   },
   "services": {

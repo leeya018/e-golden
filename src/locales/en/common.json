@@ -15,7 +15,11 @@
   },
   "servicesMain": {
     "title": "Welcome to our services portal",
-    "subtitle": "From relocation to investments - your one-stop service shop with E-golden",
+    "subtitles": [
+      "From relocation to investments",
+      "your one-stop service shop",
+      "with E-golden"
+    ],
     "sectionTitle": "Services"
   },
   "services": {
