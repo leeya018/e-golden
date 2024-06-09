@@ -14,40 +14,21 @@ export default function ServiceCard({
   imageUrl,
   onClick,
 }: ServiceCardProps) {
-  const [expanded, setExpanded] = useState(false);
-
-  const handleReadMoreClick = () => {
-    setExpanded(!expanded);
-  };
-
   return (
     <div
-      className={`relative border border-gold leading-7 ${
-        expanded ? "h-auto" : "h-[500px]"
-      } overflow-hidden rounded-lg shadow-lg pb-2 transition-all duration-300`}
+      className={`relative border border-gold leading-7 overflow-hidden rounded-lg shadow-lg pb-2 transition-all duration-300`}
     >
       <Image
-        className="w-full h-1/2"
+        className="w-full h-6/10"
         alt={title}
         width={500}
         height={500}
         src={imageUrl}
       />
-      <div className="p-3 pb-4">
-        <h2 className="mb-5 text-xl font-semibold mt-2 line-clamp-1">
-          {title}
-        </h2>
-        <ul className="flex flex-col gap-2 line-clamp-3">
-          {description.map((item, key) => (
-            <li key={key} className="list-disc list-inside">
-              {item}
-            </li>
-          ))}
-        </ul>
+      <div className="p-3">
+        <h2 className=" text-xl font-semibold mt-2 line-clamp-1">{title}</h2>
+        <div className="flex flex-col gap-2 line-clamp-3">{description}</div>
 
-        {/* <button onClick={handleReadMoreClick} className="text-white underline">
-          {expanded ? "Read Less" : "Read More"}
-        </button> */}
         <button
           className="mt-4 bg-gold text-white py-2 px-4 rounded"
           onClick={onClick}

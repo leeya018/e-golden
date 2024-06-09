@@ -49,7 +49,7 @@ const ServicePage = () => {
       <div className="px-10 mt-7">
         <div className="mb-8">
           <h2 className="title-left">{chosenService.title}</h2>
-          <div className=" mb-4 text">{chosenService.description}</div>
+          <div className=" mb-4 text ">{chosenService.description}</div>
           <ul className="list-disc  list-inside text-lg mb-4 flex flex-col">
             <h2 className="text-3xl font-semibold my-10">Services</h2>
             {chosenService.details.services.map((service, index) => (
