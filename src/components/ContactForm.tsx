@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray p-8 rounded-lg  max-w-3xl mx-auto ">
+    <div className="card-gradient p-8 rounded-lg  max-w-3xl mx-auto ">
       <h2 className="text-center text-2xl font-semibold mb-4">
         Have a question? Contact us
       </h2>
@@ -132,7 +132,7 @@ const ContactForm: React.FC = () => {
         <div className="text-right">
           <button
             type="submit"
-            className="bg-yellow-700 text-white py-2 px-6 rounded-lg"
+            className="bg-gold text-white py-2 px-6 rounded-lg"
           >
             Submit
           </button>

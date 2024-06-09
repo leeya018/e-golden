@@ -6,6 +6,8 @@ import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
+import { useRouter } from "next/navigation";
+
 import { Service } from "@/interfaces/Service";
 import Link from "next/link";
 import RelocationServices from "@/components/RelocationServices";
@@ -13,6 +15,7 @@ import { residency_relocation_name } from "@/util";
 
 const ServicePage = () => {
   const { translations } = languageStore;
+  const router = useRouter();
 
   const params = useParams();
   const { id } = params as { id: string };

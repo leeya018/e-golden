@@ -35,18 +35,21 @@ function RootLayout({
         <Header />
 
         <Modal
+          bgColor="bg-white"
           isOpen={ModalStore.modalName === modals.scedule}
           closeModal={ModalStore.closeModal}
         >
           <Calender />
         </Modal>
         <Modal
+          bgColor="bg-card-gradient"
           isOpen={ModalStore.modalName === modals.contact}
           closeModal={ModalStore.closeModal}
         >
           <ContactForm />
         </Modal>
         <Modal
+          bgColor="bg-card-gradient"
           isOpen={ModalStore.modalName === modals.testemonial}
           closeModal={ModalStore.closeModal}
         >
