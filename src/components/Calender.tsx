@@ -1,6 +1,6 @@
 function Calender() {
   return (
-    <div className="w-full mx-auto mt-10 h-[80vh]">
+    <div className="w-full mx-auto mt-10 h-[80vh] bg-gray">
       <iframe
         src="https://calendly.com/leeyahav018"
         width="100%"

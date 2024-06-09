@@ -8,10 +8,10 @@ function TestemonialData() {
     TestemonialStore.chosenTestemonial as Testemonial;
   console.log({ location, name, info });
   return (
-    <div className=" w-full h-full text-black bg-black">
-      <div>{location}</div>
-      <div>{name}</div>
-      <div>{info}</div>
+    <div className=" w-full  text-black card-gradient leading-[32px] ">
+      <div className=" font-normal text-md  mb-8">{info}</div>
+      <div className="font-semibold text-xl">{name}</div>
+      <div className="font-normal text-md">{location}</div>
     </div>
   );
 }

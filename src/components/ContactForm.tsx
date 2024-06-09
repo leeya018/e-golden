@@ -48,14 +48,14 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-white p-8 rounded-lg shadow-md max-w-3xl mx-auto">
+    <div className="bg-gray p-8 rounded-lg  max-w-3xl mx-auto ">
       <h2 className="text-center text-2xl font-semibold mb-4">
         Have a question? Contact us
       </h2>
       <p className="text-center mb-6">
         We will respond by email within no longer than one working day.
       </p>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
           <input
             value={formData.firstName}
@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
             required
             type="text"
             placeholder="First name*"
-            className="border border-gray-300 p-2 rounded-lg w-full"
+            className="border border-gray-300 p-2 rounded-lg w-full  text-black"
           />
           <input
             value={formData.lastName}
@@ -73,19 +73,18 @@ const ContactForm: React.FC = () => {
             required
             type="text"
             placeholder="Last name*"
-            className="border border-gray-300 p-2 rounded-lg w-full"
+            className="border border-gray-300 p-2 rounded-lg w-full text-black"
           />
         </div>
         <div className="grid grid-cols-1 gap-4 mb-4">
           <input
             value={formData.email}
             name="email"
-            c
             onChange={handleChange}
             required
             type="email"
             placeholder="Email*"
-            className="border border-gray-300 p-2 rounded-lg w-full"
+            className="border border-gray-300 p-2 rounded-lg w-full text-black"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -93,7 +92,7 @@ const ContactForm: React.FC = () => {
             value={formData.nationality}
             onChange={handleChange}
             name="nationality"
-            className="border border-gray-300 p-2 rounded-lg w-full"
+            className="border border-gray-300 p-2 rounded-lg w-full text-black"
           >
             <option value="">Nationality*</option>
             {countries.map((country: string, index: number) => (
@@ -107,7 +106,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             name="residence"
             // placeholder="Country of Residence*"
-            className="border border-gray-300 p-2 rounded-lg w-full"
+            className="border border-gray-300 p-2 rounded-lg w-full text-black"
           >
             {countries.map((country: string, index: number) => (
               <option key={index} value={country}>
@@ -123,7 +122,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             placeholder="What are you interested in?*"
-            className="border border-gray-300 p-2 rounded-lg w-full h-24"
+            className="border border-gray-300 p-2 rounded-lg w-full h-24 text-black"
           />
         </div>
         <p className="text-sm text-gray-600 mb-4">

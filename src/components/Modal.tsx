@@ -35,7 +35,7 @@ function Modal({ isOpen, closeModal, children }: ModalProps) {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-[50vw] rounded-md max-w-full transform overflow-hidden  bg-white p-6 text-left align-middle shadow-xl transition-all">
+              <Dialog.Panel className="w-[50vw] rounded-md max-w-full transform overflow-hidden  bg-gray p-6 text-left align-middle shadow-xl transition-all">
                 {children}
               </Dialog.Panel>
             </Transition.Child>
