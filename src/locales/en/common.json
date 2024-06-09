@@ -305,5 +305,39 @@
     "message": "Message:",
     "email": "Email:",
     "submit": "Submit"
-  }
+  },
+  "testimonials": [
+    {
+      "location": "Irael, Rishon",
+      "name": "Madelaine 6",
+      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+    },
+    {
+      "location": "Irael, Rishon",
+      "name": "Madelaine 6",
+      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+    },
+    {
+      "location": "Irael, Rishon",
+      "name": "Madelaine 6",
+      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+    }
+  ],
+  "press": [
+    {
+      "title": "Tech Advances",
+      "description": "Latest advancements in technology .",
+      "imageUrl": "/images/relocation.png"
+    },
+    {
+      "title": "Tech Advances",
+      "description": "Latest advancements in technology .",
+      "imageUrl": "/images/relocation.png"
+    },
+    {
+      "title": "Tech Advances",
+      "description": "Latest advancements in technology .",
+      "imageUrl": "/images/relocation.png"
+    }
+  ]
 }

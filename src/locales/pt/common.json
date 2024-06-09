@@ -1,194 +1,272 @@
 {
   "about_us": {
-    "welcome_message": "Bem-vindo à E-golden – Seu Parceiro Confiável para Realocação em Portugal.",
-    "who_we_are": "Na E-golden, somos especializados em fornecer serviços completos de realocação, adaptados para atender às necessidades únicas de nossos clientes. A ideia de criar a E-golden surgiu devido à dificuldade que as pessoas que queriam se mudar para Portugal enfrentavam. Portanto, combinando nossa experiência na prestação dos serviços necessários, bem como nós mesmos, fundadores da E-golden, tendo passado por um processo equivalente, recebemos com satisfação a oportunidade de ajudar o maior número possível de pessoas a receber a melhor e mais confortável experiência durante o processo de realocação.",
-    "our_mission": "Nossa missão é oferecer serviços de realocação de primeira linha que superem as expectativas dos clientes. Nosso objetivo é minimizar o tempo de inatividade e as interrupções, permitindo uma transição suave para suas novas localidades e a retomada das operações o mais rápido possível.",
-    "our_vision": "Nossa visão é ser o principal fornecedor de serviços de realocação globalmente, reconhecido por nosso compromisso com a qualidade, inovação e satisfação do cliente. Nosso objetivo é estabelecer novos padrões na indústria de realocação, garantindo que cada mudança seja um passo à frente para nossos clientes.",
+    "welcome_message": "Bem-vindo à E-golden, seu parceiro de confiança para a realocação em Portugal.",
+    "who_we_are": "Na E-golden, nos especializamos em fornecer serviços de realocação abrangentes, adaptados às necessidades únicas de nossos clientes. A ideia de criar a E-golden surgiu dos desafios que identificamos que as pessoas que desejam se mudar para Portugal enfrentam. Portanto, combinando nossa experiência em fornecer os serviços necessários e tendo passado por um processo semelhante, os fundadores da E-golden, damos as boas-vindas à oportunidade de ajudar o maior número possível de pessoas a ter a melhor e mais confortável experiência em seu processo de realocação.",
+    "our_mission": "Nossa missão é fornecer serviços de realocação de primeira linha que superem as expectativas dos clientes. Nosso objetivo é minimizar o tempo de inatividade e as interrupções, permitindo uma transição suave para novos locais e a retomada das atividades o mais rápido possível.",
+    "our_vision": "Nossa visão é ser o principal fornecedor de serviços de realocação em todo o mundo, reconhecido pelo nosso compromisso com a qualidade, inovação e satisfação do cliente. Nosso objetivo é estabelecer novos padrões na indústria de realocação, garantindo que cada mudança seja um passo à frente para nossos clientes.",
     "our_values": {
-      "integrity": "Conduzimos nossos negócios com os mais altos padrões éticos, garantindo transparência e honestidade em todas as nossas negociações.",
-      "customer_focus": "Nossos clientes estão no centro de tudo o que fazemos. Esforçamo-nos para entender suas necessidades únicas e fornecer soluções personalizadas.",
+      "integrity": "Conduzimos nossos negócios com os mais altos padrões éticos, garantindo transparência e honestidade em todas as nossas transações.",
+      "customer_focus": "Nossos clientes estão no centro de tudo o que fazemos. Nos esforçamos para entender suas necessidades únicas e fornecer soluções personalizadas.",
       "excellence": "Estamos comprometidos em oferecer um serviço excepcional e melhorar continuamente nossos processos para superar as expectativas dos clientes.",
       "teamwork": "Acreditamos no poder da colaboração e trabalhamos juntos para alcançar objetivos comuns.",
-      "innovation": "Abraçamos novas ideias e tecnologias para fornecer os melhores serviços possíveis aos nossos clientes."
+      "innovation": "Adotamos novas ideias e tecnologias para fornecer os melhores serviços aos nossos clientes."
     },
     "imageUrl": "/images/relocation.png"
   },
   "servicesMain": {
-    "title": "Bem-vindo ao Nosso Portal de Serviços",
-    "subtitle": "De Realocação a Investimentos, Seu Serviço de Loja Única com E-golden",
-    "section_title": "Serviços"
+    "title": "Bem-vindo ao nosso portal de serviços",
+    "subtitle": "De realocação a investimentos: sua loja de serviços completa com a E-golden",
+    "sectionTitle": "Serviços"
   },
   "services": {
     "residency_relocation": {
-      "title": "Relocação e Residência",
+      "title": "Realocação e Residência",
       "description": [
-        "Você está pensando em mudar-se para outro país? Portugal será o lugar certo para realizar seus sonhos e necessidades.",
-        "Podemos adaptar um pacote de serviços perfeitamente adequado às suas necessidades exatas, incluindo permissões de residência, consultoria fiscal, busca de casa, abertura de conta bancária, seguro de saúde, carteira de motorista e outros."
+        "Está pensando em se mudar para outro país? Portugal será o lugar certo para realizar seus sonhos e necessidades.",
+        "Podemos criar um pacote de serviços perfeitamente adaptado às suas necessidades exatas, incluindo permissões de residência, consultoria fiscal, busca de moradia, abertura de conta bancária, seguro de saúde, carteira de motorista e outros."
       ],
-      "location": "relocation",
+      "location": "realocação",
       "imageUrl": "/images/relocation.png",
+
       "details": {
-        "relocation_to_portugal": {
-          "label": "Relocação para Portugal",
-          "description": "Quando você pensa em embarcar em uma nova aventura mudando-se para outro país, a lista de formalidades a serem tratadas pode parecer difícil de cumprir à primeira vista. Esta é uma das razões pelas quais faz sentido aproveitar os serviços de relocação especializados da E-golden em Portugal. Nós acompanharemos você nesta aventura. Nosso objetivo principal é fornecer um serviço completo para que você aproveite ao máximo sua nova jornada."
-        },
-        "relocation_basic_steps": {
-          "label": "Etapas Básicas de Relocação",
-          "steps": [
-            "Visto",
-            "Busca de Casa",
-            "Número NIF",
-            "Suporte de Mercadorias",
-            "Conta Bancária",
-            "Transferência de Dinheiro"
-          ]
-        },
-        "residency_permits": {
-          "label": "Permissões de Residência",
-          "description": "As permissões de residência em Portugal oferecem um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja através de investimento, emprego ou laços familiares, Portugal oferece uma gama de opções para indivíduos que desejam estabelecer residência neste belo país. Com sua atmosfera acolhedora, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente uma porta de entrada para a vida europeia. Obter residência em Portugal traz uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à área de Schengen, permitindo viagens sem visto em grande parte da Europa.",
-          "options": [
-            {
-              "label": "visto_trabalho",
-              "title": "Visto de Trabalho",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_nômade_digital",
-              "title": "Visto de Nômade Digital – Você obtém seu visto trabalhando remotamente ou administrando um negócio",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_dourado",
-              "title": "Visto Dourado – Visto de Investimento",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_d7",
-              "title": "Visto D7 – Visto de Rendimento Passivo",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_d2",
-              "title": "Visto D2 – Visto para Freelancers/Prestadores de Serviços Independentes",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_startup",
-              "title": "Visto Startup – Visto para desenvolver um negócio empreendedor/inovador em Portugal",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_estudante",
-              "title": "Visto de Estudante – Autorização de residência para estudar em Portugal",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            },
-            {
-              "label": "visto_reunião_familiar",
-              "title": "Visto de Reunião Familiar – Sendo português ou titular de autorização de residência, você pode garantir um visto para seus familiares",
-              "description": "Quando você pensa em abraçar uma nova aventura como mudar-se para um país diferente, a lista de formalidades que"
-            }
-          ]
-        },
-        "relocation_services_packages": {
-          "label": "Pacotes de Serviços de Relocação",
-          "red_package": {
-            "label": "Pacote Vermelho",
+        "label": "Permissões de Residência",
+        "description": "As permissões de residência em Portugal oferecem um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja por meio de investimento, emprego ou laços familiares, Portugal oferece uma variedade de opções para indivíduos que desejam estabelecer residência neste belo país. Com seu ambiente acolhedor, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente um portal para a vida europeia. Obter residência em Portugal vem com uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à Área Schengen, permitindo viagens sem visto por grande parte da Europa.",
+        "services": [
+          {
+            "label": "visto_de_trabalho",
+            "title": "Visto de Trabalho",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "visto_nômade_digital",
+            "title": "Visto Nômade Digital – Você obtém seu visto trabalhando remotamente ou gerenciando um negócio",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "visto_dourado",
+            "title": "Visto Dourado – Visto de investimento",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "visto_d7",
+            "title": "Visto D7 – Visto de renda passiva",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "visto_d2",
+            "title": "Visto D2 – Visto para freelancers/provedores de serviços independentes",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "visto_para_startup",
+            "title": "Visto para Startup – Visto por desenvolver um negócio empreendedor/inovador em Portugal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+
+          {
+            "label": "visto_estudantil",
+            "title": "Visto Estudantil – Permissão de residência para estudar em Portugal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+
+          {
+            "label": "visto_reunião_familiar",
+            "title": "Visto de Reunião Familiar – Sendo português ou titular de uma permissão de residência, você pode garantir a seus familiares um visto",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ],
+
+        "steps": [
+          {
+            "label": "visto",
+            "title": "Visto",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "busca_de_casa",
+            "title": "Busca de Casa",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "número_nif",
+            "title": "Número NIF",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "suporte_de_commodities",
+            "title": "Suporte de Commodities",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "conta_bancária",
+            "title": "Conta Bancária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          },
+          {
+            "label": "transferência_de_dinheiro",
+            "title": "Transferência de Dinheiro",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
+          }
+        ],
+        "packages": {
+          "pacote_vermelho": {
+            "label": "pacote_vermelho",
+            "title": "Pacote Vermelho",
             "services": [
-              "Busca de Casa",
+              "Buscador de Casa",
               "Permissão de Residência",
-              "Serviços de Suporte de Mercadorias",
+              "Serviços de Suporte de Commodities",
               "NISS",
               "NIF",
-              "Suporte para Abertura de Conta Bancária"
+              "Suporte para Conta Bancária"
             ]
           },
-          "golden_package": {
-            "label": "Pacote Dourado",
+          "pacote_dourado": {
+            "label": "pacote_dourado",
+            "title": "Pacote Dourado",
             "services": [
-              "Busca de Casa",
+              "Buscador de Casa",
               "Permissão de Residência",
-              "Serviços de Suporte de Mercadorias",
+              "Serviços de Suporte de Commodities",
               "NISS",
               "NIF",
-              "Suporte para Abertura de Conta Bancária",
+              "Suporte para Conta Bancária",
               "Carteira de Motorista",
               "NHR",
               "Seguro",
-              "Escola para Crianças",
-              "Busca de Carros"
+              "Escola para crianças",
+              "Buscadores de Carros"
             ]
           },
-          "custom_package": {
-            "label": "Pacote Personalizado",
+          "pacote_personalizado": {
+            "label": "pacote_personalizado",
+            "title": "Pacote Personalizado",
             "description": "Crie o seu próprio!"
           }
         }
       }
     },
-    "tax-planning-advice": {
-      "title": "Planejamento e Consultoria Fiscal",
+    "planejamento_fiscal_e_consultoria": {
+      "title": "Planejamento Fiscal e Consultoria",
       "description": [
-        "Entender suas obrigações fiscais e seu impacto na sua vida pessoal e nos seus negócios é essencial quando você decide mudar-se ou investir em um novo país."
+        "Compreender suas obrigações fiscais e seu impacto em sua vida pessoal e nos negócios é essencial quando você decide se realocar ou investir em um novo país."
       ],
-      "location": "tax",
+      "location": "impostos",
       "imageUrl": "/images/tax.png",
       "details": {
-        "tax_planning_and_advice": {
-          "label": "Planejamento e Consultoria Fiscal",
-          "description": "O planejamento fiscal é essencial para qualquer empresa ou empreendedor cujo objetivo seja prosperar no desenvolvimento de seus negócios. A decisão de investir em um negócio, especialmente um com perspectivas de longo prazo, requer consideração cuidadosa das obrigações fiscais e seu impacto resultante no desenvolvimento do empreendimento proposto. A decisão de uma pessoa de investir ou começar uma vida em outro país é, em última análise, baseada no conhecimento dos Tratados de Dupla Tributação e nos benefícios potenciais que eles oferecem, bem como no conhecimento das leis fiscais do país em nível nacional. Para realizar qualquer projeto de forma eficaz, é essencial consultar as informações fiscais mais atualizadas disponíveis. A E-Golden pode ajudá-lo a identificar a melhor maneira de prosseguir com base nas suas circunstâncias específicas, oferecendo um serviço especializado e personalizado para reduzir os riscos com a carga fiscal e, assim, melhorar seus resultados e rendimentos.",
-          "services": [
-            "Consultoria Fiscal",
-            "Planejamento Fiscal",
-            "Consultoria de Dupla Tributação",
-            "Consultoria e Submissão de Aplicações para NHR",
-            "Consultoria Fiscal para Atletas e Artistas",
-            "Consultoria Fiscal para Investimentos Imobiliários"
-          ]
-        }
+        "title": "Planejamento Fiscal e Consultoria",
+        "description": "O planejamento fiscal é essencial para qualquer empresa ou empreendedor cujo objetivo é prosperar no desenvolvimento de seus negócios. A decisão de investir em um negócio, particularmente com perspectivas de longo prazo, exige consideração cuidadosa das obrigações fiscais e seu impacto resultante no desenvolvimento de nossa proposta empresarial. A decisão de um indivíduo de investir ou iniciar uma vida em outro país é, em última análise, baseada no conhecimento dos Tratados de Dupla Tributação e nos benefícios potenciais que eles oferecem, bem como no conhecimento das leis fiscais do país em nível nacional. Para realizar efetivamente qualquer projeto, é essencial consultar as informações fiscais mais atualizadas disponíveis. A E-Golden pode ajudá-lo a identificar a melhor maneira de proceder com base em suas circunstâncias específicas, oferecendo serviços especializados e personalizados para reduzir os riscos com a carga tributária e, assim, melhorar seus resultados e renda.",
+        "services": [
+          {
+            "label": "consultoria_fiscal",
+            "title": "Consultoria Fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "planejamento_fiscal",
+            "title": "Planejamento Fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "consultoria_de_dupla_tributação",
+            "title": "Consultoria de Dupla Tributação",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "consultoria_e_submissão_de_aplicação_nhr",
+            "title": "Consultoria e Submissão de Aplicação NHR",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "consultoria_fiscal_para_atletas_e_artistas",
+            "title": "Consultoria Fiscal para Atletas e Artistas",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "consultoria_fiscal_para_investimentos_imobiliários",
+            "title": "Consultoria Fiscal para Investimentos Imobiliários",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
       }
     },
-    "business-solutions": {
+    "soluções_de_negócios": {
       "title": "Soluções de Negócios",
       "description": [
-        "Você pode contar com a E-golden para fornecer todos os serviços necessários para sua empresa em Portugal, incluindo registro, domiciliação, abertura de conta bancária, contabilidade, planejamento fiscal, etc."
+        "Você pode contar com a E-golden para fornecer serviços completos de empresa em Portugal, incluindo registro, domiciliação, abertura de conta bancária, contabilidade, planejamento tributário, etc."
       ],
-      "location": "business",
+      "location": "negócios",
       "imageUrl": "/images/business.png",
       "details": {
-        "business_solutions": {
-          "label": "Soluções de Negócios",
-          "description": "No mercado dinâmico e competitivo de hoje, as empresas enfrentam numerosos desafios que exigem soluções inovadoras e personalizadas. Os Serviços de Soluções de Negócios (BSS) são projetados para abordar esses desafios fornecendo uma ampla gama de serviços estratégicos, operacionais e tecnológicos que ajudam as organizações a otimizar seu desempenho, alcançar suas metas e impulsionar o crescimento sustentável. Com a E-Golden, você poderá alcançar seus objetivos mais rapidamente e de forma mais eficiente. Para isso, estamos comprometidos em fornecer os serviços necessários para que você possa implementar seu negócio em Portugal. Começando com a apresentação de um plano de negócios, consultoria sobre a melhor estrutura fiscal para seu negócio, escolha da melhor forma jurídica para sua empresa, suporte para abertura de conta bancária e serviços de contabilidade especializados.",
-          "services": [
-            "Consultoria Empresarial – Plano de Negócios e Consultoria Fiscal",
-            "Serviços para Empresas – Constituição de Empresa e Registro de Marca",
-            "Domiciliação da Empresa",
-            "Conta Bancária",
-            "Contabilidade"
-          ]
-        }
+        "label": "Soluções de Negócios",
+        "description": "No mercado dinâmico e competitivo de hoje, as empresas enfrentam inúmeros desafios que exigem soluções inovadoras e personalizadas. Os Serviços de Soluções de Negócios (BSS) são projetados para enfrentar esses desafios, fornecendo uma ampla gama de serviços estratégicos, operacionais e tecnológicos que ajudam as organizações a otimizar seu desempenho, alcançar seus objetivos e impulsionar o crescimento sustentável. Com a E-Golden, você poderá alcançar seus objetivos mais rapidamente e de forma mais eficiente. Para isso, estamos comprometidos em fornecer os serviços necessários para que você possa implementar seu negócio em Portugal. Começando com a apresentação de um plano de negócios, consultoria sobre a melhor estrutura tributária para seu negócio, escolha da melhor forma legal para sua empresa, suporte para abertura de conta bancária e serviços contábeis especializados.",
+
+        "services": [
+          {
+            "label": "consultoria_de_negócios",
+            "title": "Consultoria de Negócios – Plano de negócios e consultoria fiscal",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "serviços_de_empresa",
+            "title": "Serviços de Empresa – Constituição de empresa e registro de marca",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "domiciliação_de_empresa",
+            "title": "Domiciliação de Empresa",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "conta_bancária",
+            "title": "Conta bancária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "contabilidade",
+            "title": "Contabilidade",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
       }
     },
-    "real-estate-investments-management": {
+    "investimentos_e_gestão_imobiliária": {
       "title": "Investimentos e Gestão Imobiliária",
       "description": [
         "Com a E-golden, você pode ter uma solução imobiliária integrada desde a fase de planejamento até a gestão diária de propriedades em Portugal."
       ],
-      "location": "realestate",
+      "location": "imobiliário",
       "imageUrl": "/images/realestate.png",
       "details": {
-        "real_estate_investments_and_management": {
-          "label": "Investimentos e Gestão Imobiliária",
-          "description": "Investir em imóveis pode ser altamente lucrativo, mas também complexo, exigindo expertise, planejamento estratégico e gestão meticulosa. Os Serviços de Investimentos e Gestão Imobiliária da E-Golden são projetados para guiá-lo a maximizar retornos, minimizar riscos e garantir o funcionamento suave dos seus ativos imobiliários. Quer você seja um investidor individual ou uma entidade corporativa, nosso conjunto abrangente de serviços é adaptado para atender às suas necessidades e objetivos únicos.",
-          "services": [
-            "Planejamento de Investimentos Imobiliários",
-            "Serviços de Busca de Propriedades",
-            "Assistência na Compra de Propriedades",
-            "Serviços de Gestão Imobiliária"
-          ]
-        }
+        "label": "Investimentos e Gestão Imobiliária",
+        "description": "Investir em imóveis pode ser altamente lucrativo, mas também complexo, exigindo expertise, planejamento estratégico e gestão meticulosa. Os Serviços de Investimentos e Gestão Imobiliária da E-Golden são projetados para guiá-lo a maximizar retornos, minimizar riscos e garantir a operação tranquila de seus ativos imobiliários. Seja você um investidor individual ou uma entidade corporativa, nosso conjunto abrangente de serviços é adaptado para atender às suas necessidades e objetivos únicos.",
+
+        "services": [
+          {
+            "label": "planejamento_de_investimentos_imobiliários",
+            "title": "Planejamento de Investimentos Imobiliários",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "serviços_de_busca_de_propriedades",
+            "title": "Serviços de Busca de Propriedades",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "assistência_na_compra_de_propriedades",
+            "title": "Assistência na Compra de Propriedades",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          },
+          {
+            "label": "serviços_de_gestão_imobiliária",
+            "title": "Serviços de Gestão Imobiliária",
+            "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
+          }
+        ]
       }
     }
   },
+
   "footer": {
     "title": "Sobre Nós",
     "p1": "Saiba mais sobre nossa missão e serviços.",
@@ -202,30 +280,65 @@
     "facebook": "Facebook",
     "twitter": "Twitter",
     "linkedin": "LinkedIn",
-    "whatsapp": "Whatsapp",
-    "all_rights_reserved": "E-Golden. Todos os direitos reservados."
+    "whatsapp": "WhatsApp",
+    "reserved": "E-Golden. Todos os direitos reservados."
   },
   "header": {
     "home": "Início",
-    "residency_relocation": "Residência & Realocação",
-    "tax_planning": "Planejamento Tributário",
+    "residency_relocation": "Residência e Realocação",
+    "tax_planning": "Planejamento Fiscal",
     "business": "Negócios",
-    "real_estate": "Imobiliário",
+    "real_estate": "Imóveis",
     "about": "Sobre",
     "contact": "Contato"
   },
   "contact_form": {
-    "contact_us": "Contate-nos!",
-    "first_name": "Primeiro Nome:",
-    "last_name": "Último Nome:",
-    "topic": "Tópico:",
-    "select_topic": "Selecionar um tópico",
-    "relocation_inquiry": "Inquérito de Realocação",
-    "tax": "Tributário",
+    "contact_us": "Fale Conosco!",
+    "first_name": "Nome:",
+    "last_name": "Sobrenome:",
+    "topic": "Assunto:",
+    "select_topic": "Selecione um assunto",
+    "relocation_inquiry": "Consulta de Realocação",
+    "tax": "Impostos",
     "business_solutions": "Soluções de Negócios",
     "real_estate": "Imobiliário",
     "message": "Mensagem:",
     "email": "Email:",
-    "send": "Enviar"
-  }
+    "submit": "Enviar"
+  },
+
+  "testimonials": [
+    {
+      "location": "Israel, Rishon",
+      "name": "Madelaine 6",
+      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+    },
+    {
+      "location": "Israel, Rishon",
+      "name": "Madelaine 6",
+      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+    },
+    {
+      "location": "Israel, Rishon",
+      "name": "Madelaine 6",
+      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+    }
+  ],
+  "press": [
+    {
+      "title": "Avanços Tecnológicos",
+      "description": "Últimos avanços em tecnologia.",
+      "imageUrl": "/images/relocation.png"
+    },
+    {
+      "title": "Avanços Tecnológicos",
+      "description": "Últimos avanços em tecnologia.",
+      "imageUrl": "/images/relocation.png"
+    },
+    {
+      "title": "Avanços Tecnológicos",
+      "description": "Últimos avanços em tecnologia.",
+      "imageUrl": "/images/relocation.png"
+    }
+  ]
 }

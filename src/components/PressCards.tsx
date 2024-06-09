@@ -1,27 +1,13 @@
+import { PressCardT } from "@/interfaces/PressCard";
+import { languageStore } from "@/mobx/languageStore";
+import { observer } from "mobx-react-lite";
 import Image from "next/image";
 import React, { useRef } from "react";
 
-const newsItems = [
-  {
-    title: "Tech Advances",
-    description: "Latest advancements in technology .",
-    imageUrl: "/images/relocation.png",
-  },
-  {
-    title: "Tech Advances",
-    description: "Latest advancements in technology .",
-    imageUrl: "/images/relocation.png",
-  },
-  {
-    title: "Tech Advances",
-    description: "Latest advancements in technology .",
-    imageUrl: "/images/relocation.png",
-  },
-];
-
-export default function PressCards() {
+function PressCards() {
   const scrollContainer = useRef<any>(null);
   let scrollInterval: any = null;
+  const { translations } = languageStore;
 
   const startScrolling = () => {
     if (scrollContainer.current) {
@@ -53,7 +39,7 @@ export default function PressCards() {
         onMouseEnter={startScrolling}
         onMouseLeave={stopScrolling}
       >
-        {newsItems.map((item, index) => (
+        {(translations.press as PressCardT[]).map((item, index) => (
           <PressCard key={index} {...item} />
         ))}
       </div>
@@ -61,12 +47,9 @@ export default function PressCards() {
   );
 }
 
-type PressCard = {
-  title: string;
-  imageUrl: string;
-  description: string;
-};
-const PressCard = ({ title, description, imageUrl }: PressCard) => {
+export default observer(PressCards);
+
+const PressCard = ({ title, description, imageUrl }: PressCardT) => {
   return (
     <div className="w-64 mx-2  my-5 rounded-xl  bg-card-gradient cursor-pointer">
       <Image alt="relocation" height={180} width={256} src={imageUrl} />

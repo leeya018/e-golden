@@ -2,28 +2,12 @@ import React, { useRef } from "react";
 import TestimonialCard from "./TestimonialCard";
 import { Testemonial } from "@/interfaces/Testemonial";
 import { observer } from "mobx-react-lite";
-
-const testimonials: Testemonial[] = [
-  {
-    location: "Irael, Rishon",
-    name: "Madelaine 6",
-    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
-  },
-  {
-    location: "Irael, Rishon",
-    name: "Madelaine 6",
-    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
-  },
-  {
-    location: "Irael, Rishon",
-    name: "Madelaine 6",
-    info: "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. ",
-  },
-];
+import { languageStore } from "@/mobx/languageStore";
 
 function TentemonialList() {
   const scrollContainer = useRef<any>(null);
   let scrollInterval: any = null;
+  const { translations } = languageStore;
 
   const startScrolling = () => {
     if (scrollContainer.current) {
@@ -55,9 +39,11 @@ function TentemonialList() {
         // onMouseEnter={startScrolling}
         // onMouseLeave={stopScrolling}
       >
-        {testimonials.map((testimonial, index) => (
-          <TestimonialCard key={index} {...testimonial} />
-        ))}
+        {(translations.testimonials as Testemonial[]).map(
+          (testimonial, index) => (
+            <TestimonialCard key={index} {...testimonial} />
+          )
+        )}
       </div>
     </div>
   );
