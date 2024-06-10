@@ -4,6 +4,7 @@ import enTranslations from "@/locales/en/common.json";
 import esTranslations from "@/locales/pt/common.json";
 import heTranslations from "@/locales/he/common.json";
 import { create } from "mobx-persist";
+import { countriesEn, countriesHe, countriesPt } from "@/util";
 
 // let hydrate: any;
 
@@ -15,11 +16,13 @@ import { create } from "mobx-persist";
 // }
 
 class LanguageStore {
+  countries: string[] = countriesEn;
   translations: any = enTranslations;
   locale: string = "en";
   direction: string = "ltr";
 
   constructor() {
+    // console.log({ countriesEn });
     makeAutoObservable(this);
     // this.translations = this.loadTranslations();
     // hydrate("languageStore", this).then(() => {
@@ -36,18 +39,22 @@ class LanguageStore {
     switch (this.locale) {
       case "en":
         this.translations = enTranslations;
+        this.countries = countriesEn;
         this.setDirection("ltr");
         break;
       case "pt":
         this.translations = esTranslations;
+        this.countries = countriesPt;
         this.setDirection("ltr");
         break;
       case "he":
         this.translations = heTranslations;
+        this.countries = countriesHe;
         this.setDirection("rtl");
         break;
       default:
         this.translations = enTranslations;
+        this.countries = countriesEn;
         this.setDirection("ltr");
     }
 

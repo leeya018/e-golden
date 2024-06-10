@@ -343,5 +343,36 @@
       "description": "Latest advancements in technology .",
       "imageUrl": "/images/relocation.png"
     }
-  ]
+  ],
+
+  "contactForm": {
+    "title": "Have a question? Contact us",
+    "description": "We will respond by email within no longer than one working day.",
+    "fields": [
+      {
+        "placeholder": "First name*"
+      },
+      {
+        "placeholder": "Last name*"
+      },
+      {
+        "placeholder": "Email*"
+      },
+      {
+        "placeholder": "Nationality*",
+        "options": ["Country1", "Country2", "..."]
+      },
+      {
+        "placeholder": "Residence*",
+        "options": ["Country1", "Country2", "..."]
+      },
+      {
+        "placeholder": "What are you interested in?*"
+      }
+    ],
+    "note": "N.B.: By contacting us you are granting your consent for us to forward your details to a E-golden respond directly to you.",
+    "submit": {
+      "text": "Submit"
+    }
+  }
 }

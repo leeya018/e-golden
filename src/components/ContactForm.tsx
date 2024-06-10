@@ -1,19 +1,27 @@
 import { languageStore } from "@/mobx/languageStore";
 import { ModalStore } from "@/mobx/modalStore";
-import { countries } from "@/util";
+import { countriesEn, countriesHe, countriesPt } from "@/util";
 import axios from "axios";
 import React, { FormEvent, useState } from "react";
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
-    firstName: "Dana",
-    lastName: "Golde",
-    topic: "Tax",
-    message: "hello lee , I want to pay ",
-    email: "leeyahav018@gmial.com",
+    firstName: "",
+    lastName: "",
+    topic: "",
+    message: "",
+    email: "",
     nationality: "",
     residence: "",
+    // firstName: "Dana",
+    // lastName: "Golde",
+    // topic: "Tax",
+    // message: "hello lee , I want to pay ",
+    // email: "leeyahav018@gmial.com",
+    // nationality: "",
+    // residence: "",
   });
+  const { translations, countries } = languageStore;
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -50,11 +58,9 @@ const ContactForm: React.FC = () => {
   return (
     <div className="card-gradient p-8 rounded-lg  max-w-3xl mx-auto ">
       <h2 className="text-center text-2xl font-semibold mb-4">
-        Have a question? Contact us
+        {translations.contactForm.title}
       </h2>
-      <p className="text-center mb-6">
-        We will respond by email within no longer than one working day.
-      </p>
+      <p className="text-center mb-6">{translations.contactForm.description}</p>
       <form onSubmit={handleSubmit} className="">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
           <input
@@ -63,7 +69,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             type="text"
-            placeholder="First name*"
+            placeholder={translations.contactForm.fields[0].placeholder}
             className="border border-gray-300 p-2 rounded-lg w-full  text-black"
           />
           <input
@@ -72,7 +78,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             type="text"
-            placeholder="Last name*"
+            placeholder={translations.contactForm.fields[1].placeholder}
             className="border border-gray-300 p-2 rounded-lg w-full text-black"
           />
         </div>
@@ -83,7 +89,7 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             type="email"
-            placeholder="Email*"
+            placeholder={translations.contactForm.fields[2].placeholder}
             className="border border-gray-300 p-2 rounded-lg w-full text-black"
           />
         </div>
@@ -94,7 +100,9 @@ const ContactForm: React.FC = () => {
             name="nationality"
             className="border border-gray-300 p-2 rounded-lg w-full text-black"
           >
-            <option value="">Nationality*</option>
+            <option value="">
+              {translations.contactForm.fields[3].placeholder}
+            </option>
             {countries.map((country: string, index: number) => (
               <option key={index} value={country}>
                 {country}
@@ -105,9 +113,11 @@ const ContactForm: React.FC = () => {
             value={formData.residence}
             onChange={handleChange}
             name="residence"
-            // placeholder="Country of Residence*"
             className="border border-gray-300 p-2 rounded-lg w-full text-black"
           >
+            <option value="">
+              {translations.contactForm.fields[4].placeholder}
+            </option>
             {countries.map((country: string, index: number) => (
               <option key={index} value={country}>
                 {country}
@@ -121,20 +131,19 @@ const ContactForm: React.FC = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            placeholder="What are you interested in?*"
+            placeholder={translations.contactForm.fields[5].placeholder}
             className="border border-gray-300 p-2 rounded-lg w-full h-24 text-black"
           />
         </div>
         <p className="text-sm text-gray-600 mb-4">
-          N.B.: By contacting us you are granting your consent for us to forward
-          your details to a E-golden respond directly to you.
+          {translations.contactForm.note}
         </p>
         <div className="text-right">
           <button
             type="submit"
             className="bg-gold text-white py-2 px-6 rounded-lg"
           >
-            Submit
+            {translations.contactForm.submit.text}
           </button>
         </div>
       </form>

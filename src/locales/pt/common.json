@@ -22,6 +22,7 @@
     ],
     "sectionTitle": "Serviços"
   },
+
   "services": {
     "residency_relocation": {
       "title": "Realocação e Residência",
@@ -29,52 +30,50 @@
         "Está pensando em se mudar para outro país? Portugal será o lugar certo para realizar seus sonhos e necessidades.",
         "Podemos criar um pacote de serviços perfeitamente adaptado às suas necessidades exatas, incluindo permissões de residência, consultoria fiscal, busca de moradia, abertura de conta bancária, seguro de saúde, carteira de motorista e outros."
       ],
-      "location": "realocação",
+      "location": "relocation",
       "imageUrl": "/images/relocation.png",
 
       "details": {
-        "label": "Permissões de Residência",
+        "label": "Residency Permits",
         "description": "As permissões de residência em Portugal oferecem um caminho para uma nova vida em um dos destinos mais desejáveis da Europa. Seja por meio de investimento, emprego ou laços familiares, Portugal oferece uma variedade de opções para indivíduos que desejam estabelecer residência neste belo país. Com seu ambiente acolhedor, rica cultura e paisagens deslumbrantes, Portugal é verdadeiramente um portal para a vida europeia. Obter residência em Portugal vem com uma série de benefícios. Além da oportunidade de viver em um país seguro e acolhedor com um alto padrão de vida, os residentes também têm acesso aos excelentes sistemas de saúde e educação de Portugal. Além disso, a residência em Portugal concede acesso à Área Schengen, permitindo viagens sem visto por grande parte da Europa.",
         "services": [
           {
-            "label": "visto_de_trabalho",
+            "label": "working_visa",
             "title": "Visto de Trabalho",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "visto_nômade_digital",
+            "label": "digital_nomad_visa",
             "title": "Visto Nômade Digital – Você obtém seu visto trabalhando remotamente ou gerenciando um negócio",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "visto_dourado",
+            "label": "golden_visa",
             "title": "Visto Dourado – Visto de investimento",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "visto_d7",
+            "label": "d7_visa",
             "title": "Visto D7 – Visto de renda passiva",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "visto_d2",
+            "label": "d2_visa",
             "title": "Visto D2 – Visto para freelancers/provedores de serviços independentes",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "visto_para_startup",
+            "label": "startup_visa",
             "title": "Visto para Startup – Visto por desenvolver um negócio empreendedor/inovador em Portugal",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
-
           {
-            "label": "visto_estudantil",
+            "label": "student_visa",
             "title": "Visto Estudantil – Permissão de residência para estudar em Portugal",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
-
           {
-            "label": "visto_reunião_familiar",
+            "label": "family_reunion_visa",
             "title": "Visto de Reunião Familiar – Sendo português ou titular de uma permissão de residência, você pode garantir a seus familiares um visto",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           }
@@ -82,39 +81,39 @@
 
         "steps": [
           {
-            "label": "visto",
+            "label": "visa",
             "title": "Visto",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           },
           {
-            "label": "busca_de_casa",
+            "label": "home_search",
             "title": "Busca de Casa",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           },
           {
-            "label": "número_nif",
+            "label": "nif_number",
             "title": "Número NIF",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           },
           {
-            "label": "suporte_de_commodities",
+            "label": "commodities_support",
             "title": "Suporte de Commodities",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           },
           {
-            "label": "conta_bancária",
+            "label": "bank_account",
             "title": "Conta Bancária",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           },
           {
-            "label": "transferência_de_dinheiro",
+            "label": "money_transfer",
             "title": "Transferência de Dinheiro",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que precisam ser cumpridas pode parecer difícil de cumprir à primeira vista."
           }
         ],
         "packages": {
-          "pacote_vermelho": {
-            "label": "pacote_vermelho",
+          "red_package": {
+            "label": "red_package",
             "title": "Pacote Vermelho",
             "services": [
               "Buscador de Casa",
@@ -125,8 +124,8 @@
               "Suporte para Conta Bancária"
             ]
           },
-          "pacote_dourado": {
-            "label": "pacote_dourado",
+          "golden_package": {
+            "label": "golden_package",
             "title": "Pacote Dourado",
             "services": [
               "Buscador de Casa",
@@ -142,127 +141,127 @@
               "Buscadores de Carros"
             ]
           },
-          "pacote_personalizado": {
-            "label": "pacote_personalizado",
+          "custom_package": {
+            "label": "custom_package",
             "title": "Pacote Personalizado",
             "description": "Crie o seu próprio!"
           }
         }
       }
     },
-    "planejamento_fiscal_e_consultoria": {
+    "tax-planning-advice": {
       "title": "Planejamento Fiscal e Consultoria",
       "description": [
         "Compreender suas obrigações fiscais e seu impacto em sua vida pessoal e nos negócios é essencial quando você decide se realocar ou investir em um novo país."
       ],
-      "location": "impostos",
+      "location": "tax",
       "imageUrl": "/images/tax.png",
       "details": {
         "title": "Planejamento Fiscal e Consultoria",
         "description": "O planejamento fiscal é essencial para qualquer empresa ou empreendedor cujo objetivo é prosperar no desenvolvimento de seus negócios. A decisão de investir em um negócio, particularmente com perspectivas de longo prazo, exige consideração cuidadosa das obrigações fiscais e seu impacto resultante no desenvolvimento de nossa proposta empresarial. A decisão de um indivíduo de investir ou iniciar uma vida em outro país é, em última análise, baseada no conhecimento dos Tratados de Dupla Tributação e nos benefícios potenciais que eles oferecem, bem como no conhecimento das leis fiscais do país em nível nacional. Para realizar efetivamente qualquer projeto, é essencial consultar as informações fiscais mais atualizadas disponíveis. A E-Golden pode ajudá-lo a identificar a melhor maneira de proceder com base em suas circunstâncias específicas, oferecendo serviços especializados e personalizados para reduzir os riscos com a carga tributária e, assim, melhorar seus resultados e renda.",
         "services": [
           {
-            "label": "consultoria_fiscal",
+            "label": "tax_consultancy",
             "title": "Consultoria Fiscal",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "planejamento_fiscal",
+            "label": "tax_planning",
             "title": "Planejamento Fiscal",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "consultoria_de_dupla_tributação",
+            "label": "double_taxation_consultancy",
             "title": "Consultoria de Dupla Tributação",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "consultoria_e_submissão_de_aplicação_nhr",
+            "label": "nhr_consultancy_and_application_submission",
             "title": "Consultoria e Submissão de Aplicação NHR",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "consultoria_fiscal_para_atletas_e_artistas",
+            "label": "tax_consultancy_for_athletes_and_artists",
             "title": "Consultoria Fiscal para Atletas e Artistas",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "consultoria_fiscal_para_investimentos_imobiliários",
+            "label": "tax_consultancy_for_real_estate_investments",
             "title": "Consultoria Fiscal para Investimentos Imobiliários",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           }
         ]
       }
     },
-    "soluções_de_negócios": {
+    "business-solutions": {
       "title": "Soluções de Negócios",
       "description": [
         "Você pode contar com a E-golden para fornecer serviços completos de empresa em Portugal, incluindo registro, domiciliação, abertura de conta bancária, contabilidade, planejamento tributário, etc."
       ],
-      "location": "negócios",
+      "location": "business",
       "imageUrl": "/images/business.png",
       "details": {
-        "label": "Soluções de Negócios",
+        "label": "Business Solutions",
         "description": "No mercado dinâmico e competitivo de hoje, as empresas enfrentam inúmeros desafios que exigem soluções inovadoras e personalizadas. Os Serviços de Soluções de Negócios (BSS) são projetados para enfrentar esses desafios, fornecendo uma ampla gama de serviços estratégicos, operacionais e tecnológicos que ajudam as organizações a otimizar seu desempenho, alcançar seus objetivos e impulsionar o crescimento sustentável. Com a E-Golden, você poderá alcançar seus objetivos mais rapidamente e de forma mais eficiente. Para isso, estamos comprometidos em fornecer os serviços necessários para que você possa implementar seu negócio em Portugal. Começando com a apresentação de um plano de negócios, consultoria sobre a melhor estrutura tributária para seu negócio, escolha da melhor forma legal para sua empresa, suporte para abertura de conta bancária e serviços contábeis especializados.",
 
         "services": [
           {
-            "label": "consultoria_de_negócios",
+            "label": "business_advice",
             "title": "Consultoria de Negócios – Plano de negócios e consultoria fiscal",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "serviços_de_empresa",
+            "label": "company_services",
             "title": "Serviços de Empresa – Constituição de empresa e registro de marca",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "domiciliação_de_empresa",
+            "label": "company_domiciliation",
             "title": "Domiciliação de Empresa",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "conta_bancária",
+            "label": "bank_account",
             "title": "Conta bancária",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "contabilidade",
+            "label": "accounting",
             "title": "Contabilidade",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           }
         ]
       }
     },
-    "investimentos_e_gestão_imobiliária": {
+    "real-estate-investments-management": {
       "title": "Investimentos e Gestão Imobiliária",
       "description": [
         "Com a E-golden, você pode ter uma solução imobiliária integrada desde a fase de planejamento até a gestão diária de propriedades em Portugal."
       ],
-      "location": "imobiliário",
+      "location": "realestate",
       "imageUrl": "/images/realestate.png",
       "details": {
-        "label": "Investimentos e Gestão Imobiliária",
+        "label": "Real Estate Investments and Management",
         "description": "Investir em imóveis pode ser altamente lucrativo, mas também complexo, exigindo expertise, planejamento estratégico e gestão meticulosa. Os Serviços de Investimentos e Gestão Imobiliária da E-Golden são projetados para guiá-lo a maximizar retornos, minimizar riscos e garantir a operação tranquila de seus ativos imobiliários. Seja você um investidor individual ou uma entidade corporativa, nosso conjunto abrangente de serviços é adaptado para atender às suas necessidades e objetivos únicos.",
 
         "services": [
           {
-            "label": "planejamento_de_investimentos_imobiliários",
+            "label": "real_estate_investment_planning",
             "title": "Planejamento de Investimentos Imobiliários",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "serviços_de_busca_de_propriedades",
+            "label": "property_search_services",
             "title": "Serviços de Busca de Propriedades",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "assistência_na_compra_de_propriedades",
+            "label": "assistance_with_property_purchase",
             "title": "Assistência na Compra de Propriedades",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           },
           {
-            "label": "serviços_de_gestão_imobiliária",
+            "label": "real_estate_management_services",
             "title": "Serviços de Gestão Imobiliária",
             "description": "Quando você pensa em embarcar em uma nova aventura como mudar-se para outro país, a lista de formalidades que"
           }
@@ -270,7 +269,6 @@
       }
     }
   },
-
   "footer": {
     "title": "Sobre Nós",
     "p1": "Saiba mais sobre nossa missão e serviços.",
@@ -344,5 +342,35 @@
       "description": "Últimos avanços em tecnologia.",
       "imageUrl": "/images/relocation.png"
     }
-  ]
+  ],
+  "contactForm": {
+    "title": "Tem uma pergunta? Entre em contato conosco",
+    "description": "Responderemos por email dentro de no máximo um dia útil.",
+    "fields": [
+      {
+        "placeholder": "Nome*"
+      },
+      {
+        "placeholder": "Sobrenome*"
+      },
+      {
+        "placeholder": "Email*"
+      },
+      {
+        "placeholder": "Nacionalidade*",
+        "options": ["País1", "País2", "..."]
+      },
+      {
+        "placeholder": "Residência*",
+        "options": ["País1", "País2", "..."]
+      },
+      {
+        "placeholder": "O que lhe interessa?*"
+      }
+    ],
+    "note": "Nota: Ao nos contatar, você está dando seu consentimento para que possamos encaminhar seus dados para a E-golden responder diretamente a você.",
+    "submit": {
+      "text": "Enviar"
+    }
+  }
 }
