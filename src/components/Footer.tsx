@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "./Modal";
 import Calender from "./Calender";
 import { ModalStore } from "@/mobx/modalStore";
-import { modals } from "@/util";
+import { handleWhatsAppClick, modals } from "@/util";
 import { languageStore } from "@/mobx/languageStore";
 import { observer } from "mobx-react-lite";
 import Image from "next/image";
@@ -10,17 +10,6 @@ import Image from "next/image";
 // components/Footer.js
 const Footer = () => {
   const { translations } = languageStore;
-
-  const handleWhatsAppClick = () => {
-    // const phoneNumber = "+972 54-222-6958"; // Replace with your phone number
-    const phoneNumber = process.env.NEXT_PUBLIC_PHONE; // Replace with your phone number
-    const message = "Hello, I would like to contact you."; // Optional: default message
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-      message
-    )}`;
-
-    window.open(url, "_blank");
-  };
 
   return (
     <footer className="bg-black text-white mt-20  px-16">

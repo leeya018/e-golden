@@ -7,10 +7,9 @@ export default function CalenderPopup() {
     <>
       <div
         onClick={() => ModalStore.openModal(modals.scedule)}
-        className="border-2 z-50 cursor-pointer rounded-md fixed bottom-0 right-0 m-4 p-4 
-        bg-blue-600 text-decoration-color  bg-white  shadow-xl border-black flex items-center space-x-4"
+        className="popup bg-white"
       >
-        <span className="font-semibold text-lg text-black">
+        <span className="font-semibold text-lg text-black   ">
           Schedule Meeting Now
         </span>
       </div>

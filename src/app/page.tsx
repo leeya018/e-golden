@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
 import AboutPortugalSection from "@/components/AboutPortugalSection";
 import TentemonialList from "@/components/TentemonialList";
-import PressList from "@/components/PressList";
+
 import Calender from "@/components/Calender";
 import CalenderPopup from "@/components/CalenderPopup";
 import Modal from "@/components/Modal";
@@ -16,6 +16,7 @@ import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
 import ContactForm from "@/components/ContactForm";
 import Link from "next/link";
+import PressList from "@/components/PressList";
 
 const Main = observer(() => {
   return (

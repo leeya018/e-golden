@@ -14,6 +14,7 @@ import { observer } from "mobx-react-lite";
 import CalenderPopup from "@/components/CalenderPopup";
 import { languageStore } from "@/mobx/languageStore";
 import TestemonialData from "@/components/TestemonialData";
+import WhatsappPopup from "@/components/WhatsappPopup";
 
 // import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
@@ -55,8 +56,11 @@ function RootLayout({
         >
           <TestemonialData />
         </Modal>
+        <div className="fixed bottom-0 right-0 m-4 flex ">
+          <CalenderPopup />
+          <WhatsappPopup />
+        </div>
 
-        <CalenderPopup />
         <main className="mt-24 min-h-screen">{children}</main>
         <Footer />
       </body>

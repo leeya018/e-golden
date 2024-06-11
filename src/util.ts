@@ -721,3 +721,14 @@ export const countriesPt: string[] = [
 // };
 
 export const residency_relocation_name = "residency_relocation";
+
+export const handleWhatsAppClick = () => {
+  // const phoneNumber = "+972 54-222-6958"; // Replace with your phone number
+  const phoneNumber = process.env.NEXT_PUBLIC_PHONE; // Replace with your phone number
+  const message = "Hello, I would like to contact you."; // Optional: default message
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
+  window.open(url, "_blank");
+};
