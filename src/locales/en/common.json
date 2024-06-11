@@ -20,7 +20,8 @@
       "your one-stop service shop",
       "with E-golden"
     ],
-    "sectionTitle": "Services"
+    "sectionTitle": "Your Personal and Tailored services with   ",
+    "buttonTxtService": "to service"
   },
   "services": {
     "residency_relocation": {
@@ -280,12 +281,14 @@
     "quick_links": "Quick Links",
     "services": "Services",
     "about_us": "About Us",
+    "follow_us": "Follow Us",
     "contact": "Contact",
     "facebook": "Facebook",
     "twitter": "Twitter",
     "linkedin": "LinkedIn",
     "whatsapp": "Whatsapp",
-    "reserved": "E-Golden. All rights reserved."
+    "reserved": "E-Golden. All rights reserved.",
+    "moto": "Specialists in relocation and Tax in Portugal, from your residence to your project"
   },
   "header": {
     "home": "Home",
@@ -310,41 +313,221 @@
     "email": "Email:",
     "submit": "Submit"
   },
-  "testimonials": [
-    {
-      "location": "Irael, Rishon",
-      "name": "Madelaine 6",
-      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
-    },
-    {
-      "location": "Irael, Rishon",
-      "name": "Madelaine 6",
-      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
-    },
-    {
-      "location": "Irael, Rishon",
-      "name": "Madelaine 6",
-      "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
-    }
-  ],
-  "press": [
-    {
-      "title": "Tech Advances",
-      "description": "Latest advancements in technology .",
-      "imageUrl": "/images/relocation.png"
-    },
-    {
-      "title": "Tech Advances",
-      "description": "Latest advancements in technology .",
-      "imageUrl": "/images/relocation.png"
-    },
-    {
-      "title": "Tech Advances",
-      "description": "Latest advancements in technology .",
-      "imageUrl": "/images/relocation.png"
-    }
-  ],
-
+  "testimonials": {
+    "buttonTxt": "Read More",
+    "list": [
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      },
+      {
+        "location": "Irael, Rishon",
+        "name": "Madelaine 6",
+        "info": "I chose E-golden for my wealth management needs, and I have been consistently impressed by their in-depth knowledge and personalized approach. Their inheritance management services helped my family navigate a complex situation, preserving our assets and maintaining family harmony. I wholeheartedly endorse their services. "
+      }
+    ]
+  },
+  "press": {
+    "title": "Press",
+    "list": [
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Tech Advances",
+        "description": "Latest advancements in technology .",
+        "imageUrl": "/images/relocation.png"
+      }
+    ]
+  },
   "contactForm": {
     "title": "Have a question? Contact us",
     "description": "We will respond by email within no longer than one working day.",

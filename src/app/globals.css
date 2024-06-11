@@ -21,7 +21,6 @@ body {
 }
 
 div,
-button,
 input {
   @apply text-white;
   /* @apply border-2 border-black; */
@@ -43,7 +42,7 @@ input {
   @apply text-2xl font-semibold  mb-4 mt-8;
 }
 button {
-  @apply border-2 rounded-md border-black p-2;
+  @apply border-2 rounded-md border-black p-2 cursor-pointer;
 }
 .hide-scrollbar::-webkit-scrollbar {
   display: none; /* Remove scrollbar space */

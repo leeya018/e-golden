@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
 import AboutPortugalSection from "@/components/AboutPortugalSection";
 import TentemonialList from "@/components/TentemonialList";
-import PressCards from "@/components/PressCards";
+import PressList from "@/components/PressList";
 import Calender from "@/components/Calender";
 import CalenderPopup from "@/components/CalenderPopup";
 import Modal from "@/components/Modal";
@@ -26,7 +26,7 @@ const Main = observer(() => {
           <ServicesSection />
           <TentemonialList />
 
-          <PressCards />
+          <PressList />
         </div>
       </main>
     </div>

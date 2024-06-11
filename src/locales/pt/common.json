@@ -18,9 +18,10 @@
     "subtitles": [
       "De realocação a investimentos",
       "sua loja de serviços completa",
-      "com a E-golden"
+      "com a"
     ],
-    "sectionTitle": "Serviços"
+    "sectionTitle": "Serviços",
+    "buttonTxtService": "Para serviço"
   },
 
   "services": {
@@ -278,12 +279,14 @@
     "quick_links": "Links Rápidos",
     "services": "Serviços",
     "about_us": "Sobre Nós",
+    "follow_us": "Siga nos",
     "contact": "Contato",
     "facebook": "Facebook",
     "twitter": "Twitter",
     "linkedin": "LinkedIn",
     "whatsapp": "WhatsApp",
-    "reserved": "E-Golden. Todos os direitos reservados."
+    "reserved": "E-Golden. Todos os direitos reservados.",
+    "moto": "Especialistas em relocação e impostos em Portugal, da sua residência ao seu projeto"
   },
   "header": {
     "home": "Início",
@@ -309,40 +312,127 @@
     "submit": "Enviar"
   },
 
-  "testimonials": [
-    {
-      "location": "Israel, Rishon",
-      "name": "Madelaine 6",
-      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
-    },
-    {
-      "location": "Israel, Rishon",
-      "name": "Madelaine 6",
-      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
-    },
-    {
-      "location": "Israel, Rishon",
-      "name": "Madelaine 6",
-      "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
-    }
-  ],
-  "press": [
-    {
-      "title": "Avanços Tecnológicos",
-      "description": "Últimos avanços em tecnologia.",
-      "imageUrl": "/images/relocation.png"
-    },
-    {
-      "title": "Avanços Tecnológicos",
-      "description": "Últimos avanços em tecnologia.",
-      "imageUrl": "/images/relocation.png"
-    },
-    {
-      "title": "Avanços Tecnológicos",
-      "description": "Últimos avanços em tecnologia.",
-      "imageUrl": "/images/relocation.png"
-    }
-  ],
+  "testimonials": {
+    "buttonTxt": "Ler mais",
+    "list": [
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      },
+      {
+        "location": "Israel, Rishon",
+        "name": "Madelaine 6",
+        "info": "Escolhi a E-golden para minhas necessidades de gestão de patrimônio e fiquei constantemente impressionada com o conhecimento profundo e a abordagem personalizada deles. Os serviços de gestão de herança ajudaram minha família a navegar em uma situação complexa, preservando nossos ativos e mantendo a harmonia familiar. Recomendo calorosamente os serviços deles."
+      }
+    ]
+  },
+
+  "press": {
+    "title": "Imprensa",
+    "list": [
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      },
+      {
+        "title": "Avanços Tecnológicos",
+        "description": "Últimos avanços em tecnologia.",
+        "imageUrl": "/images/relocation.png"
+      }
+    ]
+  },
   "contactForm": {
     "title": "Tem uma pergunta? Entre em contato conosco",
     "description": "Responderemos por email dentro de no máximo um dia útil.",

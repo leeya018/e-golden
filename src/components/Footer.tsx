@@ -35,8 +35,7 @@ const Footer = () => {
             src={"/images/logo.png"}
           />
           <div className="mt-2 line-clamp-3 font-medium leading-7 pr-10">
-            Specialists in relocation and Tax in Portugal, from your residence
-            to your project
+            {translations.footer.moto}
           </div>
         </div>
         {/* second */}
@@ -94,7 +93,7 @@ const Footer = () => {
           {/* second3 */}
           <div className="flex flex-col ss:my-0 my-4 min-w-[150px]">
             <h3 className="font-semibold text-2xl leading-7 text-white">
-              Follow Us
+              {translations.footer.follow_us}
             </h3>
             <ul className=" text-white flex flex-col mt-2 gap-1 ">
               <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">

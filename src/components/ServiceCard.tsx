@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import { languageStore } from "@/mobx/languageStore";
 
 type ServiceCardProps = {
   title: string;
@@ -14,6 +15,8 @@ export default function ServiceCard({
   imageUrl,
   onClick,
 }: ServiceCardProps) {
+  const { translations } = languageStore;
+
   return (
     <div
       className={`relative border border-gold leading-7 overflow-hidden rounded-lg shadow-lg pb-2 transition-all duration-300`}
@@ -33,7 +36,7 @@ export default function ServiceCard({
           className="mt-4 bg-gold text-white py-2 px-4 rounded"
           onClick={onClick}
         >
-          to service
+          {translations.servicesMain.buttonTxtService}
         </button>
       </div>
     </div>

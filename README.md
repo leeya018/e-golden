@@ -26,15 +26,7 @@ Bank Account
 Money Transfer
 
 do that like in the image
-
-Working Visa
-Digital Nomad Visa – You get your Visa by Working remotely or running a business
-Golden Visa – Investment visa
-D7 Visa – Passive Income Visa
-D2 Visa – Freelancer/Independent services providers Visa
-Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal
-Student Visa – Residence permit for studying in Portugal
-Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa
+ily members a Visa
 
 after each one can be an image .  
 each one can be clickable and move to diffrent paeg . ( link exmaple from firehoruse )
@@ -44,19 +36,27 @@ example: https://www.belionpartners.com/student-visa
 
 https://www.pearlsofportugal.com/client-area/
 
-this is for the app
+=====================================================================================
+moventment of the testemonial to clikc
 
+servicesMain chaneg the data on json
 
+all the buttons that are stilli englsh to put json and fix
 
-<!-- this is the best good one , bceause need to know if there will be seperation of the ser -->
-QUSETIOSN TO VENUS .
-in the servieces , which one of them gonna be clickable ,
-packaeg ? servies. ? opipotns?
+whatsapp button next to the scedule too
 
+all services gonna be in the boxes. as in first paeg
 
+steps
+Visa
+Home Search
+NIF Number
+Commodities Support
+Bank Account
+Money Transfer
+Packages => do the animation imaeg with canva
 
-keep going with belion design
+Packages => put a link that show all the packages.
+and three of them gonna be togethere. with buy button for each on e.
 
-
-steps - make in image . 
-
+all the other sub paegs gonan be with the image first .

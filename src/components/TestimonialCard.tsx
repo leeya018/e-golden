@@ -1,5 +1,6 @@
 import { Testemonial } from "@/interfaces/Testemonial";
 import { TestemonialStore } from "@/mobx/TestemonialStore";
+import { languageStore } from "@/mobx/languageStore";
 import { ModalStore } from "@/mobx/modalStore";
 import { modals } from "@/util";
 import { observer } from "mobx-react-lite";
@@ -7,6 +8,8 @@ import Image from "next/image";
 import React from "react";
 
 const TestimonialCard = ({ location, name, info }: Testemonial) => {
+  const { translations } = languageStore;
+
   return (
     <div className="w-52 px-4 py-4 rounded-xl my-5 mx-2 border-2  hover:bg-card-gradient ">
       {/* /first  */}
@@ -34,16 +37,16 @@ const TestimonialCard = ({ location, name, info }: Testemonial) => {
       >
         {info}
       </div>
-      <button
+      <div
+        className="text-white underline cursor-pointer"
         onClick={() => {
           TestemonialStore.setTestemonial({ location, name, info });
 
           ModalStore.openModal(modals.testemonial);
         }}
-        className="text-white underline"
       >
-        Read More
-      </button>
+        {translations.testimonials.buttonTxt}
+      </div>
     </div>
   );
 };

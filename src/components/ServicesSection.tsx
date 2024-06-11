@@ -10,12 +10,13 @@ const ServicesSection = () => {
   const { translations } = languageStore;
 
   return (
-    <section className=" flex flex-col ">
-      <div className="flex justify-center ">
-        <h1 className="title">{translations.servicesMain.sectionTitle}</h1>
+    <section className=" flex flex-col mt-10 ">
+      <div className="flex justify-center  title text-g">
+        <h1 className="  ">{translations.servicesMain.sectionTitle}</h1>&nbsp;
+        <span className="text-gold"> E-golden</span>
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20">
         {Object.entries(translations.services as Service[]).map(
           ([key, value]) => (
             <ServiceCard
