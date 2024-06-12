@@ -125,6 +125,8 @@
           "red_package": {
             "label": "red_package",
             "title": "Red Package",
+            "imageUrl": "/images/relocation.png",
+
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -137,6 +139,8 @@
           "golden_package": {
             "label": "golden_package",
             "title": "Golden Package",
+            "imageUrl": "/images/relocation.png",
+
             "services": [
               "Home Seeker",
               "Residency Permit",
@@ -153,6 +157,8 @@
           },
           "custom_package": {
             "label": "custom_package",
+            "imageUrl": "/images/relocation.png",
+
             "title": "Custom Package",
             "description": "Create your Own!"
           }

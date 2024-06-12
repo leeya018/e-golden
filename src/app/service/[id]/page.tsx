@@ -13,6 +13,7 @@ import Link from "next/link";
 import RelocationServices from "@/components/RelocationServices";
 import { residency_relocation_name } from "@/util";
 import ImageCardList from "@/components/ImageCardList";
+import serviceStore from "@/mobx/serviceStore";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -29,6 +30,7 @@ const ServicePage = () => {
   console.log({ ser: toJS(translations.services) });
 
   const chosenService: Service = translations.services[id];
+  serviceStore.setChosenService(translations.services[id]);
   if (!chosenService) {
     throw new Error("id does not exist");
   }

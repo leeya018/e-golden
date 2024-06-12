@@ -36,36 +36,10 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
       </div>
       <div>
         <h3 className="sub-title">Packages </h3>
-        <ul className="mb-6 list-disc list-inside text">
-          <li>
-            <Link
-              href={`/service/${residency_relocation_name}/package/${details.packages.red_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.red_package.title}
-              </span>
-            </Link>
-          </li>
 
-          <li>
-            <Link
-              href={`/service/${residency_relocation_name}/package/${details.packages.golden_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.golden_package.title}
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={`/service/${residency_relocation_name}/package/${details.packages.custom_package.label}`}
-            >
-              <span className="hover:underline">
-                {details.packages.custom_package.title}
-              </span>
-            </Link>
-          </li>
-        </ul>
+        <Link href={`/service/${residency_relocation_name}/packages`}>
+          <span className="hover:underline text">to packages</span>
+        </Link>
       </div>
     </div>
   );
