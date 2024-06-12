@@ -46,7 +46,7 @@ const useAutoScroll = (
   };
 
   useEffect(() => {
-    startScrolling();
+    // startScrolling();
     setIsScrolling(true);
 
     return () => {

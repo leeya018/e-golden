@@ -14,9 +14,8 @@ export default function VisaPage() {
     subSeserviceId: string;
   };
 
-  const info: SubService = translations.services[id].details.services.find(
-    (s: SubService) => s.label === subSeserviceId
-  );
+  const info: SubService =
+    translations.services[id].details.services[subSeserviceId];
   if (!info) {
     throw new Error(`${subSeserviceId} subSeservice id does not exists`);
   }

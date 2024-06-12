@@ -39,43 +39,51 @@
         "services": [
           {
             "label": "working_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Working Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "digital_nomad_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "golden_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Golden Visa – Investment visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "d7_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "D7 Visa – Passive Income Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "d2_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "D2 Visa – Freelancer/Independent services providers Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "startup_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
 
           {
             "label": "student_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Student Visa – Residence permit for studying in Portugal",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
 
           {
             "label": "family_reunion_visa",
+            "imageUrl": "/images/relocation.png",
             "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           }

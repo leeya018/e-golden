@@ -12,6 +12,7 @@ import { Service } from "@/interfaces/Service";
 import Link from "next/link";
 import RelocationServices from "@/components/RelocationServices";
 import { residency_relocation_name } from "@/util";
+import ImageCardList from "@/components/ImageCardList";
 
 const ServicePage = () => {
   const { translations } = languageStore;
@@ -51,17 +52,21 @@ const ServicePage = () => {
           <h2 className="title-left">{chosenService.title}</h2>
           <div className=" mb-4 text ">{chosenService.description}</div>
           <ul className="list-disc  list-inside text-lg mb-4 flex flex-col">
-            <h2 className="text-3xl font-semibold my-10">Services</h2>
-            {chosenService.details.services.map((service, index) => (
+            {/* <h2 className="text-3xl font-semibold my-10">Services</h2> */}
+            <ImageCardList
+              title={"services"}
+              list={chosenService.details.services}
+              onClick={(index: number) => {
+                router.push(`/service/${id}/subSeservice/${index}`);
+              }}
+            />
+            {/* {chosenService.details.services.map((service, index) => (
               <>
-                <Link
-                  key={index}
-                  href={`/service/${id}/subSeservice/${service.label}`}
-                >
+                <Link key={index} href={}>
                   <span className="hover:underline text">{service.title}</span>
                 </Link>
               </>
-            ))}
+            ))} */}
           </ul>
           <div>
             {id === residency_relocation_name && (

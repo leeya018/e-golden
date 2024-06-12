@@ -1,5 +1,5 @@
 "use client";
-import { PressCardT } from "@/interfaces/PressCard";
+
 import { languageStore } from "@/mobx/languageStore";
 import { toJS } from "mobx";
 import Image from "next/image";
@@ -14,7 +14,7 @@ export default function PressPage() {
 
   console.log("===");
   console.log(pressId);
-  const pressItem: PressCardT = translations.press[pressId];
+  const pressItem = translations.press.list[pressId];
   // const pressItem: PressCardT = translations.press.find(
   //   (p) => p.title === pressId
   // );
