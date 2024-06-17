@@ -5,6 +5,7 @@ import Link from "next/link";
 import { StepOption } from "@/interfaces/StepOption";
 import { observer } from "mobx-react-lite";
 import { residency_relocation_name } from "@/util";
+import Image from "next/image";
 
 type RelocationServicesPorps = {
   details: any;
@@ -22,7 +23,14 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
     <div className="">
       <div className="mb-6">
         <h3 className="sub-title">{"steps"}</h3>
-        <ul className="list-disc list-inside text">
+        <Image
+          className="mx-auto object-fill bg-center"
+          alt={"steps"}
+          width={500}
+          height={500}
+          src={"/images/steps.png"}
+        />
+        {/* <ul className="list-disc list-inside text">
           {details.steps.map((step: StepOption, index: number) => (
             <li key={index}>
               <Link
@@ -32,13 +40,13 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
       <div>
-        <h3 className="sub-title">Packages </h3>
-
         <Link href={`/service/${residency_relocation_name}/packages`}>
-          <span className="hover:underline text">{details.packages.title}</span>
+          <div className="hover:underline sub-title">
+            {details.packages.title}
+          </div>
         </Link>
       </div>
     </div>
