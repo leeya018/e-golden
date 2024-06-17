@@ -5,38 +5,32 @@ import ImageCard from "@/components/ImageCard";
 import { useRouter } from "next/navigation";
 import serviceStore from "@/mobx/serviceStore";
 import { observer } from "mobx-react-lite";
+import { Package } from "@/interfaces/Packages";
 
 function ServicesPage() {
   const router = useRouter();
 
   const details = serviceStore?.chosenService?.details;
+  if (!details) {
+    throw new Error("details is not defiend");
+  }
+  const pList = details?.packages?.list;
+  if (!pList) {
+    throw new Error("list is not defiend");
+  }
   return (
     <div className="mx-auto w-full mt-44 px-10">
       <h1 className="title ">Packages</h1>
       <ul className="mb-6 list-none list-inside text flex   justify-between w-full mx-auto">
-        <li>
-          <ImageCard
-            title={details.packages.red_package.title}
-            services={details.packages.red_package.services}
-            imageUrl={details.packages.red_package.imageUrl}
-          />
-        </li>
-
-        <li>
-          <ImageCard
-            title={details.packages.golden_package.title}
-            services={details.packages.golden_package.services}
-            imageUrl={details.packages.golden_package.imageUrl}
-          />
-        </li>
-
-        <li>
-          <ImageCard
-            title={details.packages.custom_package.title}
-            services={details.packages.custom_package.services}
-            imageUrl={details.packages.custom_package.imageUrl}
-          />
-        </li>
+        {pList.map((p: Package, key: number) => (
+          <li key={key}>
+            <ImageCard
+              title={p.title}
+              services={p.services}
+              imageUrl={p.imageUrl}
+            />
+          </li>
+        ))}
       </ul>
     </div>
   );

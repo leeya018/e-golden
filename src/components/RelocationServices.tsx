@@ -38,7 +38,7 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
         <h3 className="sub-title">Packages </h3>
 
         <Link href={`/service/${residency_relocation_name}/packages`}>
-          <span className="hover:underline text">to packages</span>
+          <span className="hover:underline text">{details.packages.title}</span>
         </Link>
       </div>
     </div>

@@ -6,6 +6,7 @@ import React from "react";
 import useAutoScroll from "@/hooks/useAutoScroll";
 import { ImageCardT } from "@/interfaces/ImageCard";
 import ImageCard from "./ImageCard";
+import { toJS } from "mobx";
 
 type ImageCardListProps = {
   title: string;
@@ -13,6 +14,7 @@ type ImageCardListProps = {
   onClick: any;
 };
 function ImageCardList({ title, list, onClick }: ImageCardListProps) {
+  console.log({ list: toJS(list) });
   const router = useRouter();
   const { scrollContainer, stopScrolling, startScrolling, isScrolling } =
     useAutoScroll(2, 5000, 60000);
@@ -22,7 +24,7 @@ function ImageCardList({ title, list, onClick }: ImageCardListProps) {
       <div className="sub-title">{title}</div>
       <div
         ref={scrollContainer}
-        className=" overflow-x-auto whitespace-nowrap hide-scrollbar gap-4 grid grid-cols-4"
+        className=" overflow-x-auto whitespace-nowrap hide-scrollbar gap-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 "
         onMouseEnter={stopScrolling}
         onMouseLeave={() => {
           if (!isScrolling) {

@@ -39,36 +39,42 @@
         "services": [
           {
             "label": "working_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Working Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "digital_nomad_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "golden_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Golden Visa – Investment visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "d7_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "D7 Visa – Passive Income Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "d2_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "D2 Visa – Freelancer/Independent services providers Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "startup_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
@@ -76,6 +82,7 @@
 
           {
             "label": "student_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Student Visa – Residence permit for studying in Portugal",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
@@ -83,6 +90,7 @@
 
           {
             "label": "family_reunion_visa",
+
             "imageUrl": "/images/relocation.png",
             "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
@@ -122,46 +130,50 @@
           }
         ],
         "packages": {
-          "red_package": {
-            "label": "red_package",
-            "title": "Red Package",
-            "imageUrl": "/images/relocation.png",
+          "title": "buy pacakges with E-golden",
 
-            "services": [
-              "Home Seeker",
-              "Residency Permit",
-              "Commodities Support Services",
-              "NISS",
-              "NIF",
-              "Bank Account Support"
-            ]
-          },
-          "golden_package": {
-            "label": "golden_package",
-            "title": "Golden Package",
-            "imageUrl": "/images/relocation.png",
+          "list": [
+            {
+              "label": "red_package",
+              "title": "Red Package",
+              "imageUrl": "/images/relocation.png",
 
-            "services": [
-              "Home Seeker",
-              "Residency Permit",
-              "Commodities Support Services",
-              "NISS",
-              "NIF",
-              "Bank Account Support",
-              "Driving License",
-              "NHR",
-              "Insurance",
-              "School for kids",
-              "Cars Seekers"
-            ]
-          },
-          "custom_package": {
-            "label": "custom_package",
-            "imageUrl": "/images/relocation.png",
+              "services": [
+                "Home Seeker",
+                "Residency Permit",
+                "Commodities Support Services",
+                "NISS",
+                "NIF",
+                "Bank Account Support"
+              ]
+            },
+            {
+              "label": "golden_package",
+              "title": "Golden Package",
+              "imageUrl": "/images/relocation.png",
 
-            "title": "Custom Package",
-            "description": "Create your Own!"
-          }
+              "services": [
+                "Home Seeker",
+                "Residency Permit",
+                "Commodities Support Services",
+                "NISS",
+                "NIF",
+                "Bank Account Support",
+                "Driving License",
+                "NHR",
+                "Insurance",
+                "School for kids",
+                "Cars Seekers"
+              ]
+            },
+            {
+              "label": "custom_package",
+              "imageUrl": "/images/relocation.png",
+
+              "title": "Custom Package",
+              "description": "Create your Own!"
+            }
+          ]
         }
       }
     },
@@ -178,31 +190,37 @@
         "services": [
           {
             "label": "tax_consultancy",
+            "imageUrl": "/images/relocation.png",
             "title": "Tax Consultancy",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "tax_planning",
+            "imageUrl": "/images/relocation.png",
             "title": "Tax Planning",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "double_taxation_consultancy",
+            "imageUrl": "/images/relocation.png",
             "title": "Double Taxation Consultancy",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "nhr_consultancy_and_application_submission",
+            "imageUrl": "/images/relocation.png",
             "title": "NHR Consultancy and Application Submission",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "tax_consultancy_for_athletes_and_artists",
+            "imageUrl": "/images/relocation.png",
             "title": "Tax Consultancy for Athletes and Artists",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "tax_consultancy_for_real_estate_investments",
+            "imageUrl": "/images/relocation.png",
             "title": "Tax Consultancy for Real Estate Investments",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           }
@@ -223,26 +241,31 @@
         "services": [
           {
             "label": "business_advice",
+            "imageUrl": "/images/relocation.png",
             "title": "Business Advice – Business plan and tax advice",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "company_services",
+            "imageUrl": "/images/relocation.png",
             "title": "Company Services – Company Incorporation and Brand registration",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "company_domiciliation",
+            "imageUrl": "/images/relocation.png",
             "title": "Company’s Domiciliation",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "bank_account",
+            "imageUrl": "/images/relocation.png",
             "title": "Bank account",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "accounting",
+            "imageUrl": "/images/relocation.png",
             "title": "Accounting",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           }

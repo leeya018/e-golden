@@ -62,7 +62,7 @@ button {
 }
 
 .text {
-  @apply font-light text-grayT text-[18px] leading-[30.8px] max-w-[1420px] mt-5 text-justify;
+  @apply font-light text-grayT text-[18px] leading-[30.8px] max-w-[1420px] mt-5;
 }
 
 .text-middle {
