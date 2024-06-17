@@ -56,7 +56,7 @@ function RootLayout({
         >
           <TestemonialData />
         </Modal>
-        <div className="fixed bottom-0 right-0 m-4 flex ">
+        <div className="fixed bottom-0 right-0 m-4 flex z-50">
           <CalenderPopup />
           <WhatsappPopup />
         </div>

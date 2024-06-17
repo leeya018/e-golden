@@ -70,7 +70,7 @@ button {
 }
 
 .side-padding {
-  @apply px-36;
+  @apply px-44;
 }
 
 /* Smooth scrolling on hover */

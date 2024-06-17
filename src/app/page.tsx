@@ -27,7 +27,7 @@ const Main = observer(() => {
           <ServicesSection />
           <TentemonialList />
 
-          <PressList />
+          {/* <PressList /> */}
         </div>
       </main>
     </div>
