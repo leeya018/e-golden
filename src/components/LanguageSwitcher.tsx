@@ -1,8 +1,8 @@
 import React from "react";
 import Select from "react-select";
-import CurrencyFlag from "react-currency-flags";
 import { observer } from "mobx-react-lite";
 import { languageStore } from "@/mobx/languageStore";
+import ReactCountryFlag from "react-country-flag";
 
 const LanguageSwitcher = observer(() => {
   const changeLanguage = (newLocale: string) => {
@@ -18,8 +18,16 @@ const LanguageSwitcher = observer(() => {
           className="flex items-center text-black "
           onClick={() => changeLanguage("en")}
         >
-          <CurrencyFlag currency="USD" size="lg" />
-          <span style={{ marginLeft: 10 }}>USA</span>
+          <ReactCountryFlag
+            countryCode="US"
+            svg
+            style={{
+              width: "2em",
+              height: "2em",
+            }}
+            title="US"
+          />
+          <span className="mx-2.5">USA</span>
         </div>
       ),
     },
@@ -30,8 +38,16 @@ const LanguageSwitcher = observer(() => {
           className="flex items-center text-black "
           onClick={() => changeLanguage("he")}
         >
-          <CurrencyFlag currency="ILS" size="lg" />
-          <span style={{ marginLeft: 10 }}>Israel</span>
+          <ReactCountryFlag
+            countryCode="IL"
+            svg
+            style={{
+              width: "2em",
+              height: "2em",
+            }}
+            title="IL"
+          />
+          <span className="mx-2.5">Israel</span>
         </div>
       ),
     },
@@ -43,8 +59,16 @@ const LanguageSwitcher = observer(() => {
           className="flex items-center text-black "
           onClick={() => changeLanguage("pt")}
         >
-          <CurrencyFlag currency="EUR" size="lg" />
-          <span style={{ marginLeft: 10 }}>Portugal</span>
+          <ReactCountryFlag
+            countryCode="PT"
+            svg
+            style={{
+              width: "2em",
+              height: "2em",
+            }}
+            title="PT"
+          />
+          <span className="mx-2.5">Portugal</span>
         </div>
       ),
     },

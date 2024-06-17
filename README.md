@@ -62,3 +62,18 @@ and three of them gonna be togethere. with buy button for each on e.
 all the other sub paegs gonan be with the image first .
 
 porgugal flag
+
+==================================
+portugla flag
+deside of float up
+the news remove for now .
+all the tittile in middle + text in middle .
+steps - will be with the aniamtions .
+packages paeg - chaneg design - as vensu
+packaegs link bigger and bold . ( buy pacakges with E-golden . ) -instreade of title and linke .
+all te pages of about and service copy from Beloin .
+use the same margin as Belion .
+services rows - 2 rows and 4 items each .
+steps - put the animation - pic from the canval
+https://www.pearlsofportugal.com/our-services/relocation-service-portugal/ (example)
+make services to user tentimonials
