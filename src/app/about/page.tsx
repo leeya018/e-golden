@@ -22,21 +22,29 @@ const About: React.FC = () => {
           About Us
         </div>
       </div>
-      <div className="px-10 mt-7">
-        <h1 className="title-left mb-4">About Us</h1>
-        <p className="text mb-6">{translations.about_us.welcome_message}</p>
+      <div className="px-10 mt-7 ">
+        <h1 className="title  mb-4">About Us</h1>
+        <p className="text  text-middle mb-6">
+          {translations.about_us.welcome_message}
+        </p>
 
         <h2 className="sub-title  mb-4">Who We Are</h2>
-        <p className="text mb-6">{translations.about_us.who_we_are}</p>
+        <p className="text  text-middle mb-6">
+          {translations.about_us.who_we_are}
+        </p>
 
         <h2 className="sub-title mb-4">Our Mission</h2>
-        <p className="text mb-6">{translations.about_us.our_mission}</p>
+        <p className="text  text-middle mb-6">
+          {translations.about_us.our_mission}
+        </p>
 
         <h2 className="sub-title mb-4">Our Vision</h2>
-        <p className="text mb-6">{translations.about_us.our_vision}</p>
+        <p className="text  text-middle mb-6">
+          {translations.about_us.our_vision}
+        </p>
 
         <h2 className="sub-title mb-4">Our Values</h2>
-        <ul className="list-disc list-inside text mb-6">
+        <ul className="list-disc list-inside text  mx-auto mb-6">
           {Object.entries(translations.about_us.our_values).map(
             ([key, value]) => (
               <li key={key} className="mb-2">

@@ -20,9 +20,9 @@ export default function VisaPage() {
   return (
     <main className="flex w-full lg:mx-auto flex-col  bg-gray-100">
       {/* visa page : {id} and the visa id {stepId} */}
-      <div className="px-10 mt-7">
-        <h1 className="title-left">{info.title}</h1>
-        <div className="text">{info.description}</div>
+      <div className="px-10 mt-7 side-padding">
+        <h1 className="title">{info.title}</h1>
+        <div className="text text-middle">{info.description}</div>
       </div>
     </main>
   );

@@ -38,7 +38,7 @@ export default function PressPage() {
       </div>
 
       <div className="mb-8 px-10 mt-7">
-        <h2 className="title-left">{pressItem.title}</h2>
+        <h2 className="title">{pressItem.title}</h2>
         <div className=" mb-4 text">{pressItem.description}</div>
       </div>
     </section>

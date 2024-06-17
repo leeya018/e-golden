@@ -27,7 +27,11 @@ input {
 }
 
 .title {
-  @apply text-3xl font-semibold  mb-4 mt-8 flex justify-center;
+  @apply text-5xl font-semibold  mb-8 mt-8 flex justify-center;
+}
+.sub-title {
+  /* @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center; */
+  @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center;
 }
 
 .title-left {
@@ -36,10 +40,6 @@ input {
 
 .title-image {
   @apply text-6xl font-bold  mb-4 mt-8 flex justify-center;
-}
-.sub-title {
-  /* @apply text-2xl font-semibold  mb-4 mt-8 flex justify-center; */
-  @apply text-2xl font-semibold  mb-4 mt-8;
 }
 
 .popup {
@@ -63,6 +63,14 @@ button {
 
 .text {
   @apply font-light text-grayT text-[18px] leading-[30.8px] max-w-[1420px] mt-5 text-justify;
+}
+
+.text-middle {
+  @apply mx-auto flex justify-center;
+}
+
+.side-padding {
+  @apply px-36;
 }
 
 /* Smooth scrolling on hover */

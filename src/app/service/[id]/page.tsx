@@ -45,16 +45,18 @@ const ServicePage = () => {
           height={500}
           src={chosenService.imageUrl}
         />
-        <div className="z-10 center-absolute title-image shadow-xl text-white ">
+        <div className="z-10 center-absolute title-image shadow-xl text-white  ">
           {chosenService.title}
         </div>
       </div>
-      <div className="px-10 mt-7">
+      <div className="px-10 mt-7 side-padding flex justify-center">
         <div className="mb-8">
-          <h2 className="title-left">{chosenService.title}</h2>
-          <div className=" mb-4 text ">{chosenService.description}</div>
-          <ul className="list-disc  list-inside text-lg mb-4 flex flex-col">
-            {/* <h2 className="text-3xl font-semibold my-10">Services</h2> */}
+          <h2 className="title">{chosenService.title}</h2>
+          <div className=" mb-4 text text-center w-full ">
+            {chosenService.description}
+          </div>
+
+          <ul className="list-disc  list-inside text-lg mb-4  ">
             <ImageCardList
               title={"services"}
               list={chosenService.details.services}
@@ -62,16 +64,10 @@ const ServicePage = () => {
                 router.push(`/service/${id}/subSeservice/${index}`);
               }}
             />
-            {/* {chosenService.details.services.map((service, index) => (
-              <>
-                <Link key={index} href={}>
-                  <span className="hover:underline text">{service.title}</span>
-                </Link>
-              </>
-            ))} */}
           </ul>
           <div>
             {id === residency_relocation_name && (
+              // <div>teisnsteirnie</div>
               <RelocationServices details={chosenService.details} />
             )}
           </div>

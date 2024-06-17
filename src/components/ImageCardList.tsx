@@ -22,7 +22,7 @@ function ImageCardList({ title, list, onClick }: ImageCardListProps) {
       <div className="sub-title">{title}</div>
       <div
         ref={scrollContainer}
-        className="flex overflow-x-auto whitespace-nowrap hide-scrollbar gap-4"
+        className=" overflow-x-auto whitespace-nowrap hide-scrollbar gap-4 grid grid-cols-4"
         onMouseEnter={stopScrolling}
         onMouseLeave={() => {
           if (!isScrolling) {
