@@ -1,16 +1,17 @@
 "use client";
 import React from "react";
-import { residency_relocation_name } from "@/util";
 import ImageCard from "@/components/ImageCard";
 import { useRouter } from "next/navigation";
 import serviceStore from "@/mobx/serviceStore";
 import { observer } from "mobx-react-lite";
 import { Package } from "@/interfaces/Packages";
+import { ServiceDetail } from "@/interfaces/ServiceDetail";
 
 function ServicesPage() {
   const router = useRouter();
 
-  const details = serviceStore?.chosenService?.details;
+  const details: ServiceDetail | undefined =
+    serviceStore?.chosenService?.details;
   if (!details) {
     throw new Error("details is not defiend");
   }

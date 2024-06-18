@@ -1,8 +1,9 @@
 import { makeAutoObservable } from "mobx";
 import { languageStore } from "./languageStore";
+import { Service } from "@/interfaces/Service";
 
 class ServiceStore {
-  chosenService = null;
+  chosenService: Service | null = null;
 
   constructor() {
     const { translations } = languageStore;

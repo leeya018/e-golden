@@ -30,7 +30,6 @@
         "Are you thinking about moving to a different country? Portugal will be the right place to fulfil your dreams and needs.",
         "We can tailor a package of services perfectly suited to your exact needs, including residency permits, tax advice, home search, opening bank account, health insurance, driving license, and others."
       ],
-      "location": "relocation",
       "imageUrl": "/images/relocation.png",
 
       "details": {
@@ -182,7 +181,6 @@
       "description": [
         "Understanding your tax obligations and its impact on your personal life and business is essential when you decide to relocate or invest in a new country. "
       ],
-      "location": "tax",
       "imageUrl": "/images/tax.png",
       "details": {
         "title": "Tax Planning and Advice",
@@ -232,7 +230,6 @@
       "description": [
         "You can count on E-golden to provide you with full company services in Portugal, including registration, domiciliation, bank account opening, accounting, tax planning, etc. "
       ],
-      "location": "business",
       "imageUrl": "/images/business.png",
       "details": {
         "label": "Business Solutions",
@@ -277,7 +274,7 @@
       "description": [
         "With E-golden you can have an integrated real estate solution from the planning stage down to the day-to-day management of properties in Portugal."
       ],
-      "location": "realestate",
+
       "imageUrl": "/images/realestate.png",
       "details": {
         "label": "Real Estate Investments and Management",
@@ -286,21 +283,25 @@
         "services": [
           {
             "label": "real_estate_investment_planning",
+            "imageUrl": "/images/relocation.png",
             "title": "Real Estate Investment Planning",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "property_search_services",
+            "imageUrl": "/images/relocation.png",
             "title": "Property Search Services",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "assistance_with_property_purchase",
+            "imageUrl": "/images/relocation.png",
             "title": "Assistance with Property Purchase",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
             "label": "real_estate_management_services",
+            "imageUrl": "/images/relocation.png",
             "title": "Real Estate Management Services",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           }
