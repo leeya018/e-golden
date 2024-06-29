@@ -279,19 +279,34 @@
       "details": {
         "label": "Real Estate Investments and Management",
         "description": "Investing in real estate can be highly lucrative but also complex, requiring expertise, strategic planning, and meticulous management. E-Golden´s Real Estate Investments and Management Services are designed to guide you maximize returns, minimize risks, and ensure the smooth operation of your real estate assets. Whether you're an individual investor or a corporate entity, our comprehensive suite of services is tailored to meet your unique needs and goals.",
-
         "services": [
           {
             "label": "real_estate_investment_planning",
             "imageUrl": "/images/relocation.png",
-            "title": "Real Estate Investment Planning",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "titleImg": "real estate investment planning",
+            "title": "Maximize Your Real Estate Investments with Strategic Planning",
+            "description": "Real estate investment presents opportunities for wealth creation and portfolio diversification. Our specialized real estate investment planning services are designed to help investors navigate the complexities of the market, optimize returns, and mitigate risks. Whether you're new to real estate investing or a seasoned investor, our team of experts is committed to providing tailored solutions that align with your financial goals.",
+            "services": [
+              "Investment Strategy Development: Develop a personalized investment strategy aligned with your financial objectives, risk tolerance, and timeline. We analyze market trends, conduct feasibility studies, and identify lucrative investment opportunities.",
+
+              "Property Analysis and Due Diligence: Thoroughly evaluate potential investment properties to assess their financial viability and potential returns. We conduct comprehensive due diligence, including property inspections, financial analysis, and market research.",
+
+              "Financial Modeling and Projections: Create detailed financial models and projections to forecast investment performance. We analyze cash flows, return on investment (ROI), and capital appreciation potential to support informed decision-making.",
+
+              "Financing and Capital Structuring: Optimize financing strategies to fund real estate acquisitions. We advise on mortgage options, leverage ratios, and capital structuring to maximize returns and minimize financial risks.",
+
+              "Tax Planning and Optimization: Develop tax-efficient strategies to minimize tax liabilities associated with real estate investments.",
+
+              "Market Research and Trends Analysis: Stay informed with comprehensive market research and analysis. We track local and national real estate trends, identify emerging opportunities, and provide insights to capitalize on market dynamics.",
+
+              "Exit Strategy Planning: Develop exit strategies tailored to your investment goals and market conditions. Whether you're considering property disposition, refinancing, or portfolio diversification, we help you navigate the best exit options."
+            ]
           },
           {
             "label": "property_search_services",
             "imageUrl": "/images/relocation.png",
-            "title": "Property Search Services",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "title": "Find Your Ideal Property with Our Comprehensive Property Search Services",
+            "description": "Searching for the perfect property can be daunting, whether it’s for investment, rental, or personal use. Our dedicated property search services are designed to simplify the process, providing you with expert guidance and access to a wide range of properties that match your specific criteria. Whether you're looking for residential, commercial, or investment properties, our team is committed to helping you find the right property efficiently and effectively."
           },
           {
             "label": "assistance_with_property_purchase",

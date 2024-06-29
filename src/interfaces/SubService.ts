@@ -3,4 +3,6 @@ export type SubService = {
   title: string;
   description: string;
   imageUrl: string;
+  services: string[];
+  titleImg: string;
 };
