@@ -187,39 +187,46 @@
         "description": "Tax planning is essential for any Company or Entrepreneur whose objective is to prosper in the development of their business. The decision to invest in a business, particularly one with long-term prospects, requires careful consideration of tax obligations and their resulting impact on the development of our proposed enterprise. An individual's decision to invest or start a life in another country is ultimately based on knowledge of Double Taxation Treaties and the potential benefits they offer, as well as familiarity with the nation's tax laws at a national level. In order to effectively carry out any project, it is essential to consult with the most up-to-date tax information available. E-Golden can help you identify the best way to proceed based on your specific circumstances, by having specialized and personal service to reduce the risks with the tax burden and, thus, improve your results and income.",
         "services": [
           {
-            "label": "tax_consultancy",
+            "label": "Tax_Planning_and_International_Taxation",
+            "titleImg": "Tax Planning and International Taxation",
+            "title": "Optimize Your Financial Future with Expert Tax Planning",
             "imageUrl": "/images/relocation.png",
-            "title": "Tax Consultancy",
+            "description": "Navigating the complexities of tax regulations can be daunting, but with our professional tax planning services, you can confidently optimize your financial strategy. On the other side, effective tax planning can also save you significant amounts of money. For that, our team works with you throughout the year to develop tax strategies that optimize your financial situation, reduce your tax liability, and plan for future tax obligations. We understand that every client has unique financial circumstances. Our personalized tax planning services are tailored to meet your specific needs, ensuring that you benefit from all available tax-saving opportunities. For business owners, we offer specialized tax planning services that address the unique challenges and opportunities of your industry. Our services include entity selection, tax-efficient structuring, and strategies for growth and succession planning. E-Golden’s focus is helping individuals and businesses minimize their tax liabilities while ensuring compliance with all relevant laws."
+          },
+          {
+            "label": "Corporate_Taxation",
+            "titleImg": "Corporate Taxation",
+            "title": "Optimize Your Business Tax Strategy with Expert Corporate Taxation Services",
+            "imageUrl": "/images/relocation.png",
+            "description": "Nowadays, international taxation and corporate taxation play a fundamental role in companies’ decision-making. Knowledge of national legislation, as well as its constant changes, are essential for the proper functioning and success of any business. Our specialized corporate taxation services are designed to help businesses of all sizes manage their tax obligations effectively and strategically. With E-golden you can count on the most qualified professionals to support and accompany you throughout this complex journey, with the aim of efficient tax planning for your business."
+          },
+          {
+            "label": "Individuals_Taxation",
+            "titleImg": "Individuals Taxation",
+            "title": "Simplify Your Taxes with Expert Guidanc",
+            "imageUrl": "/images/relocation.png",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           },
           {
-            "label": "tax_planning",
-            "imageUrl": "/images/relocation.png",
-            "title": "Tax Planning",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-          },
-          {
-            "label": "double_taxation_consultancy",
-            "imageUrl": "/images/relocation.png",
-            "title": "Double Taxation Consultancy",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-          },
-          {
-            "label": "nhr_consultancy_and_application_submission",
-            "imageUrl": "/images/relocation.png",
+            "label": "NHR Consultancy and application submission",
+            "titleImg": "NHR Consultancy and application submission",
             "title": "NHR Consultancy and Application Submission",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "imageUrl": "/images/relocation.png",
+            "description": "Portugal has a non-habitual resident regime for individuals, which allows them to significantly reduce their tax bills by attributing special tax rates to certain types of income. With E-golden, you will be able to find out the best way to obtain this much-desired regime."
           },
           {
             "label": "tax_consultancy_for_athletes_and_artists",
-            "imageUrl": "/images/relocation.png",
+            "titleImg": "Tax Consultancy for Athletes and artists",
             "title": "Tax Consultancy for Athletes and Artists",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "imageUrl": "/images/relocation.png",
+            "description": "Navigating the intricate tax landscape can be particularly challenging for athletes and artists due to their unique income streams and financial situations. Our specialized tax consultancy services are designed to meet the distinct needs of individuals in these professions, ensuring optimal tax management and financial planning. With E-Golden you can count on customized tax planning strategies that cater to the fluctuating income and diverse revenue sources typical for athletes and artists. Our goal is to minimize your tax burden while maximizing your financial efficiency. We also assist in managing various forms of income, including endorsements, royalties, performance fees, and prize money. Our tax experts ensure accurate reporting and strategic planning to optimize your tax position. For athletes and artists with international engagements, we provide guidance on cross-border tax issues, including double taxation treaties, foreign tax credits, and compliance with international tax laws. We offer expert advice on managing and protecting image rights and intellectual property, structuring agreements to maximize tax benefits and comply with legal requirements."
           },
           {
-            "label": "tax_consultancy_for_real_estate_investments",
-            "imageUrl": "/images/relocation.png",
+            "label": "Real Estate Investments Taxation",
+            "titleImg": "Real Estate Investments Taxation",
+
             "title": "Tax Consultancy for Real Estate Investments",
+            "imageUrl": "/images/relocation.png",
             "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
           }
         ]
@@ -238,33 +245,75 @@
         "services": [
           {
             "label": "business_advice",
+            "titleImg": "Business Advice – Business plan and tax advice",
+            "title": "Empower Your Business with Expert Business Plan and Tax Strategies",
             "imageUrl": "/images/relocation.png",
-            "title": "Business Advice – Business plan and tax advice",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": "Creating a solid business plan and effectively managing taxes are critical components for any successful business. Our comprehensive business advice services are designed to provide you with the guidance needed to drive growth and ensure compliance. With a team of experienced professionals, we offer tailored solutions to meet your specific business needs.",
+            "services": [
+              "Business Plan Development: A robust business plan is essential for the success and growth of your company. We help you define your vision, mission, and strategic objectives, and create a detailed plan that includes market analysis, marketing strategies, financial projections, and operational planning.",
+
+              "Business Plan Review and Optimization: If you already have a business plan, our experts can review it and provide recommendations for improvement. We identify opportunities for growth and fine-tune your plan to ensure it aligns with your business goals and market conditions.",
+
+              "Tax Advice: Navigating the complex tax landscape can be challenging. We provide comprehensive tax advice to ensure your business complies with all tax regulations and takes advantage of all available tax-saving opportunities. Our goal is to minimize your tax burden and maximize your tax efficiency.",
+
+              "Strategic Tax Planning: We develop personalized tax strategies to optimize your company's tax position. This includes analyzing business structures, managing tax credits and incentives, and planning international operations to minimize global tax liabilities.",
+
+              "Business Structuring Advice: We offer guidance on the best legal and operational structure for your business, considering tax implications, liability concerns, and growth objectives. This includes choosing between corporations, limited liability companies, partnerships, and more.",
+
+              "Expansion and Growth Consulting: We provide strategic guidance for business expansion and growth, helping you identify new market opportunities, develop market entry strategies, and plan for sustainable growth."
+            ]
           },
           {
             "label": "company_services",
-            "imageUrl": "/images/relocation.png",
+            "titleImg": "company services",
             "title": "Company Services – Company Incorporation and Brand registration",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "imageUrl": "/images/relocation.png",
+            "description": "Establishing a new company and securing your brand are critical steps in building a successful business. Our comprehensive services for company incorporation and brand registration ensure a smooth and compliant start, providing a solid foundation for your future growth. With our expert guidance, you can focus on your business while we handle all the necessary needs for your success.",
+            "services": [
+              "Establishing a new company and securing your brand are critical steps in building a successful business. Our comprehensive services for company incorporation and brand registration ensure a smooth and compliant start, providing a solid foundation for your future growth.",
+              "With our expert guidance, you can focus on your business while we handle all the necessary needs for your success."
+            ],
+            "registrations": [
+              "Trademark Search and Analysis: Before you register your brand, we conduct a comprehensive trademark search to ensure your brand name, logo, or slogan is unique and not infringing on existing trademarks. This step is crucial to avoid legal issues and potential rebranding costs.",
+
+              "Trademark Application Preparation: We prepare and file your trademark application.",
+
+              "Renewal and Maintenance: We assist in the renewal and maintenance of your trademarks, ensuring they remain active and protected over time. Our services include managing renewal deadlines and updating trademark records as needed."
+            ]
           },
           {
             "label": "company_domiciliation",
+            "titleImg": "company domiciliation",
+            "title": "Establish Your Business with Our Comprehensive Domiciliation Services",
             "imageUrl": "/images/relocation.png",
-            "title": "Company’s Domiciliation",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": "A prestigious business address can enhance your company's image and provide essential support for your operations. Our company domiciliation services offer you a professional address, mail handling, and administrative support, helping you to establish a credible and efficient presence without the overhead of a physical office."
           },
           {
             "label": "bank_account",
+            "titleImg": "company account",
+            "title": "Streamline Your Banking Needs with Our Expert Bank Account Opening Services",
             "imageUrl": "/images/relocation.png",
-            "title": "Bank account",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": "Opening a bank account is a fundamental step for businesses. Our specialized bank account opening services offer you comprehensive support to ensure a smooth and efficient process. Whether you’re looking to establish a corporate account, personal account, or specialized banking services, our team is here to assist you every step of the way."
           },
           {
             "label": "accounting",
+            "titleImg": "accounting",
+            "title": "Expert Accounting Solutions to Drive Your Business Success",
             "imageUrl": "/images/relocation.png",
-            "title": "Accounting",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": "Effective accounting is the cornerstone of financial stability and growth for any business. Our comprehensive accounting services are designed to provide you with accurate financial insights, ensure compliance with regulations, and optimize your business’s financial performance. Whether you're a small business, startup, or large corporation, our team of dedicated professionals is committed to delivering personalized solutions that meet your specific needs.",
+            "services": [
+              "Bookkeeping Services: We offer reliable bookkeeping services to maintain accurate records of your financial transactions. From daily transactions to month-end reconciliations, we ensure your financial data is organized and up-to-date.",
+
+              "Financial Statement Preparation: Prepare comprehensive financial statements, including balance sheets, income statements, and cash flow statements, to provide you with a clear overview of your business’s financial health.",
+
+              "Budgeting and Forecasting: Develop strategic budgets and financial forecasts to help you plan and achieve your business goals.",
+
+              "Payroll Services: Streamline your payroll process with our payroll services, including calculation of wages, deductions, and tax withholdings. We ensure timely and accurate payroll processing to support your employees.",
+
+              "Financial Analysis and Reporting: Gain valuable insights into your business’s performance with detailed financial analysis and customized reports. We help you interpret financial data to make informed decisions.",
+
+              "Advisory Services: Benefit from strategic financial advice and guidance tailored to your business objectives. Whether you're planning for growth, restructuring, or navigating financial challenges, we provide proactive solutions."
+            ]
           }
         ]
       }
@@ -305,20 +354,36 @@
           {
             "label": "property_search_services",
             "imageUrl": "/images/relocation.png",
+            "titleImg": "property search services",
             "title": "Find Your Ideal Property with Our Comprehensive Property Search Services",
-            "description": "Searching for the perfect property can be daunting, whether it’s for investment, rental, or personal use. Our dedicated property search services are designed to simplify the process, providing you with expert guidance and access to a wide range of properties that match your specific criteria. Whether you're looking for residential, commercial, or investment properties, our team is committed to helping you find the right property efficiently and effectively."
+            "description": "Searching for the perfect property can be daunting, whether it’s for investment, rental, or personal use. Our dedicated property search services are designed to simplify the process, providing you with expert guidance and access to a wide range of properties that match your specific criteria. Whether you're looking for residential, commercial, or investment properties, our team is committed to helping you find the right property efficiently and effectively.",
+            "services": [
+              "Personalized Property Consultation: We begin with a detailed consultation to understand your property requirements, budget, location preferences, and investment goals. This helps us tailor our search to match your unique criteria.",
+
+              "Market Analysis and Property Valuation: Receive detailed market analysis and property valuations to assess the potential value and investment feasibility of properties of interest.",
+
+              "Property Inspections and Due Diligence: Arrange property viewings and inspections based on your preferences. We conduct thorough due diligence, including property inspections, legal checks, and documentation review, to ensure transparency and peace of mind.",
+
+              "Negotiation and Purchase Assistance: Benefit from expert negotiation skills to secure the best terms and price for your chosen property. We assist throughout the purchase process, from making offers to navigating counteroffers and closing the deal."
+            ]
           },
           {
-            "label": "assistance_with_property_purchase",
+            "label": "Real_Estate_Management_services",
             "imageUrl": "/images/relocation.png",
-            "title": "Assistance with Property Purchase",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
-          },
-          {
-            "label": "real_estate_management_services",
-            "imageUrl": "/images/relocation.png",
-            "title": "Real Estate Management Services",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "titleImg": "Real Estate Management services",
+            "title": "Efficiently Manage Your Real Estate Investments with Our Comprehensive Management Services",
+            "description": "Managing real estate assets requires expertise, dedication, and a strategic approach to maximize returns and minimize risks. Our specialized real estate management services are designed to help property owners, investors, and landlords effectively oversee their portfolios. Whether you own residential, commercial, or mixed-use properties, our team is committed to delivering personalized solutions that optimize property performance and enhance value.",
+            "services": [
+              "Property Operations and Maintenance: We oversee day-to-day property operations, including maintenance, repairs, and tenant communications. Our proactive approach ensures properties are well-maintained and tenants are satisfied.",
+
+              "Tenant Acquisition and Relations: Attract quality tenants through targeted marketing strategies and thorough tenant screening processes. We manage lease negotiations, tenant onboarding, and foster positive tenant relations to minimize vacancies and maximize occupancy rates.",
+
+              "Rent Collection and Financial Reporting: Ensure timely rent collection and streamline financial processes with our rent collection services. We provide detailed financial reporting, including income statements, expense reports, and budget analysis.",
+
+              "Lease Administration and Compliance: Handle lease administration tasks, including lease drafting, renewals, and compliance with lease terms and regulations. We ensure all legal and regulatory requirements are met to protect property owners' interests.",
+
+              "Property Marketing and Vacancy Management: Implement effective marketing strategies to attract potential tenants and minimize vacancy periods. We conduct market analysis, advertise vacancies, and manage property showings to quickly fill vacancies."
+            ]
           }
         ]
       }

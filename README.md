@@ -77,3 +77,14 @@ services rows - 2 rows and 4 items each . ---
 steps - put the animation - pic from the canval---
 https://www.pearlsofportugal.com/our-services/relocation-service-portugal/ (example)---
 make services to user tentimonials
+===========================================
+see more , put 3 lines
+change the serivces numbres in line account to origin accoutn
+descripiton and seriviecs text shuyold be bigger lettre and the white is stronger
+cahnge potisiosn of titles .
+on imgTittle all is big letter
+tubtitlte on the side
+for each service, put in white until the :
+the serivecs surround in a golden box
+the subservice should be the small title . and that the same on the image inside
+do the descripions in paragraph just like on the email

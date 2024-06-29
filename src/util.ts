@@ -732,3 +732,7 @@ export const handleWhatsAppClick = () => {
 
   window.open(url, "_blank");
 };
+
+export const convertToBiggerLetters = (text: string) => {
+  return text.toUpperCase();
+};

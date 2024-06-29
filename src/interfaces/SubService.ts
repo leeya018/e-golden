@@ -3,6 +3,7 @@ export type SubService = {
   title: string;
   description: string;
   imageUrl: string;
-  services: string[];
+  services?: string[];
   titleImg: string;
+  registrations?: string[];
 };

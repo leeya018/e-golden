@@ -2,6 +2,7 @@
 import { Service } from "@/interfaces/Service";
 import { SubService } from "@/interfaces/SubService";
 import { languageStore } from "@/mobx/languageStore";
+import { convertToBiggerLetters } from "@/util";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import React from "react";
@@ -33,21 +34,41 @@ export default function VisaPage() {
         />
 
         <div className="z-10 center-absolute title-image shadow-xl text-white ">
-          {info.titleImg}
+          {convertToBiggerLetters(info.titleImg)}
         </div>
       </div>
+      {/* <div>etsrnietsrnie</div> */}
       {/* visa page : {id} and the visa id {subSeserviceId} */}
       <div className="px-10 mt-7 side-padding">
         <h1 className="title">{info.title}</h1>
         <div className="text text-middle">{info.description}</div>
-        <div className="sub-title">Our {info.title} Services Include:</div>
-        <ul className="text">
-          {(info.services as string[]).map((service, key) => (
-            <li className="list-disc" key={key}>
-              {service}
-            </li>
-          ))}
-        </ul>
+        {info.services && (
+          <>
+            <div className="sub-title">Our {info.title} Services Include:</div>
+            <ul className="text">
+              {(info.services as string[]).map((service, key) => (
+                <li className="list-disc" key={key}>
+                  {service}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        {info.registrations && (
+          <>
+            <div className="sub-title">
+              Our {info.title} Registration Include:
+            </div>
+            <ul className="text">
+              {(info.registrations as string[]).map((registration, key) => (
+                <li className="list-disc" key={key}>
+                  {registration}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </div>
     </main>
   );
