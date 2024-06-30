@@ -9,7 +9,7 @@ function AboutPortugalSection() {
   return (
     <section className="relative   mb-10">
       <Video
-        src="https://www.youtube.com/embed/pG8t_5pOYlA"
+        src="https://vid.cdn-website.com/md/pexels/videos/belem-tower-lisbon-portugal-sintra-4823566-v.mp4"
         title="Special Video"
       />
       <div
