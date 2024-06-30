@@ -38,7 +38,7 @@ function Modal({ isOpen, closeModal, children, bgColor }: ModalProps) {
             >
               {/* <Dialog.Panel className="w-[50vw] rounded-md max-w-full transform overflow-hidden   p-6 text-left align-middle shadow-xl transition-all"> */}
               <Dialog.Panel
-                className={`w-[50vw] rounded-md max-w-full transform overflow-hidden   p-6 text-left align-middle shadow-xl transition-all  ${bgColor}`}
+                className={`w-[90vw] lg:w-[50vw] rounded-md max-w-full transform overflow-hidden   p-6 text-left align-middle shadow-xl transition-all  ${bgColor}`}
               >
                 {children}
               </Dialog.Panel>

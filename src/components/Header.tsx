@@ -79,13 +79,14 @@ const Header = () => {
           </button>
         </div>
       </nav>
-      <div className={`fixed inset-0 z-50 flex ${isOpen ? "block" : "hidden"}`}>
+      <div
+        className={`fixed bg-black inset-0 z-50 flex ${
+          isOpen ? "block" : "hidden"
+        }`}
+      >
+        <div className="fixed inset-0  opacity-50" onClick={toggleMenu}></div>
         <div
-          className="fixed inset-0 bg-black opacity-50"
-          onClick={toggleMenu}
-        ></div>
-        <div
-          className={`fixed right-0 top-0 h-full bg-white shadow-lg p-4 transform transition-transform duration-1000 ease-in-out ${
+          className={`fixed right-0 top-0 h-full border-2 border-white bg-black shadow-lg p-4 transform transition-transform duration-1000 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ width: "75%" }}
@@ -126,7 +127,7 @@ const Header = () => {
               className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              {translations.header.taxPlanning}
+              {translations.header.tax_planning}
             </Link>
             <Link
               href="/service/business-solutions"
@@ -135,12 +136,13 @@ const Header = () => {
             >
               {translations.header.business}
             </Link>
+
             <Link
               href="/service/real-estate-investments-management"
               className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >
-              {translations.header.realEstate}
+              {translations.header.real_estate}
             </Link>
             <Link
               href="/about"

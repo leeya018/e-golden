@@ -55,7 +55,7 @@ const ServicePage = () => {
           <div className=" mb-4 text text-center w-full ">
             {chosenService.description}
           </div>
-
+          {/* <div>sientrsienie</div> */}
           <ul className="list-disc  list-inside text-lg mb-4  ">
             <ImageCardList
               title={"services"}

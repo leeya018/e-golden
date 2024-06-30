@@ -41,7 +41,14 @@ export default function VisaPage() {
       {/* visa page : {id} and the visa id {subSeserviceId} */}
       <div className="px-10 mt-7 side-padding">
         <h1 className="title">{info.title}</h1>
-        <div className="text text-middle">{info.description}</div>
+        <div className="text text-middle flex  flex-col">
+          {info.description.map((desc, key) => (
+            <p className="mb-5" key={key}>
+              {desc}
+            </p>
+          ))}
+        </div>
+
         {info.services && (
           <>
             <div className="sub-title">Our {info.title} Services Include:</div>

@@ -62,7 +62,7 @@ button {
 }
 
 .text {
-  @apply font-light text-grayT text-[18px] leading-[30.8px] max-w-[1420px] mt-5;
+  @apply font-light text-grayT text-[20px] leading-[30.8px] max-w-[1420px] mt-5;
 }
 
 .text-middle {
@@ -70,7 +70,7 @@ button {
 }
 
 .side-padding {
-  @apply px-5 md:px-44;
+  @apply px-5 lg:px-44;
 }
 
 /* Smooth scrolling on hover */

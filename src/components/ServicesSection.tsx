@@ -11,7 +11,7 @@ const ServicesSection = () => {
 
   return (
     <section className=" flex flex-col mt-10  ">
-      <div className="flex justify-center  title text-g side-padding">
+      <div className="flex-col flex justify-center md:flex-row  title text-g side-padding ">
         <h1 className="  ">{translations.servicesMain.sectionTitle}</h1>&nbsp;
         <span className="text-gold"> E-golden</span>
       </div>

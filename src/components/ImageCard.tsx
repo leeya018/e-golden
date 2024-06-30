@@ -25,10 +25,10 @@ const ImageCard = ({
         className="w-full"
       />
       <div className="my-4 p-5">
-        <h3 className="text-lg font-semibold mb-2 whitespace-normal ">
+        <h3 className="text-lg font-semibold mb-2 whitespace-normal  ">
           {titleImg}
         </h3>
-        <p className="text-sm text-gray-600 whitespace-normal ">
+        <p className="text-sm text-gray-600 whitespace-normal line-clamp-3">
           {description}
         </p>
         {/* {services && (
