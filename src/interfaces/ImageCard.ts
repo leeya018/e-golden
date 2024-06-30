@@ -1,7 +1,7 @@
 export type ImageCardT = {
   id?: number;
   title: string;
-  titleImg: string;
+  titleImg?: string;
   imageUrl: string;
   description?: string;
   services?: string[];
