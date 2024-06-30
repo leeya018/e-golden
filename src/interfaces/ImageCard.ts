@@ -3,7 +3,7 @@ export type ImageCardT = {
   title: string;
   titleImg?: string;
   imageUrl: string;
-  description?: string;
+  description?: string[];
   services?: string[];
   onClick?: any;
 };
