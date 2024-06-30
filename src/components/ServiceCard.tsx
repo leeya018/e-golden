@@ -29,8 +29,8 @@ export default function ServiceCard({
         src={imageUrl}
       />
       <div className="p-3">
-        <h2 className=" text-xl font-semibold mt-2 line-clamp-1">{title}</h2>
-        <div className="flex flex-col gap-2 truncate-5">{description}</div>
+        <h2 className=" text-xl font-semibold my-3 line-clamp-1">{title}</h2>
+        <div className="flex flex-col gap-2 line-clamp-3">{description}</div>
 
         <button
           className="mt-4 bg-gold text-white py-2 px-4 rounded"

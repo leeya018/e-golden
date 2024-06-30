@@ -20,7 +20,7 @@
       "your one-stop service shop",
       "with E-golden"
     ],
-    "sectionTitle": "Your Personal and Tailored services with   ",
+    "sectionTitle": "Your Personal and Tailored services with ",
     "buttonTxtService": "to service"
   },
   "services": {
@@ -41,42 +41,54 @@
             "titleImg": "working visa",
             "imageUrl": "/images/relocation.png",
             "title": "Working Visa",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
           {
             "label": "digital_nomad_visa",
-            "titleImg": "digital_nomad_visa",
+            "titleImg": "digital nomad visa",
             "imageUrl": "/images/relocation.png",
-            "title": "Digital Nomad Visa – You get your Visa by Working remotely or running a business",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "title": " You get your Visa by Working remotely or running a business",
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
           {
             "label": "golden_visa",
             "titleImg": "golden visa",
             "imageUrl": "/images/relocation.png",
             "title": "Golden Visa – Investment visa",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
           {
             "label": "d7_visa",
             "titleImg": "d7_visa",
             "imageUrl": "/images/relocation.png",
             "title": "D7 Visa – Passive Income Visa",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
           {
             "label": "d2_visa",
             "titleImg": "d2 visa",
             "imageUrl": "/images/relocation.png",
             "title": "D2 Visa – Freelancer/Independent services providers Visa",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
           {
             "label": "startup_visa",
             "titleImg": "startup visa",
             "imageUrl": "/images/relocation.png",
             "title": "Startup Visa – Visa by developing an entrepreneurial/innovative business in Portugal",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
 
           {
@@ -84,7 +96,9 @@
             "titleImg": "student visa",
             "imageUrl": "/images/relocation.png",
             "title": "Student Visa – Residence permit for studying in Portugal",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           },
 
           {
@@ -92,7 +106,9 @@
             "titleImg": "family reunion visa",
             "imageUrl": "/images/relocation.png",
             "title": "Family Reunion Visa – By being Portuguese or a Residency permit holder you can secure your family members a Visa",
-            "description": "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            "description": [
+              "When you think about embracing a new adventure as moving to a different country, the list of formalities that"
+            ]
           }
         ],
 

@@ -11,12 +11,15 @@ const ServicesSection = () => {
 
   return (
     <section className=" flex flex-col mt-10  ">
-      <div className="flex-col flex justify-center md:flex-row  title text-g side-padding ">
-        <h1 className="  ">{translations.servicesMain.sectionTitle}</h1>&nbsp;
-        <span className="text-gold"> E-golden</span>
+      <div className=" flex justify-center   text-4xl  side-padding ">
+        <p className="  ">
+          {translations.servicesMain.sectionTitle}{" "}
+          <span className="text-gold"> E-golden</span>
+        </p>
+        &nbsp;
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20">
+      <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 mt-20">
         {Object.entries(translations.services as Service[]).map(
           ([key, value]) => (
             <ServiceCard

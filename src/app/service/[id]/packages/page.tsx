@@ -11,20 +11,18 @@ function ServicesPage() {
   const [selectedPlan, setSelectedPlan] = useState(packages.list[1].label);
   console.log(JSON.stringify(packages));
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <h1 className="title ">Our Packages</h1>
-      <div className="mt-20 flex flex-col  justify-center gap-10 md:flex-row lg:gap-20">
+      <div className="mt-20 flex flex-col justify-center gap-10 md:flex-row lg:gap-20">
         <Package
           colorGradient="from-green-900"
           plan={packages.list[0]}
-          isChosen={false}
           onSelect={() => setSelectedPlan(packages.list[0].label)}
           selectedPlan={selectedPlan}
         />
         <Package
           colorGradient="from-purple-900"
           plan={packages.list[1]}
-          isChosen={true}
           onSelect={() => setSelectedPlan(packages.list[1].label)}
           selectedPlan={selectedPlan}
           isMostPopular={true}
@@ -32,7 +30,6 @@ function ServicesPage() {
         <Package
           colorGradient="from-blue"
           plan={packages.list[2]}
-          isChosen={false}
           onSelect={() => setSelectedPlan(packages.list[2].label)}
           selectedPlan={selectedPlan}
         />
@@ -46,8 +43,6 @@ export default ServicesPage;
 type PackageProps = {
   plan: PackageT;
   selectedPlan: string;
-  isChosen: boolean;
-  info?: any;
   isMostPopular?: boolean;
   onSelect: any;
   colorGradient: string;
@@ -55,17 +50,16 @@ type PackageProps = {
 function Package({
   plan,
   selectedPlan,
-  isChosen,
-  info,
   isMostPopular,
   onSelect,
   colorGradient,
 }: PackageProps) {
   return (
     <div
-      className={`max-w-sm w-full bg-gray-800 text-white rounded-lg shadow-md relative overflow-hidden cursor-pointer ${
-        selectedPlan === plan.label && "scale-110"
-      }`}
+      className={`max-w-sm w-full bg-gray-800 text-white rounded-lg shadow-md relative
+         overflow-hidden cursor-pointer ${
+           selectedPlan === plan.label && "scale-110"
+         }`}
       onClick={onSelect}
     >
       <div
