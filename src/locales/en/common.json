@@ -732,6 +732,9 @@
       },
       {
         "placeholder": "What are you interested in?*"
+      },
+      {
+        "placeholder": "Topic*"
       }
     ],
     "note": "N.B.: By contacting us you are granting your consent for us to forward your details to a E-golden respond directly to you.",

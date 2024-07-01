@@ -6,20 +6,13 @@ import React, { FormEvent, useState } from "react";
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    topic: "",
-    message: "",
-    email: "",
+    firstName: "Lee",
+    lastName: "Yahav",
+    message: "need help with creating new bussines",
+    email: "leeyahav018@gmail.com",
     nationality: "",
     residence: "",
-    // firstName: "Dana",
-    // lastName: "Golde",
-    // topic: "Tax",
-    // message: "hello lee , I want to pay ",
-    // email: "leeyahav018@gmial.com",
-    // nationality: "",
-    // residence: "",
+    topic: "new bussiness",
   });
   const { translations, countries } = languageStore;
 
@@ -133,6 +126,15 @@ const ContactForm: React.FC = () => {
             required
             placeholder={translations.contactForm.fields[5].placeholder}
             className="border border-gray-300 p-2 rounded-lg w-full h-24 text-black"
+          />
+          <input
+            value={formData.topic}
+            name="topic"
+            onChange={handleChange}
+            required
+            type="text"
+            placeholder={translations.contactForm.fields[6].placeholder}
+            className="border border-gray-300 p-2 rounded-lg w-full text-black"
           />
         </div>
         <p className="text-sm text-gray-600 mb-4">

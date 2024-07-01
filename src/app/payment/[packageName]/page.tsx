@@ -3,7 +3,13 @@
 "use client";
 
 import React from "react";
-import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
+import {
+  PayPalButtons,
+  PayPalHostedField,
+  PayPalHostedFieldsProvider,
+  PayPalScriptProvider,
+  usePayPalCardFields,
+} from "@paypal/react-paypal-js";
 import { useParams } from "next/navigation";
 import { languageStore } from "@/mobx/languageStore";
 import { Package } from "@/interfaces/Packages";
@@ -41,6 +47,25 @@ const PaymentPage = () => {
     title: string;
     price: number;
   };
+
+  const SubmitPayment = () => {
+    const { cardFields, fields } = usePayPalCardFields();
+
+    function submitHandler() {
+      if (typeof cardFields.submit !== "function") return; // validate that `submit()` exists before using it
+
+      cardFields
+        .submit()
+        .then(() => {
+          // submit successful
+        })
+        .catch(() => {
+          // submission error
+        });
+    }
+    return <button onClick={submitHandler}>Pay</button>;
+  };
+
   const createOrder = (data: any, actions: any) => {
     const totalValue = 1;
     // const totalValue = chosenPackage.price;
@@ -77,6 +102,44 @@ const PaymentPage = () => {
       </div>
       <PayPalScriptProvider options={initialOptions}>
         <PayPalButtons createOrder={createOrder} onApprove={onApprove} />
+      </PayPalScriptProvider>
+      <PayPalScriptProvider
+        options={{
+          clientId: "your-client-id",
+          dataClientToken: "your-data-client-token",
+        }}
+      >
+        <PayPalHostedFieldsProvider
+          createOrder={() => {
+            // Here define the call to create and order
+            return fetch("/your-server-side-integration-endpoint/orders")
+              .then((response) => response.json())
+              .then((order) => order.id)
+              .catch((err) => {
+                // Handle any error
+              });
+          }}
+        >
+          <PayPalHostedField
+            id="card-number"
+            hostedFieldType="number"
+            options={{ selector: "#card-number" }}
+          />
+          <PayPalHostedField
+            id="cvv"
+            hostedFieldType="cvv"
+            options={{ selector: "#cvv" }}
+          />
+          <PayPalHostedField
+            id="expiration-date"
+            hostedFieldType="expirationDate"
+            options={{
+              selector: "#expiration-date",
+              placeholder: "MM/YY",
+            }}
+          />
+          <SubmitPayment />
+        </PayPalHostedFieldsProvider>
       </PayPalScriptProvider>
     </div>
   );
