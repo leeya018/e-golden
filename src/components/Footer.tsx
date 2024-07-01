@@ -12,7 +12,7 @@ const Footer = () => {
   const { translations } = languageStore;
 
   return (
-    <footer className="bg-black text-white mt-20  side-padding">
+    <footer className="bg-black text-white mt-20  side-padding ">
       <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full border-t-2 py-7">
         {/* first */}
         <div className="flex-[1] flex flex-col justify-start mr-10">

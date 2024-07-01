@@ -23,7 +23,7 @@ const Main = observer(() => {
     <div className="">
       <main className="flex w-full   lg:mx-auto flex-col ">
         <AboutPortugalSection />
-        <div className="side-padding">
+        <div className="side-padding ">
           <ServicesSection />
           <TentemonialList />
 

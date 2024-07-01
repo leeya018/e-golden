@@ -15,6 +15,10 @@ const Header = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    ModalStore.closeModal();
+  };
+  const chooseOption = () => {
+    ModalStore.closeModal();
   };
 
   return (
@@ -46,25 +50,38 @@ const Header = () => {
           </button>
         </div>
         <div className={`hidden md:flex md:items-center `}>
-          <Link href="/" className="nav-button">
+          <Link onClick={chooseOption} href="/" className="nav-button">
             {translations.header.home}
           </Link>
-          <Link href={"/service/residency_relocation"} className="nav-button">
+          <Link
+            onClick={chooseOption}
+            href={"/service/residency_relocation"}
+            className="nav-button"
+          >
             {translations.header.residency_relocation}
           </Link>
-          <Link href={"/service/tax-planning-advice"} className="nav-button">
+          <Link
+            onClick={chooseOption}
+            href={"/service/tax-planning-advice"}
+            className="nav-button"
+          >
             {translations.header.tax_planning}
           </Link>
-          <Link href={"/service/business-solutions"} className="nav-button">
+          <Link
+            onClick={chooseOption}
+            href={"/service/business-solutions"}
+            className="nav-button"
+          >
             {translations.header.business}
           </Link>
           <Link
+            onClick={chooseOption}
             href={"/service/real-estate-investments-management"}
             className="nav-button"
           >
             {translations.header.real_estate}
           </Link>
-          <Link href="/about" className="nav-button">
+          <Link onClick={chooseOption} href="/about" className="nav-button">
             {translations.header.about}
           </Link>
           <button
@@ -116,7 +133,7 @@ const Header = () => {
               {translations.header.home}
             </Link>
             <Link
-              href="/service/relocation-residency"
+              href="/service/residency_relocation"
               className=" text-xl hover:text-gray"
               onClick={toggleMenu}
             >

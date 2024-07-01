@@ -11,7 +11,7 @@ function ServicesPage() {
   const [selectedPlan, setSelectedPlan] = useState(packages.list[1].label);
   console.log(JSON.stringify(packages));
   return (
-    <div className="flex flex-col items-center">
+    <div className="mx-5 flex flex-col items-center ">
       <h1 className="title ">Our Packages</h1>
       <div className="mt-20 flex flex-col justify-center gap-10 md:flex-row lg:gap-20">
         <Package
@@ -58,7 +58,7 @@ function Package({
     <div
       className={`max-w-sm w-full bg-gray-800 text-white rounded-lg shadow-md relative
          overflow-hidden cursor-pointer ${
-           selectedPlan === plan.label && "scale-110"
+           selectedPlan === plan.label && "scale-105"
          }`}
       onClick={onSelect}
     >

@@ -44,8 +44,11 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
       </div>
       <div>
         <Link href={`/service/${residency_relocation_name}/packages`}>
-          <div className="hover:underline sub-title">
-            {details.packages.title}
+          <div className="hover:underline flex justify-center text-4xl my-20 ">
+            <p>
+              {details.packages.title}{" "}
+              <span className="text-gold"> E-golden</span>
+            </p>
           </div>
         </Link>
       </div>
