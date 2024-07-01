@@ -13,7 +13,7 @@ function AboutPortugalSection() {
         title="Special Video"
       />
       <div
-        className="center-absolute-top flex flex-col font-semibold text-2xl 
+        className="hidden md:flex center-absolute-top  flex-col font-semibold text-2xl 
       justify-center items-center gap-3 mb-20 mt-10 bg-white bg-opacity-30"
       >
         <ul className="text-black flex flex-col items-center shadow-2xl p-2 rounded-md">

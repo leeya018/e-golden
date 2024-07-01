@@ -14,7 +14,7 @@ export default function WhatsappPopup() {
       >
         <span
           onClick={handleWhatsAppClick}
-          className="font-semibold text-lg text-white"
+          className="font-semibold text-sm md:text-lg text-white"
         >
           {translations.footer.whatsapp}
         </span>
