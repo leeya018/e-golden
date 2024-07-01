@@ -32,13 +32,7 @@ export default function SubservicePage() {
           height={500}
           src={info.imageUrl}
         />
-
-        <div className="z-10 center-absolute title-image shadow-xl text-white ">
-          {convertToBiggerLetters(info.titleImg)}
-        </div>
       </div>
-      {/* <div>etsrnietsrnie</div> */}
-      {/* visa page : {id} and the visa id {subSeserviceId} */}
       <div className="px-10 mt-7 side-padding">
         <div className="title">{info.title}</div>
         <div className="text text-middle flex  flex-col">
@@ -52,7 +46,19 @@ export default function SubservicePage() {
         </div>
 
         {info.services && (
-          <div className="flex flex-col items-center">
+          // <div className="flex flex-col items-center  border-2 rounded-md border-gold shadow-2xl bg-gradient-to-b from-gray to-black ">
+          // <div className="bg-gray-100 p-10 flex justify-center">
+          //   <div className="border-2 rounded-md border-gold shadow-2xl bg-white p-6">
+          //     <h2 className="text-xl font-semibold mb-4">Shadow Box</h2>
+          //     <p className="text-gray-700">
+          //       This is a box with a nice shadow effect using Tailwind CSS.
+          //     </p>
+          //   </div>
+          // </div>
+          <div
+            className="mt-10 flex flex-col items-center
+           border-2 rounded-md border-gold shadow-2xl p-10  "
+          >
             <div className="sub-title ">Our {info.title} Services Include:</div>
             <ul className="text">
               {(info.services as string[]).map((service, key) => {

@@ -76,7 +76,7 @@ use the same margin as Belion .----
 services rows - 2 rows and 4 items each . ---
 steps - put the animation - pic from the canval---
 https://www.pearlsofportugal.com/our-services/relocation-service-portugal/ (example)---
-make services to user tentimonials
+make services to user te ntimonials
 ===========================================
 see more , put 3 lines
 change the serivces numbres in line account to origin accoutn
@@ -88,3 +88,10 @@ for each service, put in white until the :
 the serivecs surround in a golden box
 the subservice should be the small title . and that the same on the image inside
 do the descripions in paragraph just like on the email
+===========================================
+on mobile the video not work
+calender need to be in google meets  
+need passowrd for the emmial.
+in main page on each service card remove the ... and put it until the end of the sencetnces,
+in button instead of "to serviec" change to "read more"
+in

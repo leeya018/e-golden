@@ -33,7 +33,7 @@ export default function PackagePage() {
         <ul className="list-disc list-inside text-lg mb-6 text">
           {info.services &&
             info.services.map((service) => (
-              <li key={service} className="mb-2 ">
+              <li key={service} className="mb-2.5 ">
                 <strong className="font-medium capitalize">{service}</strong>
               </li>
             ))}

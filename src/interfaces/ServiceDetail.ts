@@ -1,11 +1,11 @@
-import { Packages } from "./Packages";
+import { Package } from "./Package";
 import { SubService } from "./SubService";
 
 export type ServiceDetail = {
   label: string;
-  description?: string;
+  description: string[];
   services: SubService[];
   steps?: string[];
-  packages?: Packages;
+  packages?: Package[];
   [key: string]: any;
 };

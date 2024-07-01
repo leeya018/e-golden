@@ -47,7 +47,7 @@ const About: React.FC = () => {
         <ul className="list-disc list-inside text  mx-auto mb-6">
           {Object.entries(translations.about_us.our_values as string[]).map(
             ([key, value]) => (
-              <li key={key} className="mb-2">
+              <li key={key} className="mb-2.5">
                 <strong className="font-medium capitalize">{key}:</strong>{" "}
                 {value}
               </li>
