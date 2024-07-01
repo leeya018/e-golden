@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 import serviceStore from "@/mobx/serviceStore";
@@ -54,6 +55,8 @@ function Package({
   onSelect,
   colorGradient,
 }: PackageProps) {
+  const router = useRouter();
+
   return (
     <div
       className={`max-w-sm w-full bg-gray-800 text-white rounded-lg shadow-md relative
@@ -94,7 +97,10 @@ function Package({
             <span className="text-xl font-normal">/year</span>
           </div>
         )}
-        <button className="w-full bg-gold hover:bg-gold text-white font-semibold py-2 px-4 rounded">
+        <button
+          onClick={() => router.push(`/payment/${plan.label}`)}
+          className="w-full bg-gold hover:bg-gold text-white font-semibold py-2 px-4 rounded"
+        >
           Choose this plan
         </button>
         <ul className="mt-4 space-y-2">

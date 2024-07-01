@@ -4,14 +4,33 @@
 
 import React from "react";
 import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
+import { useParams } from "next/navigation";
+import { languageStore } from "@/mobx/languageStore";
+import { Package } from "@/interfaces/Packages";
 
-const CheckoutPage = () => {
-  const items: Item[] = [
-    {
-      title: "package1",
-      price: 10,
-    },
-  ];
+const PaymentPage = () => {
+  const params = useParams();
+
+  const { translations } = languageStore;
+
+  const { packageName } = params as {
+    packageName: string;
+  };
+
+  const packages =
+    translations.services["residency_relocation"].details.packages;
+  const chosenPackage = packages.list.find(
+    (p: Package) => p.label === packageName
+  );
+
+  console.log({ chosenPackage });
+
+  const { label, price } = chosenPackage;
+  const item: Item = {
+    title: "label",
+    price: 1,
+  };
+
   const initialOptions: any = {
     "client-id": process.env.NEXT_PUBLIC_API_PAYPAL_KEY,
     currency: "USD",
@@ -23,7 +42,8 @@ const CheckoutPage = () => {
     price: number;
   };
   const createOrder = (data: any, actions: any) => {
-    const totalValue = items.map((item, acc) => item.price + acc, 0);
+    const totalValue = 1;
+    // const totalValue = chosenPackage.price;
     return actions.order.create({
       purchase_units: [
         {
@@ -37,7 +57,7 @@ const CheckoutPage = () => {
               },
             },
           },
-          items: items,
+          items: [item],
         },
       ],
     });
@@ -52,8 +72,8 @@ const CheckoutPage = () => {
   return (
     <div className="flex flex-col  justify-center items-center h-screen">
       <div>
-        <h2>{items[0].title}</h2>
-        <div>{items[0].price}$</div>
+        <h2>{item.title}</h2>
+        <div>{item.price}$</div>
       </div>
       <PayPalScriptProvider options={initialOptions}>
         <PayPalButtons createOrder={createOrder} onApprove={onApprove} />
@@ -62,4 +82,4 @@ const CheckoutPage = () => {
   );
 };
 
-export default CheckoutPage;
+export default PaymentPage;
