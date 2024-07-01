@@ -24,13 +24,13 @@ const ImageCard = ({
         src={imageUrl}
         className="w-full"
       />
-      <div className="my-4 p-5">
+      <div className="my-4 px-5 py-2">
         <h3 className="text-lg font-semibold mb-2 whitespace-normal  ">
           {titleImg}
         </h3>
-        <p className="text-sm text-gray-600 whitespace-normal line-clamp-3">
+        {/* <p className="text-sm text-gray-600 whitespace-normal line-clamp-3">
           {description}
-        </p>
+        </p> */}
         {/* {services && (
           <ul className="text-sm list-none text-gray-600">
             {services.map((service, key) => (

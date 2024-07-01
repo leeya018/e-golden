@@ -24,7 +24,13 @@ const Footer = () => {
             src={"/images/logo.png"}
           />
           <div className="mt-2 line-clamp-3 font-medium leading-7 pr-10">
-            {translations.footer.moto}
+            {
+              <ul>
+                {translations.footer.moto.map((m: string, key: string) => (
+                  <li key={key}>{m}</li>
+                ))}
+              </ul>
+            }
           </div>
         </div>
         {/* second */}
@@ -91,8 +97,21 @@ const Footer = () => {
                 </a>
               </li>
               <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
-                <a href="https://twitter.com" className="hover:text-gray-300">
-                  {translations.footer.twitter}
+                <a href="https://instagram.com" className="hover:text-gray-300">
+                  {translations.footer.instagram}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a href="https://tiktok.com" className="hover:text-gray-300">
+                  {translations.footer.tiktok}
+                </a>
+              </li>
+              <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">
+                <a
+                  href="https://www.youtube.com/@e-golden"
+                  className="hover:text-gray-300"
+                >
+                  {translations.footer.youtube}
                 </a>
               </li>
               <li className=" font-normal text-lg leading-[24px] text-dimWhite hover:text-firehorse_orange cursor-pointer mb-4 hover:text-yellow-500">

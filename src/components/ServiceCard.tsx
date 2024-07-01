@@ -22,18 +22,22 @@ export default function ServiceCard({
       className={`relative border border-gold leading-7 overflow-hidden rounded-lg shadow-lg pb-2 transition-all duration-300`}
     >
       <Image
-        className="w-full h-6/10"
+        className=" object-cover"
+        layout="responsive"
+        objectFit="cover"
         alt={title}
         width={500}
         height={500}
         src={imageUrl}
       />
-      <div className="p-3">
-        <h2 className=" text-xl font-semibold my-3 line-clamp-1">{title}</h2>
-        <div className="flex flex-col gap-2 line-clamp-3">{description}</div>
+      <div className="p-3 h-[22rem] flex flex-col">
+        <h2 className="text-xl font-semibold my-3">{title}</h2>
+
+        <div className="flex-1">{description[0]}</div>
 
         <button
-          className="mt-4 bg-gold text-white py-2 px-4 rounded"
+          className="mt-auto bg-gold text-white 
+           rounded"
           onClick={onClick}
         >
           {translations.servicesMain.buttonTxtService}

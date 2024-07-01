@@ -6,6 +6,7 @@ import { StepOption } from "@/interfaces/StepOption";
 import { observer } from "mobx-react-lite";
 import { residency_relocation_name } from "@/util";
 import Image from "next/image";
+import { languageStore } from "@/mobx/languageStore";
 
 type RelocationServicesPorps = {
   details: any;
@@ -19,13 +20,15 @@ const RelocationServices = ({ details }: RelocationServicesPorps) => {
   //     .map((l) => l.toLocaleLowerCase())
   //     .join("");
   // };
+  const { translations } = languageStore;
+  const steps = translations.services["residency_relocation"].details.steps;
   return (
-    <div className="">
+    <div className="mt-20">
       <div className="mb-6">
-        <h3 className="sub-title">{"steps"}</h3>
+        <h3 className="title">{steps.title}</h3>
         <Image
-          className="mx-auto object-fill bg-center"
-          alt={"steps"}
+          className="mx-auto object-fill bg-center mt-20"
+          alt={steps.title}
           width={500}
           height={500}
           src={"/images/steps.png"}

@@ -15,10 +15,10 @@ const TestimonialCard = ({ location, name, info }: Testemonial) => {
       {/* /first  */}
       <div className="flex gap-4 ">
         <Image
-          className="h-10 w-10"
+          className="h-8 w-8"
           alt={"quate"}
-          width={42}
-          height={42}
+          width={36}
+          height={36}
           src={"/images/quate.svg"}
         />
         <div className="flex flex-col ">

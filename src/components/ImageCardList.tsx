@@ -14,6 +14,8 @@ type ImageCardListProps = {
   onClick: any;
 };
 function ImageCardList({ title, list, onClick }: ImageCardListProps) {
+  const { translations } = languageStore;
+
   console.log({ list: toJS(list) });
   const router = useRouter();
   const { scrollContainer, stopScrolling, startScrolling, isScrolling } =
@@ -21,7 +23,14 @@ function ImageCardList({ title, list, onClick }: ImageCardListProps) {
 
   return (
     <div className="overflow-hidden mt-10 ">
-      <div className="sub-title">{title}</div>
+      <div className="sub-title">
+        <p>
+          <span className="text-gold">
+            {translations.servicesMain.companyName + " "}
+          </span>
+          {title}
+        </p>
+      </div>
       <div
         ref={scrollContainer}
         className={`overflow-x-auto whitespace-nowrap 

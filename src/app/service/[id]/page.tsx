@@ -36,29 +36,31 @@ const ServicePage = () => {
   }
 
   return (
-    <section className="flex w-full lg:mx-auto flex-col  bg-gray-100">
-      <div className="relative">
+    <section className="flex w-full lg:mx-auto flex-col bg-gray-100">
+      <div className="relative h-[600px] w-full">
         <Image
-          className="w-full h-[600px] object-fill bg-center"
+          className="object-cover"
+          layout="fill"
+          objectFit="cover"
           alt={chosenService.title}
-          width={500}
-          height={500}
           src={chosenService.imageUrl}
         />
-        <div className="z-10 center-absolute title-image shadow-xl text-white  ">
-          {chosenService.title}
-        </div>
       </div>
       <div className="px-10 mt-7 side-padding flex justify-center">
         <div className="mb-8">
           <h2 className="title">{chosenService.title}</h2>
-          <div className=" mb-4 text text-center w-full ">
-            {chosenService.description}
-          </div>
-          {/* <div>sientrsienie</div> */}
-          <ul className="list-disc  list-inside text-lg mb-4  ">
+
+          <ul className=" mb-4 text  w-full ">
+            {chosenService.description.map((desc: string, key: number) => (
+              <li key={key} className="mb-2">
+                {desc}
+              </li>
+            ))}
+          </ul>
+
+          <ul className="list-disc list-inside text-lg mb-4  ">
             <ImageCardList
-              title={"services"}
+              title={chosenService.details.servicesTitle}
               list={chosenService.details.services}
               onClick={(index: number) => {
                 router.push(`/service/${id}/subSeservice/${index}`);
