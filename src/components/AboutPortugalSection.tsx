@@ -13,10 +13,10 @@ function AboutPortugalSection() {
         title="Special Video"
       />
       <div
-        className="hidden md:flex center-absolute-top  flex-col font-semibold text-2xl 
+        className="flex center-absolute-top  flex-col font-semibold text-sm md:text-md lg:text-xl xl:text-xl 
       justify-center items-center gap-3 mb-20 mt-10 bg-white bg-opacity-30"
       >
-        <ul className="text-black flex flex-col items-center shadow-2xl p-2 rounded-md">
+        <ul className="text-black flex flex-col items-center justify-center shadow-2xl p-2 rounded-md">
           {translations.servicesMain.subtitles.map(
             (sub: string, key: number) => (
               <li key={key} className="">
